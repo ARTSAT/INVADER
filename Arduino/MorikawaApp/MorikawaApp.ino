@@ -61,6 +61,7 @@ enum {
     APP_INVADER_CAM,
     APP_SECRET_ICON,
     APP_TELEMETRY_DUMP,
+    APP_INVADER_VM,
     MGR_ERASE_SELFTESTLOG       = 128,
     MGR_FORMAT_EEPROM,
     MGR_FORMAT_SHAREDMEMORY,
@@ -115,6 +116,9 @@ void setup(void)
                 break;
             case APP_TELEMETRY_DUMP:
                 REGISTER_APP(TelemetryDump)
+                break;
+            case APP_INVADER_VM:
+                REGISTER_APP(InvaderVM)
                 break;
             case MGR_ERASE_SELFTESTLOG:
                 REGISTER_APP(EraseSelfTestLog)
