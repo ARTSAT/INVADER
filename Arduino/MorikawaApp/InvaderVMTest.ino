@@ -80,24 +80,24 @@ void InvaderVM_run(VMState *state);
 bool InvaderVMTest_VM_SET(void)
 {
   const char code[] = { 
-    VM_SET, REG_ERRN, 0x0F, 0, 0, 0,
-    VM_SET, REG_FUNC, 0x01, 0, 0, 0,
-    VM_SET, REG_RETV, 0x02, 0, 0, 0,
-    VM_SET, REG_HCUR, 0x03, 0, 0, 0,
-    VM_SET, REG_HEAP, 0x04, 0, 0, 0,
-    VM_SET, REG_ARG0, 0x05, 0, 0, 0,
-    VM_SET, REG_ARG1, 0x06, 0, 0, 0,
-    VM_SET, REG_ARG2, 0x07, 0, 0, 0,
-    VM_SET, REG_ARG3, 0x08, 0, 0, 0,
-    VM_SET, REG_ARG4, 0x09, 0, 0, 0,
-    VM_SET, REG_ARG5, 0x0A, 0, 0, 0,
-    VM_SET, REG_ARG6, 0x0B, 0, 0, 0,
-    VM_SET, REG_ARG7, 0x0C, 0, 0, 0,
-    VM_SET, REG_ARG8, 0x0D, 0, 0, 0,
-    VM_SET, REG_ARG9, 0x0E, 0, 0, 0,
-    VM_SET, REG_ARGA, 0x0F, 0, 0, 0,
-    VM_CLR, REG_ARG5,
-    VM_CLR, REG_ARG8,
+    VM_SET,  REG_ERRN, 0x0F, 0, 0, 0,
+    VM_SET,  REG_FUNC, 0x01, 0, 0, 0,
+    VM_SET,  REG_RETV, 0x02, 0, 0, 0,
+    VM_SET,  REG_HCUR, 0x03, 0, 0, 0,
+    VM_SET,  REG_HEAP, 0x04, 0, 0, 0,
+    VM_SET,  REG_ARG0, 0x05, 0, 0, 0,
+    VM_SET,  REG_ARG1, 0xFF, 0xFF, 0xFF, 0xFF,
+    VM_SETC, REG_ARG2, 0x07,
+    VM_SET,  REG_ARG3, 0x08, 0, 0, 0,
+    VM_SET,  REG_ARG4, 0x09, 0, 0, 0,
+    VM_SET,  REG_ARG5, 0x0A, 0, 0, 0,
+    VM_SET,  REG_ARG6, 0x0B, 0, 0, 0,
+    VM_SETI, REG_ARG7, 0x0C, 0x0C,
+    VM_SET,  REG_ARG8, 0x0D, 0, 0, 0,
+    VM_SET,  REG_ARG9, 0x0E, 0, 0, 0,
+    VM_SET,  REG_ARGA, 0x0F, 0, 0, 0,
+    VM_CLR,  REG_ARG5,
+    VM_CLR,  REG_ARG8,
     VM_END
   };
   
@@ -110,13 +110,13 @@ bool InvaderVMTest_VM_SET(void)
   VM_ASSERT_EQUAL(vm_state.reg[REG_HCUR], 0x03);
   VM_ASSERT_EQUAL(vm_state.reg[REG_HEAP], 0x04);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG0], 0x05);
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG1], 0x06);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG1], 0xFFFFFFFF);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG2], 0x07);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG3], 0x08);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG4], 0x09);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG5], 0x00);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG6], 0x0B);
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG7], 0x0C);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG7], 0x0C0C);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG8], 0x00);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG9], 0x0E);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARGA], 0x0F);
@@ -127,7 +127,7 @@ bool InvaderVMTest_VM_SET(void)
 bool InvaderVMTest_VM_MOV(void)
 {
   const char code[] = {
-    VM_SET, REG_ARG0, 0xFF, 0, 0, 0,
+    VM_SET, REG_ARG0, 0xFF, 0, 0xFF, 0,
     VM_MOV, REG_ARG1, REG_ARG0,
     VM_MOV, REG_ARG2, REG_ARG1,
     VM_MOV, REG_ARG3, REG_ARG2,
@@ -144,17 +144,17 @@ bool InvaderVMTest_VM_MOV(void)
   memcpy(vm_state.code, code, sizeof(code));
   InvaderVM_run(&vm_state);
   
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG0], 0xFF);
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG1], 0xFF);
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG2], 0xFF);
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG3], 0xFF);
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG4], 0xFF);
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG5], 0xFF);
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG6], 0xFF);
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG7], 0xFF);
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG8], 0xFF);
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG9], 0xFF);
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARGA], 0xFF);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG0], 0xFF00FF);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG1], 0xFF00FF);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG2], 0xFF00FF);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG3], 0xFF00FF);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG4], 0xFF00FF);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG5], 0xFF00FF);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG6], 0xFF00FF);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG7], 0xFF00FF);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG8], 0xFF00FF);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG9], 0xFF00FF);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARGA], 0xFF00FF);
   
   return true;
 }
@@ -162,17 +162,17 @@ bool InvaderVMTest_VM_MOV(void)
 bool InvaderVMTest_VM_XCHG(void)
 {
   const char code[] = {
-    VM_SET,  REG_ARG0, 0xFF, 0, 0, 0,
+    VM_SETC, REG_ARG0, 0xFF,
     VM_XCHG, REG_ARG0, REG_ARG1,
-    VM_SET,  REG_ARG2, 0xFF, 0, 0, 0,
+    VM_SETC, REG_ARG2, 0xFF,
     VM_XCHG, REG_ARG2, REG_ARG3,
-    VM_SET,  REG_ARG4, 0xFF, 0, 0, 0,
+    VM_SETC, REG_ARG4, 0xFF,
     VM_XCHG, REG_ARG4, REG_ARG5,
-    VM_SET,  REG_ARG6, 0xFF, 0, 0, 0,
+    VM_SETC, REG_ARG6, 0xFF,
     VM_XCHG, REG_ARG6, REG_ARG7,
-    VM_SET,  REG_ARG8, 0xFF, 0, 0, 0,
+    VM_SETC, REG_ARG8, 0xFF,
     VM_XCHG, REG_ARG8, REG_ARG9,
-    VM_SET,  REG_ARGA, 0xFF, 0, 0, 0,
+    VM_SETC, REG_ARGA, 0xFF,
     VM_XCHG, REG_ARGA, REG_ARG0,
     VM_END
   };
@@ -197,14 +197,14 @@ bool InvaderVMTest_VM_XCHG(void)
 bool InvaderVMTest_Jump(void)
 {
   const char code[] = {
-    VM_SET,    REG_ARG0, 0x01, 0, 0, 0,
-    VM_JMP,    6,
-    VM_SET,    REG_ARG0, 0x00, 0, 0, 0,
-    VM_JMPIF,  REG_ARG0, 12,
-    VM_SET,    REG_ARG1, 0x05, 0, 0, 0,
-    VM_SET,    REG_ARG2, 0x08, 0, 0, 0,
-    VM_JMPNOT, REG_ARG0, 6,
-    VM_SET,    REG_ARG2, 0x09, 0, 0, 0,
+    VM_SETC,   REG_ARG0, 0x01,
+    VM_JMP,    2,
+    VM_CLR,    REG_ARG0,
+    VM_JMPIF,  REG_ARG0, 6,
+    VM_SETC,   REG_ARG1, 0x05,
+    VM_SETC,   REG_ARG2, 0x08,
+    VM_JMPNOT, REG_ARG0, 3,
+    VM_SETC,   REG_ARG2, 0x09,
     VM_END
   };
   
@@ -221,13 +221,13 @@ bool InvaderVMTest_Jump(void)
 bool InvaderVMTest_Heap(void)
 {
   const char code[] = {
-    VM_SET, REG_HCUR, 0x00, 0, 0, 0,
-    VM_SET, REG_HEAP, 0xFF, 0, 0, 0,
-    VM_SET, REG_HCUR, 0x01, 0, 0, 0,
-    VM_SET, REG_HEAP, 0xFF, 0, 0, 0,
-    VM_SET, REG_HCUR, 0x02, 0, 0, 0,
-    VM_SET, REG_HEAP, 0xFF, 0, 0, 0,
-    VM_SET, REG_HCUR, 0x00, 0, 0, 0,
+    VM_CLR,  REG_HCUR,
+    VM_SET,  REG_HEAP, 0xFF, 0, 0, 0,
+    VM_SETC, REG_HCUR, 0x01,
+    VM_SET,  REG_HEAP, 0xFF, 0, 0, 0,
+    VM_SETC, REG_HCUR, 0x02,
+    VM_SET,  REG_HEAP, 0xFF, 0, 0, 0,
+    VM_CLR,  REG_HCUR,
     VM_NOP,
     VM_END
   };
@@ -329,10 +329,10 @@ bool InvaderVMTest_Shift(void)
 bool InvaderVMTest_Comparison1(void)
 {
   const char code[] = {
-    VM_SET, REG_ARG0, 0x01, 0, 0, 0,
-    VM_SET, REG_ARG1, 0x02, 0, 0, 0,
-    VM_SET, REG_ARG2, 0x03, 0, 0, 0,
-    VM_SET, REG_ARG3, 0x04, 0, 0, 0,
+    VM_SETC, REG_ARG0, 0x01,
+    VM_SETC, REG_ARG1, 0x02,
+    VM_SETC, REG_ARG2, 0x03,
+    VM_SETC, REG_ARG3, 0x04,
     
     VM_EQ,  REG_ARG4, REG_ARG0, REG_ARG0,
     VM_EQ,  REG_ARG5, REG_ARG0, REG_ARG1,
@@ -358,10 +358,10 @@ bool InvaderVMTest_Comparison1(void)
 bool InvaderVMTest_Comparison2(void)
 {
   const char code[] = {
-    VM_SET, REG_ARG0, 0x01, 0, 0, 0,
-    VM_SET, REG_ARG1, 0x02, 0, 0, 0,
-    VM_SET, REG_ARG2, 0x03, 0, 0, 0,
-    VM_SET, REG_ARG3, 0x04, 0, 0, 0,
+    VM_SETC, REG_ARG0, 0x01,
+    VM_SETC, REG_ARG1, 0x02,
+    VM_SETC, REG_ARG2, 0x03,
+    VM_SETC, REG_ARG3, 0x04,
     
     VM_LE,  REG_ARG4, REG_ARG0, REG_ARG3, 
     VM_GT,  REG_ARG5, REG_ARG3, REG_ARG2,
@@ -387,13 +387,13 @@ bool InvaderVMTest_Comparison2(void)
 bool InvaderVMTest_Meta(void)
 {
   const char code[] = {
-    VM_TXT, 0, 0, 0, 0, 25, 0, 0, 0,
-    VM_SET, REG_ARG0, 0x01, 0, 0, 0,
-    VM_SET, REG_ARG1, 0x02, 0, 0, 0,
-    VM_SET, REG_ARG2, 0x03, 0, 0, 0,
-    VM_SET, REG_ARG3, 0x04, 0, 0, 0,
+    VM_TXT, 0, 0, 0, 0, 13, 0, 0, 0,
+    VM_SETC, REG_ARG0, 0x01,
+    VM_SETC, REG_ARG1, 0x02,
+    VM_SETC, REG_ARG2, 0x03,
+    VM_SETC, REG_ARG3, 0x04,
     VM_END,
-    VM_EXC, 0, 0, 0, 0, 25, 0, 0, 0,
+    VM_EXC, 0, 0, 0, 0, 13, 0, 0, 0,
     VM_END
   };
   
@@ -413,20 +413,20 @@ bool InvaderVMTest_Text(void)
   const char code[] = {
     VM_TXT, 0, 0, 0, 0, 4, 0, 0, 0,
     'a', 'b', 'c', 'd',
-    VM_SET, REG_ARG0, TEXT_Z, 0, 0, 0,
-    VM_SET, REG_ARG1, 0, 0, 0, 0,
-    VM_SET, REG_ARG2, 4, 0, 0, 0,
-    VM_SET, REG_FUNC, VMFunc_setText, 0, 0, 0,
+    VM_SETC, REG_ARG0, TEXT_Z,
+    VM_CLR,  REG_ARG1,
+    VM_SETC, REG_ARG2, 4,
+    VM_SETC, REG_FUNC, VMFunc_setText,
     VM_CALL,
-    VM_SET, REG_ARG0, TEXT_Z, 0, 0, 0,
-    VM_SET, REG_ARG1, 4, 0, 0, 0,
-    VM_SET, REG_ARG2, 5, 0, 0, 0,
-    VM_SET, REG_FUNC, VMFunc_getText, 0, 0, 0,
+    VM_SETC, REG_ARG0, TEXT_Z,
+    VM_SETC, REG_ARG1, 4,
+    VM_SETC, REG_ARG2, 5,
+    VM_SETC, REG_FUNC, VMFunc_getText,
     VM_CALL,
-    VM_SET, REG_HCUR, 0, 0, 0, 0,
-    VM_MOV, REG_ARG0, REG_HEAP,
-    VM_SET, REG_HCUR, 4, 0, 0, 0,
-    VM_EQ,  REG_ARG1, REG_ARG0, REG_HEAP,
+    VM_CLR,  REG_HCUR,
+    VM_MOV,  REG_ARG0, REG_HEAP,
+    VM_SETC, REG_HCUR, 4,
+    VM_EQ,   REG_ARG1, REG_ARG0, REG_HEAP,
     VM_END
   };
   

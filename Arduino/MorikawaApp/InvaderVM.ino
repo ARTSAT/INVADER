@@ -90,7 +90,9 @@ enum VMError {
 enum InvaderVMCode {
   VM_END,       /* End of Code              []                    */
   VM_NOP,       /* No Operation             []                    */
-  VM_SET,       /* Set                      [char, long]          */
+  VM_SET,       /* Set long                 [char, long]          */
+  VM_SETC,      /* Set char                 [char, char]          */
+  VM_SETI,      /* Set int                  [char, int]           */
   VM_CLR,       /* Set Zero                 [char]                */
   VM_MOV,       /* Copy                     [char, char]          */
   VM_XCHG,      /* Exchange                 [char, char]          */
@@ -305,6 +307,34 @@ void InvaderVM_run(VMState *state)
           VM_ERROR(ERR_INVALID_REGISTER, state);
         }
         state->cur += sizeof(char) + sizeof(long);
+      }
+      break;
+      
+    case VM_SETC:
+      {
+        char pos = arg[0];
+        char val = arg[sizeof(char)];
+        if (isValidRegister(pos)) {
+          *reinterpret_cast<char *>(&state->reg[pos]) = val;
+        }
+        else {
+          VM_ERROR(ERR_INVALID_REGISTER, state);
+        }
+        state->cur += sizeof(char) + sizeof(char);
+      }
+      break;
+      
+    case VM_SETI:
+      {
+        char pos = arg[0];
+        int val = *reinterpret_cast<int *>(arg + sizeof(char));
+        if (isValidRegister(pos)) {
+          *reinterpret_cast<int *>(&state->reg[pos]) = val;
+        }
+        else {
+          VM_ERROR(ERR_INVALID_REGISTER, state);
+        }
+        state->cur += sizeof(char) + sizeof(int);
       }
       break;
       
@@ -1270,5 +1300,4 @@ static void CallFunction(VMState *state)
     ;
   }
 }
-
 
