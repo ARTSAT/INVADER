@@ -47,7 +47,7 @@ static const int INVADER_VM_HEAP_LENGTH   = 128;
 static const int INVADER_VM_CODE_LENGTH   = 128;
 
 struct VMState {
-  char code[INVADER_VM_CODE_LENGTH];
+  char code[INVADER_VM_CODE_LENGTH + 1];
   char heap[INVADER_VM_HEAP_LENGTH + sizeof(long)];
   long reg[INVADER_VM_REGISTER_SIZE];
   long cur;
@@ -79,7 +79,9 @@ enum {
 
 enum VMError {
   ERR_NONE,
-  ERR_INVALID_CODE,
+  ERR_LOAD_FAILURE,
+  ERR_MELT_FAILURE,
+  ERR_INVALID_INSTRUCTION,
   ERR_INVALID_JUMP,
   ERR_INVALID_REGISTER,
   ERR_INVALID_HEAP,
@@ -125,13 +127,13 @@ enum InvaderVMCode {
 
   VM_WAIT,      /* Delay n miliseconds      [char]                */
   VM_TXT,       /* Load Text                [long, long, char...] */
-  VM_EXC        /* Load Heap As Program     [long, long]          */ 
+  VM_EXC,       /* Load Heap As Program     [long, long]          */
+  
+  VM_COMPRESSED /* Compressed Flag                                */
 };
 
 enum InvaderVMFunc {
-  VM_begin = 0x01,
-  
-  VMFunc_getSizeEEPROM,
+  VMFunc_getSizeEEPROM = 0x01,
   VMFunc_getSizeSharedMemory,
   VMFunc_getSizeFRAM,
   VMFunc_getSizeFlashROM,
@@ -241,8 +243,14 @@ void VM_ERROR(int errno, void *state) {
   static char err[256] = { 0 };
   char *msg = NULL;
   switch (errno) {
-    case ERR_INVALID_CODE:
-      msg = "invalid code";
+    case ERR_LOAD_FAILURE:
+      msg = "fail to load code";
+      break;
+    case ERR_MELT_FAILURE:
+      msg = "fail to decompress code";
+      break;
+    case ERR_INVALID_INSTRUCTION:
+      msg = "invalid instruction";
       break;
     case ERR_INVALID_JUMP:
       msg = "out of code bounds";
@@ -269,10 +277,32 @@ void VM_ERROR(int errno, void *state) {
   ((VMState*)state)->error = errno;
 }
 
+void InvaderVM_loadProgram(VMState *state)
+{
+  int length = 0;
+  memset(&state->code, 0, INVADER_VM_CODE_LENGTH);
+  Morikawa.getText(TEXT_Z, state->code, INVADER_VM_CODE_LENGTH + 1, &length);
+  if (length == 0) {
+    VM_ERROR(ERR_LOAD_FAILURE, state);
+    return; 
+  }
+  
+  if (static_cast<InvaderVMCode>(state->code[0]) == VM_COMPRESSED) {
+    unsigned int result = 0;
+    unsigned long output = 0;
+    length = length - 2;
+    Morikawa.writeFRAM(0, state->code + 1, length, &result);
+    Morikawa.meltFastLZ(STORAGE_FRAM, 0, length, STORAGE_FRAM, length, INVADER_VM_CODE_LENGTH, &output);
+    Morikawa.readFRAM(length, state->code, output, &result);
+    if (result == 0) {
+      VM_ERROR(ERR_MELT_FAILURE, state);
+    }
+  }
+}
+
 void InvaderVM_setup(void)
 {
-  memset(&vm_state.code, 0, INVADER_VM_CODE_LENGTH);
-  Morikawa.getText(TEXT_Z, vm_state.code, INVADER_VM_CODE_LENGTH);
+  InvaderVM_loadProgram(&vm_state);
   return;
 }
 
@@ -281,6 +311,7 @@ void InvaderVM_run(VMState *state)
   memset(state->reg, 0, INVADER_VM_REGISTER_SIZE * sizeof(long));
   state->cur = 0;
   state->error = ERR_NONE;
+  
   while (state->cur < INVADER_VM_CODE_LENGTH && state->error == ERR_NONE) {
     InvaderVMCode c = static_cast<InvaderVMCode>(state->code[state->cur]);
     char *arg = state->code + state->cur + sizeof(char);
@@ -750,7 +781,7 @@ void InvaderVM_run(VMState *state)
             state->cur *= -1;
 	  }
 	  else {
-	    VM_ERROR(ERR_INVALID_CODE, state);
+	    VM_ERROR(ERR_INVALID_INSTRUCTION, state);
 	  }
         }
         else {
@@ -761,7 +792,7 @@ void InvaderVM_run(VMState *state)
       break;
       
     default:
-      VM_ERROR(ERR_INVALID_CODE, state);
+      VM_ERROR(ERR_INVALID_INSTRUCTION, state);
     }
 
     if (!isValidHeap(hcur)) {

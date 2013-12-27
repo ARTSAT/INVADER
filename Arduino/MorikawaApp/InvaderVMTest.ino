@@ -64,6 +64,7 @@ else { \
 } while (0)
 
 #define VM_DO_TEST(name) do { \ 
+Serial.print("[" #name "] "); \
 if (InvaderVMTest_##name()) { \ 
   Serial.println(" PASS"); \ 
   passed++; \
@@ -76,6 +77,7 @@ else { \
 } while (0)
 
 void InvaderVM_run(VMState *state);
+void InvaderVM_loadProgram(VMState *state);
 
 bool InvaderVMTest_VM_SET(void)
 {
@@ -413,12 +415,12 @@ bool InvaderVMTest_Text(void)
   const char code[] = {
     VM_TXT, 0, 0, 0, 0, 4, 0, 0, 0,
     'a', 'b', 'c', 'd',
-    VM_SETC, REG_ARG0, TEXT_Z,
+    VM_SETC, REG_ARG0, TEXT_DEBUG,
     VM_CLR,  REG_ARG1,
     VM_SETC, REG_ARG2, 4,
     VM_SETC, REG_FUNC, VMFunc_setText,
     VM_CALL,
-    VM_SETC, REG_ARG0, TEXT_Z,
+    VM_SETC, REG_ARG0, TEXT_DEBUG,
     VM_SETC, REG_ARG1, 4,
     VM_SETC, REG_ARG2, 5,
     VM_SETC, REG_FUNC, VMFunc_getText,
@@ -435,6 +437,61 @@ bool InvaderVMTest_Text(void)
 
   VM_ASSERT_EQUAL(vm_state.reg[REG_RETV], 5);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG1], 1);
+  
+  return true;
+}
+
+bool InvaderVMTest_Compressed(void)
+{
+  TSTError error;
+  
+  const char code[] = {
+    VM_INC, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_ADD, REG_ARG1, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_ADD, REG_ARG1, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_ADD, REG_ARG1, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_ADD, REG_ARG1, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_ADD, REG_ARG1, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_ADD, REG_ARG1, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_ADD, REG_ARG1, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_ADD, REG_ARG1, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_ADD, REG_ARG1, REG_ARG0,
+    VM_INC, REG_ARG0,
+    VM_ADD, REG_ARG1, REG_ARG0,
+    VM_END
+  };
+  
+  char tmp[128] = { VM_COMPRESSED };
+  unsigned int r = 0;
+  unsigned long o = 0, w = 0;
+  error = Morikawa.writeSharedMemory(0, code, sizeof(code), &r);
+  error = Morikawa.freezeFastLZ(STORAGE_SHAREDMEMORY, 0, r, STORAGE_NONE, 0, 0, STORAGE_NONE, 0, 0, &o);
+  error = Morikawa.freezeFastLZ(STORAGE_SHAREDMEMORY, 0, r, STORAGE_FRAM, 0, o, STORAGE_NONE, 0, 0, &w);
+  error = Morikawa.freezeFastLZ(STORAGE_SHAREDMEMORY, 0, r, STORAGE_FRAM, 0, o, STORAGE_FRAM, o, w, &o);
+  Morikawa.readFRAM(0, tmp + 1, o, &r);
+  error = Morikawa.setText(TEXT_Z, tmp, o + 1);
+  
+  InvaderVM_loadProgram(&vm_state);
+  InvaderVM_run(&vm_state);
+
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG0], 18);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG1], 135);
   
   return true;
 }
@@ -456,6 +513,7 @@ void InvaderVM_runTests(void)
   VM_DO_TEST(Comparison2);
   VM_DO_TEST(Meta);
   VM_DO_TEST(Text);
+  VM_DO_TEST(Compressed);
   
   Serial.println("\n**** Result ****");
   char result[128];
