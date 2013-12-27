@@ -144,6 +144,11 @@ enum InvaderVMFunc {
   VMFunc_getBootCount,
   VMFunc_getBootMode,
   
+  VMFunc_getParamNote,
+  VMFunc_getParamMorse,
+  VMFunc_getParamDigitalker,
+  VMFunc_getParamCamera,
+  
   VMFunc_getTelemetryTime,
   VMFunc_getTelemetryVoltage,
   VMFunc_getTelemetryCurrent,
@@ -196,7 +201,9 @@ enum InvaderVMFunc {
   VMFunc_formatFlashROM,
   
   VMFunc_playFrequency,
+  VMFunc_playFrequency2,
   VMFunc_playNote,
+  VMFunc_playNote2,
   VMFunc_playMorse,
   
   VMFunc_speakPhrase,
@@ -782,6 +789,54 @@ static void CallFunction(VMState *state)
       state->reg[REG_RETV] = Morikawa.getBootMode();
       break;
       
+    case VMFunc_getParamNote:
+      {
+        long pos = state->reg[REG_ARG0];
+        if (isValidHeap(pos) && isValidHeap(pos + sizeof(NoteParam))) {
+          state->reg[REG_ERRN] = Morikawa.getParamNote(reinterpret_cast<NoteParam *>(&state->heap[pos]));
+        }
+        else {
+          VM_ERROR(ERR_INVALID_HEAP, state);
+        }
+      }
+      break;
+    
+    case VMFunc_getParamMorse:
+      {
+        long pos = state->reg[REG_ARG0];
+        if (isValidHeap(pos) && isValidHeap(pos + sizeof(MorseParam))) {
+          state->reg[REG_ERRN] = Morikawa.getParamMorse(reinterpret_cast<MorseParam *>(&state->heap[pos]));
+        }
+        else {
+          VM_ERROR(ERR_INVALID_HEAP, state);
+        }
+      }
+      break;
+    
+    case VMFunc_getParamDigitalker:
+      {
+        long pos = state->reg[REG_ARG0];
+        if (isValidHeap(pos) && isValidHeap(pos + sizeof(DigitalkerParam))) {
+          state->reg[REG_ERRN] = Morikawa.getParamDigitalker(reinterpret_cast<DigitalkerParam *>(&state->heap[pos]));
+        }
+        else {
+          VM_ERROR(ERR_INVALID_HEAP, state);
+        }
+      }
+      break;
+    
+    case VMFunc_getParamCamera:
+      {
+        long pos = state->reg[REG_ARG0];
+        if (isValidHeap(pos) && isValidHeap(pos + sizeof(CameraParam))) {
+          state->reg[REG_ERRN] = Morikawa.getParamCamera(reinterpret_cast<CameraParam *>(&state->heap[pos]));
+        }
+        else {
+          VM_ERROR(ERR_INVALID_HEAP, state);
+        }
+      }
+      break;
+      
     case VMFunc_getTelemetryTime:
       {
         unsigned long result = 0;
@@ -1103,11 +1158,37 @@ static void CallFunction(VMState *state)
     case VMFunc_playFrequency:
       state->reg[REG_ERRN] = Morikawa.playFrequency(state->reg[REG_ARG0], state->reg[REG_ARG1]);
       break;
+      
+    case VMFunc_playFrequency2:
+      {
+        long pos = state->reg[REG_ARG0];
+        if (isValidHeap(pos)) {
+          state->reg[REG_ERRN] = Morikawa.playFrequency(reinterpret_cast<FrequencySequence const*>(&state->heap[pos]), state->reg[REG_ARG1]);
+        }
+        else {
+          VM_ERROR(ERR_INVALID_HEAP, state);
+        }
+      }
+      break;
     
     case VMFunc_playNote:
       state->reg[REG_ERRN] = Morikawa.playNote(state->reg[REG_ARG0], state->reg[REG_ARG1], state->reg[REG_ARG2]);
       break;
     
+    case VMFunc_playNote2:
+      {
+        long pos = state->reg[REG_ARG0];
+        if (isValidHeap(pos)) {
+          state->reg[REG_ERRN] = Morikawa.playNote(reinterpret_cast<NoteSequence const*>(&state->heap[pos]), state->reg[REG_ARG1]);
+        }
+        else {
+          VM_ERROR(ERR_INVALID_HEAP, state);
+        }
+      }
+      break;
+    
+  TSTError playNote(NoteSequence const* sequence, int length = -1);
+  
     case VMFunc_playMorse:
       {
         long pos = state->reg[REG_ARG1];
