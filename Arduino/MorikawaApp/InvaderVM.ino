@@ -121,6 +121,7 @@ enum InvaderVMCode {
   VM_GT,        /* Greater Than             [char, char, char]    */
   VM_GE,        /* Equal And Greater Than   [char, char, char]    */
 
+  VM_WAIT,      /* Delay n miliseconds      [char]                */
   VM_TXT,       /* Load Text                [long, long, char...] */
   VM_EXC        /* Load Heap As Program     [long, long]          */ 
 };
@@ -667,6 +668,19 @@ void InvaderVM_run(VMState *state)
           VM_ERROR(ERR_INVALID_REGISTER, state);
 	}
         state->cur += sizeof(char) + sizeof(char) + sizeof(char);
+      }
+      break;
+      
+    case VM_WAIT:
+      {
+        char pos = arg[0];
+        if (isValidRegister(pos)) {
+          delay(state->reg[pos]);
+        }
+        else {
+          VM_ERROR(ERR_INVALID_REGISTER, state);
+        }
+        state->cur += sizeof(char);
       }
       break;
 
