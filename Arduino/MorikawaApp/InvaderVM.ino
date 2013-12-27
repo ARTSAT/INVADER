@@ -144,6 +144,8 @@ enum InvaderVMFunc {
   VMFunc_getSectorSizeFRAM,
   VMFunc_getSectorSizeFlashROM,
   
+  VMFunc_getCameraFormat,
+  
   VMFunc_getBootTime,
   VMFunc_getBootCount,
   VMFunc_getBootMode,
@@ -833,6 +835,18 @@ static void CallFunction(VMState *state)
  
     case VMFunc_getSectorSizeFlashROM:
       state->reg[REG_RETV] = Morikawa.getSectorSizeFlashROM();
+      break;
+      
+    case VMFunc_getCameraFormat:
+      {
+        long pos = state->reg[REG_ARG1];
+        if (isValidHeap(pos) && isValidHeap(pos + sizeof(CameraFormat))) {
+          state->reg[REG_ERRN] = Morikawa.getCameraFormat(state->reg[REG_ARG0], reinterpret_cast<CameraFormat *>(&state->heap[pos]));
+        }
+        else {
+          VM_ERROR(ERR_INVALID_HEAP, state);
+        }
+      }
       break;
       
     case VMFunc_getBootTime:
