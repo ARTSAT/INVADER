@@ -317,6 +317,7 @@ void InvaderVM_run(VMState *state)
         char pos = arg[0];
         char val = arg[sizeof(char)];
         if (isValidRegister(pos)) {
+          state->reg[pos] = 0;
           *reinterpret_cast<char *>(&state->reg[pos]) = val;
         }
         else {
@@ -331,6 +332,7 @@ void InvaderVM_run(VMState *state)
         char pos = arg[0];
         int val = *reinterpret_cast<int *>(arg + sizeof(char));
         if (isValidRegister(pos)) {
+          state->reg[pos] = 0;
           *reinterpret_cast<int *>(&state->reg[pos]) = val;
         }
         else {
