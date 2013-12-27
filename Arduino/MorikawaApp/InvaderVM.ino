@@ -218,6 +218,9 @@ enum InvaderVMFunc {
   
   VMFunc_snapshotCamera,
   
+  VMFunc_freezeFastLZ,
+  VMFunc_meltFastLZ,
+  
   VMFunc_enableAudioBus,
   VMFunc_disableAudioBus
 };
@@ -843,7 +846,8 @@ static void CallFunction(VMState *state)
       {
         long pos = state->reg[REG_ARG1];
         if (isValidHeap(pos) && isValidHeap(pos + sizeof(CameraFormat))) {
-          state->reg[REG_ERRN] = Morikawa.getCameraFormat(state->reg[REG_ARG0], reinterpret_cast<CameraFormat *>(&state->heap[pos]));
+          CameraFormat *format = reinterpret_cast<CameraFormat *>(&state->heap[pos]);
+          state->reg[REG_ERRN] = Morikawa.getCameraFormat(state->reg[REG_ARG0], format);
         }
         else {
           VM_ERROR(ERR_INVALID_HEAP, state);
@@ -1237,7 +1241,8 @@ static void CallFunction(VMState *state)
       {
         long pos = state->reg[REG_ARG0];
         if (isValidHeap(pos)) {
-          state->reg[REG_ERRN] = Morikawa.playFrequency(reinterpret_cast<FrequencySequence const*>(&state->heap[pos]), state->reg[REG_ARG1]);
+          FrequencySequence const* seq = reinterpret_cast<FrequencySequence const*>(&state->heap[pos]);
+          state->reg[REG_ERRN] = Morikawa.playFrequency(seq, state->reg[REG_ARG1]);
         }
         else {
           VM_ERROR(ERR_INVALID_HEAP, state);
@@ -1253,7 +1258,8 @@ static void CallFunction(VMState *state)
       {
         long pos = state->reg[REG_ARG0];
         if (isValidHeap(pos)) {
-          state->reg[REG_ERRN] = Morikawa.playNote(reinterpret_cast<NoteSequence const*>(&state->heap[pos]), state->reg[REG_ARG1]);
+          NoteSequence const* seq = reinterpret_cast<NoteSequence const*>(&state->heap[pos]);
+          state->reg[REG_ERRN] = Morikawa.playNote(seq, state->reg[REG_ARG1]);
         }
         else {
           VM_ERROR(ERR_INVALID_HEAP, state);
@@ -1298,7 +1304,27 @@ static void CallFunction(VMState *state)
     case VMFunc_snapshotCamera:
       {
         unsigned long result = 0;
-        state->reg[REG_ERRN] = Morikawa.snapshotCamera(state->reg[REG_ARG0], state->reg[REG_ARG1], state->reg[REG_ARG2], state->reg[REG_ARG3], &result);
+        state->reg[REG_ERRN] = Morikawa.snapshotCamera(state->reg[REG_ARG0], state->reg[REG_ARG1],
+                                                       state->reg[REG_ARG2], state->reg[REG_ARG3], &result);
+        state->reg[REG_RETV] = result;
+      }
+      break;
+      
+    case VMFunc_freezeFastLZ:
+      {
+        unsigned long result = 0;
+        state->reg[REG_ERRN] = Morikawa.freezeFastLZ(state->reg[REG_ARG0], state->reg[REG_ARG1], state->reg[REG_ARG2],
+                                                     state->reg[REG_ARG3], state->reg[REG_ARG4], state->reg[REG_ARG5],
+                                                     state->reg[REG_ARG6], state->reg[REG_ARG7], state->reg[REG_ARG8], &result);
+        state->reg[REG_RETV] = result;
+      }
+      break;
+      
+    case VMFunc_meltFastLZ:
+       {
+        unsigned long result = 0;
+        state->reg[REG_ERRN] = Morikawa.meltFastLZ(state->reg[REG_ARG0], state->reg[REG_ARG1], state->reg[REG_ARG2],
+                                                   state->reg[REG_ARG3], state->reg[REG_ARG4], state->reg[REG_ARG5], &result);
         state->reg[REG_RETV] = result;
       }
       break;
