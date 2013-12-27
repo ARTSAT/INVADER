@@ -263,7 +263,7 @@ void VM_ERROR(int errno, void *state) {
 void InvaderVM_setup(void)
 {
   memset(&vm_state.code, 0, INVADER_VM_CODE_LENGTH);
-  Morikawa.getText(TEXT_X, vm_state.code, INVADER_VM_CODE_LENGTH);
+  Morikawa.getText(TEXT_Z, vm_state.code, INVADER_VM_CODE_LENGTH);
   return;
 }
 
