@@ -43,12 +43,12 @@
  */
 
 static const int INVADER_VM_REGISTER_SIZE = 16;
-static const int INVADER_VM_HEAP_SIZE     = 128;
+static const int INVADER_VM_HEAP_LENGTH   = 128;
 static const int INVADER_VM_CODE_LENGTH   = 128;
 
 struct VMState {
   char code[INVADER_VM_CODE_LENGTH];
-  char heap[INVADER_VM_HEAP_SIZE + sizeof(long)];
+  char heap[INVADER_VM_HEAP_LENGTH + sizeof(long)];
   long reg[INVADER_VM_REGISTER_SIZE];
   long cur;
   int error;
@@ -225,7 +225,7 @@ static bool isValidRegister(char pos) {
 }
 
 static bool isValidHeap(long pos) {
-  return (0 <= pos && pos < INVADER_VM_HEAP_SIZE);
+  return (0 <= pos && pos < INVADER_VM_HEAP_LENGTH);
 }
 
 void VM_ERROR(int errno, void *state) {
