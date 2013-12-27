@@ -91,6 +91,7 @@ enum InvaderVMCode {
   VM_END,       /* End of Code              []                    */
   VM_NOP,       /* No Operation             []                    */
   VM_SET,       /* Set                      [char, long]          */
+  VM_CLR,       /* Set Zero                 [char]                */
   VM_MOV,       /* Copy                     [char, char]          */
   VM_XCHG,      /* Exchange                 [char, char]          */
   VM_CALL,      /* Call Function                                  */
@@ -303,6 +304,19 @@ void InvaderVM_run(VMState *state)
           VM_ERROR(ERR_INVALID_REGISTER, state);
         }
         state->cur += sizeof(char) + sizeof(long);
+      }
+      break;
+      
+    case VM_CLR:
+      {
+        char pos = arg[0];
+        if (isValidRegister(pos)) {
+          state->reg[pos] = 0;
+        }
+        else {
+          VM_ERROR(ERR_INVALID_REGISTER, state);
+        }
+        state->cur += sizeof(char);
       }
       break;
 

@@ -96,6 +96,8 @@ bool InvaderVMTest_VM_SET(void)
     VM_SET, REG_ARG8, 0x0D, 0, 0, 0,
     VM_SET, REG_ARG9, 0x0E, 0, 0, 0,
     VM_SET, REG_ARGA, 0x0F, 0, 0, 0,
+    VM_CLR, REG_ARG5,
+    VM_CLR, REG_ARG8,
     VM_END
   };
   
@@ -112,10 +114,10 @@ bool InvaderVMTest_VM_SET(void)
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG2], 0x07);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG3], 0x08);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG4], 0x09);
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG5], 0x0A);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG5], 0x00);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG6], 0x0B);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG7], 0x0C);
-  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG8], 0x0D);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG8], 0x00);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARG9], 0x0E);
   VM_ASSERT_EQUAL(vm_state.reg[REG_ARGA], 0x0F);
   
