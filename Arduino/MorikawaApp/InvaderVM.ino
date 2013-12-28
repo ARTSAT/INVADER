@@ -56,7 +56,9 @@ struct VMState {
 
 VMState vm_state;
 
-static void CallFunction(VMState *state);
+void InvaderVM_callFunction(VMState *state);
+void InvaderVM_loadProgram(VMState *state);
+void InvaderVM_run(VMState *state);
 
 enum {
   REG_ERRN,
@@ -277,6 +279,22 @@ void VM_ERROR(int errno, void *state) {
   ((VMState*)state)->error = errno;
 }
 
+void InvaderVM_setup(void)
+{
+  InvaderVM_loadProgram(&vm_state);
+  return;
+}
+
+void InvaderVM_loop(void)
+{
+#ifdef TARGET_BUILD_DEBUG
+  InvaderVM_runTests();
+#else
+  InvaderVM_run(&vm_state);
+#endif
+  return;
+}
+
 void InvaderVM_loadProgram(VMState *state)
 {
   int length = 0;
@@ -298,12 +316,6 @@ void InvaderVM_loadProgram(VMState *state)
       VM_ERROR(ERR_MELT_FAILURE, state);
     }
   }
-}
-
-void InvaderVM_setup(void)
-{
-  InvaderVM_loadProgram(&vm_state);
-  return;
 }
 
 void InvaderVM_run(VMState *state)
@@ -420,7 +432,7 @@ void InvaderVM_run(VMState *state)
       break;
 
     case VM_CALL:
-      CallFunction(state);
+      InvaderVM_callFunction(state);
       break;
 
     case VM_JMP:
@@ -810,17 +822,7 @@ void InvaderVM_run(VMState *state)
   }  
 }
 
-void InvaderVM_loop(void)
-{
-#ifdef TARGET_BUILD_DEBUG
-  InvaderVM_runTests();
-#else
-  InvaderVM_run(&vm_state);
-#endif
-  return;
-}
-
-static void CallFunction(VMState *state)
+void InvaderVM_callFunction(VMState *state)
 {
   InvaderVMFunc func = static_cast<InvaderVMFunc>(state->reg[REG_FUNC]);
   switch (func) {

@@ -47,7 +47,7 @@ struct VMState;
 
 void InvaderVM_dump()
 {
-  Serial.println("dump register:");
+  Serial.println("\n***dump register***");
   for (int i = 0; i < INVADER_VM_REGISTER_SIZE; ++i) {
     Serial.println(vm_state.reg[i], DEC); 
   } 
