@@ -824,6 +824,8 @@ void InvaderVM_run(VMState *state)
 
 void InvaderVM_callFunction(VMState *state)
 {
+  long hcur = state->reg[REG_HCUR];
+  char *heap = state->heap + hcur;
   InvaderVMFunc func = static_cast<InvaderVMFunc>(state->reg[REG_FUNC]);
   switch (func) {
     
@@ -876,15 +878,12 @@ void InvaderVM_callFunction(VMState *state)
       break;
       
     case VMFunc_getCameraFormat:
-      {
-        long pos = state->reg[REG_ARG1];
-        if (isValidHeap(pos) && isValidHeap(pos + sizeof(CameraFormat))) {
-          CameraFormat *format = reinterpret_cast<CameraFormat *>(&state->heap[pos]);
-          state->reg[REG_ERRN] = Morikawa.getCameraFormat(state->reg[REG_ARG0], format);
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+      if (isValidHeap(hcur + sizeof(CameraFormat))) {
+        CameraFormat *format = reinterpret_cast<CameraFormat *>(heap);
+        state->reg[REG_ERRN] = Morikawa.getCameraFormat(state->reg[REG_ARG0], format);
+      }
+      else {
+        VM_ERROR(ERR_INVALID_HEAP, state);
       }
       break;
       
@@ -901,50 +900,38 @@ void InvaderVM_callFunction(VMState *state)
       break;
       
     case VMFunc_getParamNote:
-      {
-        long pos = state->reg[REG_ARG0];
-        if (isValidHeap(pos) && isValidHeap(pos + sizeof(NoteParam))) {
-          state->reg[REG_ERRN] = Morikawa.getParamNote(reinterpret_cast<NoteParam *>(&state->heap[pos]));
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+      if (isValidHeap(hcur + sizeof(NoteParam))) {
+        state->reg[REG_ERRN] = Morikawa.getParamNote(reinterpret_cast<NoteParam *>(heap));
+      }
+      else {
+        VM_ERROR(ERR_INVALID_HEAP, state);
       }
       break;
     
     case VMFunc_getParamMorse:
-      {
-        long pos = state->reg[REG_ARG0];
-        if (isValidHeap(pos) && isValidHeap(pos + sizeof(MorseParam))) {
-          state->reg[REG_ERRN] = Morikawa.getParamMorse(reinterpret_cast<MorseParam *>(&state->heap[pos]));
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+      if (isValidHeap(hcur + sizeof(MorseParam))) {
+        state->reg[REG_ERRN] = Morikawa.getParamMorse(reinterpret_cast<MorseParam *>(heap));
+      }
+      else {
+        VM_ERROR(ERR_INVALID_HEAP, state);
       }
       break;
     
     case VMFunc_getParamDigitalker:
-      {
-        long pos = state->reg[REG_ARG0];
-        if (isValidHeap(pos) && isValidHeap(pos + sizeof(DigitalkerParam))) {
-          state->reg[REG_ERRN] = Morikawa.getParamDigitalker(reinterpret_cast<DigitalkerParam *>(&state->heap[pos]));
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+      if (isValidHeap(hcur + sizeof(DigitalkerParam))) {
+        state->reg[REG_ERRN] = Morikawa.getParamDigitalker(reinterpret_cast<DigitalkerParam *>(heap));
+      }
+      else {
+        VM_ERROR(ERR_INVALID_HEAP, state);
       }
       break;
     
     case VMFunc_getParamCamera:
-      {
-        long pos = state->reg[REG_ARG0];
-        if (isValidHeap(pos) && isValidHeap(pos + sizeof(CameraParam))) {
-          state->reg[REG_ERRN] = Morikawa.getParamCamera(reinterpret_cast<CameraParam *>(&state->heap[pos]));
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+      if (isValidHeap(hcur + sizeof(CameraParam))) {
+        state->reg[REG_ERRN] = Morikawa.getParamCamera(reinterpret_cast<CameraParam *>(heap));
+      }
+      else {
+        VM_ERROR(ERR_INVALID_HEAP, state);
       }
       break;
       
@@ -1005,28 +992,14 @@ void InvaderVM_callFunction(VMState *state)
       break;
       
     case VMFunc_setText:
-      {
-        long pos = state->reg[REG_ARG1];
-        if (isValidHeap(pos)) {
-          state->reg[REG_ERRN] = Morikawa.setText(state->reg[REG_ARG0], &state->heap[pos], state->reg[REG_ARG2]);
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
-      }
+      state->reg[REG_ERRN] = Morikawa.setText(state->reg[REG_ARG0], heap, state->reg[REG_ARG1]);
       break;
       
     case VMFunc_getText:
       {
-        long pos = state->reg[REG_ARG1];
-        if (isValidHeap(pos)) {
-          int result = 0;
-          state->reg[REG_ERRN] = Morikawa.getText(state->reg[REG_ARG0], &state->heap[pos], state->reg[REG_ARG2], &result);
-          state->reg[REG_RETV] = result;
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+        int result = 0;
+        state->reg[REG_ERRN] = Morikawa.getText(state->reg[REG_ARG0], heap, state->reg[REG_ARG1], &result);
+        state->reg[REG_RETV] = result;
       }
       break;
       
@@ -1117,34 +1090,20 @@ void InvaderVM_callFunction(VMState *state)
     case VMFunc_writeEEPROM:
       {
         unsigned long address = state->reg[REG_ARG0];
-        long pos = state->reg[REG_ARG1];
-        unsigned int size = state->reg[REG_ARG2];
+        unsigned int size = state->reg[REG_ARG1];
         unsigned int result = 0;
-        
-        if (isValidHeap(pos)) {
-          state->reg[REG_ERRN] = Morikawa.writeEEPROM(address, &state->heap[pos], size, &result);
-          state->reg[REG_RETV] = result;
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+        state->reg[REG_ERRN] = Morikawa.writeEEPROM(address, heap, size, &result);
+        state->reg[REG_RETV] = result;
       }
       break;
     
     case VMFunc_readEEPROM:
       {
         unsigned long address = state->reg[REG_ARG0];
-        long pos = state->reg[REG_ARG1];
-        unsigned int size = state->reg[REG_ARG2];
+        unsigned int size = state->reg[REG_ARG1];
         unsigned int result = 0;
-        
-        if (isValidHeap(pos)) {
-          state->reg[REG_ERRN] = Morikawa.readEEPROM(address, &state->heap[pos], size, &result);
-          state->reg[REG_RETV] = result;
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+        state->reg[REG_ERRN] = Morikawa.readEEPROM(address, heap, size, &result);
+        state->reg[REG_RETV] = result;
       }
       break;
       
@@ -1155,34 +1114,20 @@ void InvaderVM_callFunction(VMState *state)
     case VMFunc_writeSharedMemory:
       {
         unsigned long address = state->reg[REG_ARG0];
-        long pos = state->reg[REG_ARG1];
-        unsigned int size = state->reg[REG_ARG2];
+        unsigned int size = state->reg[REG_ARG1];
         unsigned int result = 0;
-        
-        if (isValidHeap(pos)) {
-          state->reg[REG_ERRN] = Morikawa.writeSharedMemory(address, &state->heap[pos], size, &result);
-          state->reg[REG_RETV] = result;
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+        state->reg[REG_ERRN] = Morikawa.writeSharedMemory(address, heap, size, &result);
+        state->reg[REG_RETV] = result;
       }
       break;
     
     case VMFunc_readSharedMemory:
       {
         unsigned long address = state->reg[REG_ARG0];
-        long pos = state->reg[REG_ARG1];
-        unsigned int size = state->reg[REG_ARG2];
+        unsigned int size = state->reg[REG_ARG1];
         unsigned int result = 0;
-        
-        if (isValidHeap(pos)) {
-          state->reg[REG_ERRN] = Morikawa.readSharedMemory(address, &state->heap[pos], size, &result);
-          state->reg[REG_RETV] = result;
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+        state->reg[REG_ERRN] = Morikawa.readSharedMemory(address, heap, size, &result);
+        state->reg[REG_RETV] = result;
       }
       break;
     
@@ -1193,34 +1138,20 @@ void InvaderVM_callFunction(VMState *state)
     case VMFunc_writeFRAM:
       {
         unsigned long address = state->reg[REG_ARG0];
-        long pos = state->reg[REG_ARG1];
-        unsigned int size = state->reg[REG_ARG2];
+        unsigned int size = state->reg[REG_ARG1];
         unsigned int result = 0;
-        
-        if (isValidHeap(pos)) {
-          state->reg[REG_ERRN] = Morikawa.writeFRAM(address, &state->heap[pos], size, &result);
-          state->reg[REG_RETV] = result;
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+        state->reg[REG_ERRN] = Morikawa.writeFRAM(address, heap, size, &result);
+        state->reg[REG_RETV] = result;
       }
       break;
     
     case VMFunc_readFRAM:
       {
         unsigned long address = state->reg[REG_ARG0];
-        long pos = state->reg[REG_ARG1];
-        unsigned int size = state->reg[REG_ARG2];
+        unsigned int size = state->reg[REG_ARG1];
         unsigned int result = 0;
-        
-        if (isValidHeap(pos)) {
-          state->reg[REG_ERRN] = Morikawa.readFRAM(address, &state->heap[pos], size, &result);
-          state->reg[REG_RETV] = result;
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+        state->reg[REG_ERRN] = Morikawa.readFRAM(address, heap, size, &result);
+        state->reg[REG_RETV] = result;
       }
       break;
     
@@ -1231,34 +1162,20 @@ void InvaderVM_callFunction(VMState *state)
     case VMFunc_writeFlashROM:
       {
         unsigned long address = state->reg[REG_ARG0];
-        long pos = state->reg[REG_ARG1];
-        unsigned int size = state->reg[REG_ARG2];
+        unsigned int size = state->reg[REG_ARG1];
         unsigned int result = 0;
-        
-        if (isValidHeap(pos)) {
-          state->reg[REG_ERRN] = Morikawa.writeFlashROM(address, &state->heap[pos], size, &result);
-          state->reg[REG_RETV] = result;
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+        state->reg[REG_ERRN] = Morikawa.writeFlashROM(address, heap, size, &result);
+        state->reg[REG_RETV] = result;
       }
       break;
       
     case VMFunc_readFlashROM:
       {
         unsigned long address = state->reg[REG_ARG0];
-        long pos = state->reg[REG_ARG1];
-        unsigned int size = state->reg[REG_ARG2];
+        unsigned int size = state->reg[REG_ARG1];
         unsigned int result = 0;
-        
-        if (isValidHeap(pos)) {
-          state->reg[REG_ERRN] = Morikawa.readFlashROM(address, &state->heap[pos], size, &result);
-          state->reg[REG_RETV] = result;
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+        state->reg[REG_ERRN] = Morikawa.readFlashROM(address, heap, size, &result);
+        state->reg[REG_RETV] = result;
       }
       break;
     
@@ -1272,14 +1189,8 @@ void InvaderVM_callFunction(VMState *state)
       
     case VMFunc_playFrequency2:
       {
-        long pos = state->reg[REG_ARG0];
-        if (isValidHeap(pos)) {
-          FrequencySequence const* seq = reinterpret_cast<FrequencySequence const*>(&state->heap[pos]);
-          state->reg[REG_ERRN] = Morikawa.playFrequency(seq, state->reg[REG_ARG1]);
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+        FrequencySequence const* seq = reinterpret_cast<FrequencySequence const*>(heap);
+        state->reg[REG_ERRN] = Morikawa.playFrequency(seq, state->reg[REG_ARG0]);
       }
       break;
     
@@ -1289,41 +1200,17 @@ void InvaderVM_callFunction(VMState *state)
     
     case VMFunc_playNote2:
       {
-        long pos = state->reg[REG_ARG0];
-        if (isValidHeap(pos)) {
-          NoteSequence const* seq = reinterpret_cast<NoteSequence const*>(&state->heap[pos]);
-          state->reg[REG_ERRN] = Morikawa.playNote(seq, state->reg[REG_ARG1]);
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
+        NoteSequence const* seq = reinterpret_cast<NoteSequence const*>(heap);
+        state->reg[REG_ERRN] = Morikawa.playNote(seq, state->reg[REG_ARG0]);
       }
       break;
     
-  TSTError playNote(NoteSequence const* sequence, int length = -1);
-  
     case VMFunc_playMorse:
-      {
-        long pos = state->reg[REG_ARG1];
-        if (isValidHeap(pos)) {
-          state->reg[REG_ERRN] = Morikawa.playMorse(state->reg[REG_ARG0], &state->heap[pos], state->reg[REG_ARG2]);     
-        }
-        else {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
-      }
+      state->reg[REG_ERRN] = Morikawa.playMorse(state->reg[REG_ARG0], heap, state->reg[REG_ARG1]);     
+      break;
       
     case VMFunc_speakPhrase:
-      {
-        long pos = state->reg[REG_ARG0];
-        long len = state->reg[REG_ARG1];
-        if (!isValidHeap(pos)) {
-          VM_ERROR(ERR_INVALID_HEAP, state);
-        }
-        else {
-          state->reg[REG_ERRN] = Morikawa.speakPhrase(&state->heap[pos], len);
-        }
-      }
+      state->reg[REG_ERRN] = Morikawa.speakPhrase(heap, state->reg[REG_ARG0]);
       break;
     
     case VMFunc_waitPhrase:
