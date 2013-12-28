@@ -135,7 +135,15 @@ enum InvaderVMCode {
 };
 
 enum InvaderVMFunc {
-  VMFunc_getSizeEEPROM = 0x01,
+  VMFunc_getMemorySpec = 0x01,
+  VMFunc_getMemoryInfo,
+  VMFunc_getMemoryLog,
+  VMFunc_saveMemoryLog,
+  
+  VMFunc_getSelfTestLog,
+  VMFunc_eraseSelfTestLog,
+  
+  VMFunc_getSizeEEPROM,
   VMFunc_getSizeSharedMemory,
   VMFunc_getSizeFRAM,
   VMFunc_getSizeFlashROM,
@@ -828,6 +836,50 @@ void InvaderVM_callFunction(VMState *state)
   char *heap = state->heap + hcur;
   InvaderVMFunc func = static_cast<InvaderVMFunc>(state->reg[REG_FUNC]);
   switch (func) {
+    
+    case VMFunc_getMemorySpec:
+      if (isValidHeap(hcur + sizeof(MemorySpec))) {
+        state->reg[REG_ERRN] = Morikawa.getMemorySpec(reinterpret_cast<MemorySpec*>(heap));
+      }
+      else {
+        VM_ERROR(ERR_INVALID_HEAP, state);
+      }
+      break;
+      
+    case VMFunc_getMemoryInfo:
+      if (isValidHeap(hcur + sizeof(MemoryInfo))) {
+        state->reg[REG_ERRN] = Morikawa.getMemoryInfo(reinterpret_cast<MemoryInfo*>(heap));
+      }
+      else {
+        VM_ERROR(ERR_INVALID_HEAP, state);
+      }
+      break;
+      
+    case VMFunc_getMemoryLog:
+      if (isValidHeap(hcur + sizeof(MemoryInfo))) {
+        state->reg[REG_ERRN] = Morikawa.getMemoryLog(reinterpret_cast<MemoryInfo*>(heap));
+      }
+      else {
+        VM_ERROR(ERR_INVALID_HEAP, state);
+      }
+      break;
+      
+    case VMFunc_saveMemoryLog:
+      Morikawa.saveMemoryLog();
+      break;
+    
+    case VMFunc_getSelfTestLog:
+       if (isValidHeap(hcur + sizeof(SelfTestLog))) {
+        state->reg[REG_ERRN] = Morikawa.getSelfTestLog(reinterpret_cast<SelfTestLog*>(heap));
+      }
+      else {
+        VM_ERROR(ERR_INVALID_HEAP, state);
+      }
+      break;
+      
+    case VMFunc_eraseSelfTestLog:
+      Morikawa.eraseSelfTestLog();
+      break;
     
     case VMFunc_getSizeEEPROM:
       state->reg[REG_RETV] = Morikawa.getSizeEEPROM();
