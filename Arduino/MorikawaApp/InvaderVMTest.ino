@@ -578,6 +578,9 @@ bool InvaderVMTest_Morse(void)
 bool InvaderVMTest_Speak(void)
 {
   const char code[] = {
+    VM_SETC, REG_ARG0, 1,
+    VM_SETC, REG_FUNC, VMFunc_setSpeakAsyncMode,
+    VM_CALL,
     VM_TXT, 16, 0, 0, 0,
     '\'', 'i', 'n', 'b', 'e', '-', 'd', 'a', '-', 
     'b', 'u', '\'', 'i', 'e', 'm', 'u',
