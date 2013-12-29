@@ -774,19 +774,16 @@ void InvaderVM_run(VMState *state)
 
     case VM_TXT:
       {
-        long offset = *reinterpret_cast<long *>(&arg[0]);
-        long length = *reinterpret_cast<long *>(&arg[sizeof(long)]);
-        char *data  = arg + sizeof(long) + sizeof(long);
-        if (isValidHeap(offset) && isValidHeap(offset + length - 1)) {
-	  memcpy(&state->heap[offset], data, length);
-          if (offset <= hcur && hcur < offset + length) {
-            state->reg[REG_HEAP] = *reinterpret_cast<long *>(&data[hcur]);
-          }
+        long length = *reinterpret_cast<long *>(arg);
+        char *data  = arg + sizeof(long);
+        if (isValidHeap(hcur) && isValidHeap(hcur + length - 1)) {
+	  memcpy(&state->heap[hcur], data, length);
+          state->reg[REG_HEAP] = *reinterpret_cast<long *>(&data[hcur]);
         }
         else {
           VM_ERROR(ERR_INVALID_HEAP, state);
         }
-        state->cur += sizeof(long) + sizeof(long) + length;
+        state->cur += sizeof(long) + length;
       }
       break;
 

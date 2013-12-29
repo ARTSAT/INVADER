@@ -389,7 +389,7 @@ bool InvaderVMTest_Comparison2(void)
 bool InvaderVMTest_Meta(void)
 {
   const char code[] = {
-    VM_TXT, 0, 0, 0, 0, 13, 0, 0, 0,
+    VM_TXT, 13, 0, 0, 0,
     VM_SETC, REG_ARG0, 0x01,
     VM_SETC, REG_ARG1, 0x02,
     VM_SETC, REG_ARG2, 0x03,
@@ -413,7 +413,7 @@ bool InvaderVMTest_Meta(void)
 bool InvaderVMTest_Text(void)
 {
   const char code[] = {
-    VM_TXT, 0, 0, 0, 0, 4, 0, 0, 0,
+    VM_TXT, 4, 0, 0, 0,
     'a', 'b', 'c', 'd',
     VM_SETC, REG_ARG0, TEXT_DEBUG,
     VM_CLR,  REG_HCUR,
@@ -528,6 +528,27 @@ bool InvaderVMTest_LED(void)
   return true;
 }
 
+bool InvaderVMTest_Speak(void)
+{
+  const char code[] = {
+    VM_TXT, 16, 0, 0, 0,
+    '\'', 'i', 'n', 'b', 'e', '-', 'd', 'a', '-', 
+    'b', 'u', '\'', 'i', 'e', 'm', 'u',
+    VM_SETC, REG_ARG0, 16,
+    VM_CLR,  REG_HCUR,
+    VM_SETC, REG_FUNC, VMFunc_speakPhrase,
+    VM_CALL,
+    VM_END
+  };
+  
+  memcpy(vm_state.code, code, sizeof(code));
+  InvaderVM_run(&vm_state);
+  
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ERRN], 0);
+  
+  return true;
+}
+
 void InvaderVM_runTests(void)
 {
   int passed = 0, failed = 0;
@@ -545,11 +566,9 @@ void InvaderVM_runTests(void)
   VM_DO_TEST(Comparison2);
   VM_DO_TEST(Meta);
   VM_DO_TEST(Text);
-  VM_DO_TEST(Compressed);
-  
-  Serial.println("\n**** Automated Tests Finished ****\n");
-   
   VM_DO_TEST(LED);
+  VM_DO_TEST(Speak);
+  VM_DO_TEST(Compressed);
   
   Serial.println("\n**** Result ****");
   char result[128];
