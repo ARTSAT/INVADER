@@ -395,7 +395,7 @@ bool InvaderVMTest_Meta(void)
     VM_SETC, REG_ARG2, 0x03,
     VM_SETC, REG_ARG3, 0x04,
     VM_END,
-    VM_EXC, 0, 0, 0, 0, 13, 0, 0, 0,
+    VM_EXC, 13, 0, 0, 0,
     VM_END
   };
   
