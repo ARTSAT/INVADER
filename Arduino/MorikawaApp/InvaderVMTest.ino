@@ -528,6 +528,31 @@ bool InvaderVMTest_LED(void)
   return true;
 }
 
+bool InvaderVMTest_Note(void)
+{
+  const char code[] = {
+    VM_TXT, 16, 0, 0, 0,
+    0x17, 0x04, 0x04, 0x01,
+    0x00, 0x00, 0x04, 0x00,
+    0x10, 0x03, 0x08, 0x00, 
+    0xFF, 0xFF, 0x00, 0x00,
+    VM_SETC, REG_ARG0, 4,
+    VM_CLR,  REG_HCUR,
+    VM_SETC, REG_FUNC, VMFunc_playNote2,
+    VM_CALL,
+    VM_SETI, REG_ARG1, 0xE8, 0x03,
+    VM_WAIT, REG_ARG1,
+    VM_END
+  };
+  
+  memcpy(vm_state.code, code, sizeof(code));
+  InvaderVM_run(&vm_state);
+  
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ERRN], 0);
+  
+  return true;
+}
+
 bool InvaderVMTest_Morse(void)
 {
   const char code[] = {
@@ -589,6 +614,7 @@ void InvaderVM_runTests(void)
   VM_DO_TEST(Meta);
   VM_DO_TEST(Text);
   VM_DO_TEST(LED);
+  VM_DO_TEST(Note);
   VM_DO_TEST(Morse);
   VM_DO_TEST(Speak);
   VM_DO_TEST(Compressed);
