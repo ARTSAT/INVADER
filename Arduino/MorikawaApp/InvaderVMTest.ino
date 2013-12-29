@@ -495,6 +495,39 @@ bool InvaderVMTest_Compressed(void)
   return true;
 }
 
+bool InvaderVMTest_LED(void)
+{
+  const char code[] = {
+    VM_SETC,   REG_ARG2, 0,
+    VM_SETC,   REG_ARG3, 0xFF,
+    VM_SETC,   REG_ARG4, 0x0F,
+    VM_SETC,   REG_FUNC, VMFunc_setLED,
+    
+    VM_SETC,   REG_ARG0, 0,
+    VM_MOV,    REG_ARG1, REG_ARG2,
+    VM_CALL,
+    VM_SETC,   REG_ARG0, 1,
+    VM_MOV,    REG_ARG1, REG_ARG3,
+    VM_CALL,
+    VM_INC,    REG_ARG2,
+    VM_DEC,    REG_ARG3,
+    VM_WAIT,   REG_ARG4,
+    VM_JMPIF,  REG_ARG3, -23,
+    
+    VM_CALL,
+    VM_END
+  };
+  
+  memcpy(vm_state.code, code, sizeof(code));
+  InvaderVM_run(&vm_state);
+  
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ERRN], 0);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG2], 0xFF);
+  VM_ASSERT_EQUAL(vm_state.reg[REG_ARG3], 0);
+  
+  return true;
+}
+
 void InvaderVM_runTests(void)
 {
   int passed = 0, failed = 0;
@@ -513,6 +546,10 @@ void InvaderVM_runTests(void)
   VM_DO_TEST(Meta);
   VM_DO_TEST(Text);
   VM_DO_TEST(Compressed);
+  
+  Serial.println("\n**** Automated Tests Finished ****\n");
+   
+  VM_DO_TEST(LED);
   
   Serial.println("\n**** Result ****");
   char result[128];
