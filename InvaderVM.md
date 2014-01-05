@@ -198,6 +198,8 @@ Treats following binary data as a FastLZ compressed program.
 
 ## Ported Functions
 
+### Memory environment and memory state
+
 #### TSTError getMemorySpec(MemorySpec* result);
 
 | REG_HCUR    | REG_ERRN |
@@ -222,6 +224,8 @@ Treats following binary data as a FastLZ compressed program.
 | --- |
 | n/a |
 
+### Self test
+
 #### TSTError getSelfTestLog(SelfTestLog* result);
 
 | REG_HCUR     | REG_ERRN |
@@ -233,6 +237,8 @@ Treats following binary data as a FastLZ compressed program.
 | n/a | 
 | --- |
 | n/a |
+
+### Memory size information
 
 #### unsigned long getSizeEEPROM(void);
 
@@ -306,11 +312,15 @@ Treats following binary data as a FastLZ compressed program.
 | ------------- |
 | unsigned long |
 
+### Camera format information
+
 #### TSTError getCameraFormat(CameraType mode, CameraFormat* result);
 
 | REG_ARG0   | REG_HCUR      | REG_ERRN |
 | ---------- | ------------- | -------- |
 | CameraType | CameraFormat* | TSTError |
+
+### Boot parameter
 
 #### unsigned long getBootTime(void);
 
@@ -329,6 +339,8 @@ Treats following binary data as a FastLZ compressed program.
 | REG_RETV      |
 | ------------- |
 | unsigned char |
+
+### Peripheral parameter
 
 #### TSTError getParamNote(NoteParam* result);
 
@@ -353,6 +365,8 @@ Treats following binary data as a FastLZ compressed program.
 | REG_HCUR     | REG_ERRN |
 | ------------ | -------- |
 | CameraParam* | TSTError |
+
+### Telemetry data
 
 #### TSTError getTelemetryTime(TimeType type, unsigned long* result);
 
@@ -390,6 +404,8 @@ Treats following binary data as a FastLZ compressed program.
 | ---------- | ------------- | -------- |
 | MagnetType | unsigned char | TSTError |
 
+### FlashROM mode
+
 #### TSTError setFlashROMEraseMode(bool param);
 
 | REG_ARG0 | REG_ERRN |
@@ -401,6 +417,8 @@ Treats following binary data as a FastLZ compressed program.
 | REG_RETV |
 | -------- |
 | bool     |
+
+### Shared memory text setter and text getter
 
 #### TSTError setText(TextType index, char const* text, int length = -1);
 
@@ -414,6 +432,8 @@ Treats following binary data as a FastLZ compressed program.
 | -------- | -------- | ------------ | -------- | -------- |
 | TextType | char*    | unsigned int | int      | TSTError |
 
+### Peripheral LED device
+
 #### TSTError setLED(LEDType index, unsigned char pwm);
 
 | REG_ARG0 | REG_ARG1      | REG_ERRN |
@@ -425,6 +445,8 @@ Treats following binary data as a FastLZ compressed program.
 | REG_ARG0 | REG_RETV      |
 | -------- | ------------- |
 | LEDType  | unsigned char |
+
+### Peripheral mode
 
 #### TSTError setNoteBPM(int param = -1);
 
@@ -461,6 +483,8 @@ Treats following binary data as a FastLZ compressed program.
 | REG_RETV |
 | -------- |
 | bool     |
+
+### Validation
 
 #### bool isValid(void);
 
@@ -510,6 +534,8 @@ Treats following binary data as a FastLZ compressed program.
 | -------- |
 | bool     |
 
+### Status
+
 #### TSTError isBusyDigitalker(bool* result);
 
 | REG_RETV | REG_ERRN |
@@ -528,11 +554,15 @@ Treats following binary data as a FastLZ compressed program.
 | -------- |
 | bool     |
 
+### Core function
+
 #### void shutdown(void);
 
 | n/a |
 | --- |
 | n/a |
+
+### EEPROM
 
 #### TSTError writeEEPROM(unsigned long address, void const* data, unsigned int size, unsigned int* result = NULL);
 
@@ -552,6 +582,8 @@ Treats following binary data as a FastLZ compressed program.
 | -------- |
 | TSTError |
 
+### Shared Memory
+
 #### TSTError writeSharedMemory(unsigned long address, void const* data, unsigned int size, unsigned int* result = NULL);
 
 | REG_ARG0      | REG_HCUR | REG_ARG1     | REG_RETV     | REG_ERRN |
@@ -569,6 +601,8 @@ Treats following binary data as a FastLZ compressed program.
 | REG_ERRN |
 | -------- |
 | TSTError |
+
+### FRAM
 
 #### TSTError writeFRAM(unsigned long address, void const* data, unsigned int size, unsigned int* result = NULL);
 
@@ -588,6 +622,8 @@ Treats following binary data as a FastLZ compressed program.
 | -------- |
 | TSTError |
 
+### FlashROM
+
 #### TSTError writeFlashROM(unsigned long address, void const* data, unsigned int size, unsigned int* result = NULL);
 
 | REG_ARG0      | REG_HCUR | REG_ARG1     | REG_RETV     | REG_ERRN |
@@ -605,6 +641,8 @@ Treats following binary data as a FastLZ compressed program.
 | REG_ERRN |
 | -------- |
 | TSTError |
+
+### Note and morse
 
 #### TSTError playFrequency(FrequencyType frequency, unsigned long duration);
 
@@ -636,6 +674,7 @@ Treats following binary data as a FastLZ compressed program.
 | -------- | -------- | -------- | -------- |
 | NoteType | char*    | int      | TSTError |
 
+### Digitalker
 
 #### TSTError speakPhrase(char const* phrase, int length = -1);
 
@@ -655,11 +694,15 @@ Treats following binary data as a FastLZ compressed program.
 | -------- |
 | TSTError |
 
+### Camera
+
 #### TSTError snapshotCamera(CameraType mode, StorageType storage, unsigned long address, unsigned long size, unsigned long* result);
 
 | REG_ARG0   | REG_ARG1    | REG_ARG2      | REG_ARG3      | REG_RETV      | REG_ERRN |
 | ---------- | ----------- | ------------- | ------------- | ------------- | -------- |
 | CameraType | StorageType | unsigned long | unsigned long | unsigned long | TSTError |
+
+### Data compression / decompression
 
 #### TSTError freezeFastLZ(StorageType istorage, unsigned long iaddress, unsigned long isize, StorageType ostorage, unsigned long oaddress, unsigned long osize, StorageType wstorage, unsigned long waddress, unsigned long wsize, unsigned long* result);
 
@@ -672,6 +715,8 @@ Treats following binary data as a FastLZ compressed program.
 | REG_ARG0    | REG_ARG1      | REG_ARG2      | REG_ARG3    | REG_ARG4      | REG_ARG5      | REG_RETV      | REG_ERRN |
 | ----------- | ------------- | ------------- | ----------- | ------------- | ------------- | ------------- | -------- |
 | StorageType | unsigned long | unsigned long | StorageType | unsigned long | unsigned long | unsigned long | TSTError |
+
+### Audio power control
 
 #### TSTError enableAudioBus(void);
 
