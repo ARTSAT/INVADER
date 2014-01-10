@@ -13,7 +13,6 @@ currently planned mission:
 * InvaderBot
 * InvaderMusic
 * InvaderCam
-* SecretIcon
 * TelemetryDump
 * InvaderVM
 
