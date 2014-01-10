@@ -111,9 +111,6 @@ void setup(void)
             case APP_INVADER_CAM:
                 REGISTER_APP(InvaderCam)
                 break;
-            case APP_SECRET_ICON:
-                REGISTER_APP(SecretIcon)
-                break;
             case APP_TELEMETRY_DUMP:
                 REGISTER_APP(TelemetryDump)
                 break;
