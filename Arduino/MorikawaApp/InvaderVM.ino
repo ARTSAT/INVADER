@@ -1,7 +1,7 @@
 /*
 **      ARTSAT Morikawa Application
 **
-**      Original Copyright (C) 2013 - 2013 Ron Hashimoto.
+**      Original Copyright (C) 2013 - 2014 Ron Hashimoto.
 **                                          http://h2so5.net/
 **                                          mail@h2so5.net
 **      Portions Copyright (C) <year> <author>
@@ -1254,7 +1254,7 @@ void InvaderVM_callFunction(VMState *state)
             break;
             
         case VMFunc_playMorse:
-            state->reg[REG_ERRN] = Morikawa.playMorse(state->reg[REG_ARG0], heap, state->reg[REG_ARG1]);     
+            state->reg[REG_ERRN] = Morikawa.playMorse(state->reg[REG_ARG0], heap, state->reg[REG_ARG1]);
             break;
             
         case VMFunc_speakPhrase:

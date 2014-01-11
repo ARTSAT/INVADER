@@ -1,7 +1,7 @@
 /*
 **      ARTSAT Morikawa Application
 **
-**      Original Copyright (C) 2013 - 2013 Ron Hashimoto.
+**      Original Copyright (C) 2013 - 2014 Ron Hashimoto.
 **                                          http://h2so5.net/
 **                                          mail@h2so5.net
 **      Portions Copyright (C) <year> <author>
@@ -67,13 +67,13 @@ Serial.print(".");\
 #define VM_DO_TEST(name) do { \
 Serial.print("[" #name "] "); \
 if (InvaderVMTest_##name()) { \
-    Serial.println(" PASS"); \
-    passed++; \
+Serial.println(" PASS"); \
+passed++; \
 } \
 else { \
-    Serial.println(" FAIL"); \
-    InvaderVM_dump(); \
-    failed++; \
+Serial.println(" FAIL"); \
+InvaderVM_dump(); \
+failed++; \
 } \
 } while (0)
 
@@ -583,7 +583,7 @@ bool InvaderVMTest_Speak(void)
         VM_SETC, REG_FUNC, VMFunc_setSpeakAsyncMode,
         VM_CALL,
         VM_TXT, 16, 0, 0, 0,
-        '\'', 'i', 'n', 'b', 'e', '-', 'd', 'a', '-', 
+        '\'', 'i', 'n', 'b', 'e', '-', 'd', 'a', '-',
         'b', 'u', '\'', 'i', 'e', 'm', 'u',
         VM_SETC, REG_ARG0, 16,
         VM_CLR,  REG_HCUR,

@@ -1,7 +1,7 @@
 /*
 **      ARTSAT Morikawa Application
 **
-**      Original Copyright (C) 2013 - 2013 HORIGUCHI Junshi.
+**      Original Copyright (C) 2013 - 2014 HORIGUCHI Junshi.
 **                                          http://iridium.jp/
 **                                          zap00365@nifty.com
 **      Portions Copyright (C) <year> <author>
@@ -47,8 +47,8 @@
 //#define TARGET_BUILD_DEBUG
 
 #define REGISTER_APP(param)\
-g_setup = &param##_setup;\
-g_loop = &param##_loop;
+    g_setup = &param##_setup;\
+    g_loop = &param##_loop;
 
 enum {
     APP_SELF_TEST               = 0,

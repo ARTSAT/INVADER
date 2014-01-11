@@ -1,7 +1,7 @@
 /*
 **      ARTSAT Morikawa Application
 **
-**      Original Copyright (C) 2013 - 2013 KUBOTA Akihiro.
+**      Original Copyright (C) 2013 - 2014 KUBOTA Akihiro.
 **                                          http://hemokosa.com
 **                                          akihiro.kubota@nifty.com
 **      Portions Copyright (C) <year> <author>
@@ -259,11 +259,11 @@ void InvaderMusic_loop(void)
     freq = raw2freq(raw);
     Morikawa.playFrequency(freq, duration);
     
-    Morikawa.getTelemetryTemperature(TEMPERATURE_CWTX, &raw);        
+    Morikawa.getTelemetryTemperature(TEMPERATURE_CWTX, &raw);
     freq = raw2freq(raw);
     Morikawa.playFrequency(freq, duration);
     
-    Morikawa.getTelemetryTemperature(TEMPERATURE_RX, &raw);        
+    Morikawa.getTelemetryTemperature(TEMPERATURE_RX, &raw);
     freq = raw2freq(raw);
     Morikawa.playFrequency(freq, duration);
     
