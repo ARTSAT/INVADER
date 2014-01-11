@@ -44,11 +44,11 @@
 
 #include <MorikawaSDK.h>
 
-#define TARGET_BUILD_DEBUG
+//#define TARGET_BUILD_DEBUG
 
 #define REGISTER_APP(param)\
-    g_setup = &param##_setup;\
-    g_loop = &param##_loop;
+g_setup = &param##_setup;\
+g_loop = &param##_loop;
 
 enum {
     APP_SELF_TEST               = 0,
@@ -59,8 +59,8 @@ enum {
     APP_INVADER_BOT,
     APP_INVADER_MUSIC,
     APP_INVADER_CAM,
-    APP_TELEMETRY_DUMP,
     APP_INVADER_VM,
+    APP_TELEMETRY_DUMP,
     MGR_ERASE_SELFTESTLOG       = 128,
     MGR_FORMAT_EEPROM,
     MGR_FORMAT_SHAREDMEMORY,
@@ -110,11 +110,11 @@ void setup(void)
             case APP_INVADER_CAM:
                 REGISTER_APP(InvaderCam)
                 break;
-            case APP_TELEMETRY_DUMP:
-                REGISTER_APP(TelemetryDump)
-                break;
             case APP_INVADER_VM:
                 REGISTER_APP(InvaderVM)
+                break;
+            case APP_TELEMETRY_DUMP:
+                REGISTER_APP(TelemetryDump)
                 break;
             case MGR_ERASE_SELFTESTLOG:
                 REGISTER_APP(EraseSelfTestLog)
