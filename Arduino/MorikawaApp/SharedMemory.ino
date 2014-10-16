@@ -44,15 +44,50 @@
 
 #include <utility/I2Cm.h>
 
+#if defined(TARGET_INVADER_EM1) || defined(TARGET_INVADER_FM1)
+#define ADDRESS_BOOT        (0x7FF80UL)
+#define ADDRESS_TEXT_X      (0x7FE80UL)
+#define ADDRESS_TEXT_Y      (0x7FE00UL)
+#define ADDRESS_TEXT_Z      (0x7FD80UL)
+#define ADDRESS_TEXT_DEBUG  (0x7FD00UL)
+#define ADDRESS_NOTE        (0x7FC00UL)
+#define ADDRESS_DIGITALKER  (0x7FB80UL)
+#define ADDRESS_MORSE       (0x7FB40UL)
+#define ADDRESS_CAMERA      (0x7FB00UL)
+#define SECTOR_LIMIT        (8)
+#elif defined(TARGET_DESPATCH_FM1)
+#define ADDRESS_BOOT        (0x3FF80UL)
+#define ADDRESS_TEXT_X      (0x3FE80UL)
+#define ADDRESS_TEXT_Y      (0x3FE00UL)
+#define ADDRESS_TEXT_Z      (0x3FD80UL)
+#define ADDRESS_TEXT_DEBUG  (0x3FD00UL)
+#define ADDRESS_NOTE        (0x3FC00UL)
+#define ADDRESS_DIGITALKER  (0x3FB80UL)
+#define ADDRESS_MORSE       (0x3FB40UL)
+#define ADDRESS_CAMERA      (0x3FB00UL)
+#define SECTOR_LIMIT        (4)
+#else
+#define ADDRESS_BOOT        (0)
+#define ADDRESS_TEXT_X      (0)
+#define ADDRESS_TEXT_Y      (0)
+#define ADDRESS_TEXT_Z      (0)
+#define ADDRESS_TEXT_DEBUG  (0)
+#define ADDRESS_NOTE        (0)
+#define ADDRESS_DIGITALKER  (0)
+#define ADDRESS_MORSE       (0)
+#define ADDRESS_CAMERA      (0)
+#define SECTOR_LIMIT        (0)
+#endif
+
 static void dump_help(void);
 static void dump_param(void);
 static void dump_memory(long addr, unsigned char size, char const* text, void const* data);
 static void writeSharedMemory(unsigned long address, void const* data, unsigned char size, bool pascal);
 
-static char g_buffer[280];
-static unsigned int g_index;
-static unsigned long g_addr;
-static unsigned long g_next;
+static char sharedmemory_buffer[280];
+static unsigned int sharedmemory_index;
+static unsigned long sharedmemory_addr;
+static unsigned long sharedmemory_next;
 
 void SharedMemory_setup(void)
 {
@@ -61,9 +96,9 @@ void SharedMemory_setup(void)
     Serial.println(F(""));
     
     Serial.println(F("--- General purpose ---"));
-    g_index = 0;
-    g_addr = 0;
-    g_next = 0;
+    sharedmemory_index = 0;
+    sharedmemory_addr = 0;
+    sharedmemory_next = 0;
     dump_help();
     Serial.print(F("> "));
     return;
@@ -86,44 +121,44 @@ void SharedMemory_loop(void)
         if (Serial.available()) {
             rx = Serial.read();
             Serial.print(rx);
-            if (g_index < lengthof(g_buffer)) {
-                g_buffer[g_index] = rx;
-                ++g_index;
-                if (g_index >= 2) {
-                    if (strncmp_P(&g_buffer[g_index - 2], PSTR("\r\n"), 2) == 0) {
-                        g_buffer[g_index - 2] = '\0';
-                        g_index -= 2;
-                        if (strcmp_P(g_buffer, PSTR("boot")) == 0) {
+            if (sharedmemory_index < lengthof(sharedmemory_buffer)) {
+                sharedmemory_buffer[sharedmemory_index] = rx;
+                ++sharedmemory_index;
+                if (sharedmemory_index >= 2) {
+                    if (strncmp_P(&sharedmemory_buffer[sharedmemory_index - 2], PSTR("\r\n"), 2) == 0) {
+                        sharedmemory_buffer[sharedmemory_index - 2] = '\0';
+                        sharedmemory_index -= 2;
+                        if (strcmp_P(sharedmemory_buffer, PSTR("boot")) == 0) {
                             Serial.println(F("boot application..."));
                             break;
                         }
-                        else if (strcmp_P(g_buffer, PSTR("help")) == 0) {
+                        else if (strcmp_P(sharedmemory_buffer, PSTR("help")) == 0) {
                             dump_help();
                         }
-                        else if (strcmp_P(g_buffer, PSTR("param")) == 0) {
+                        else if (strcmp_P(sharedmemory_buffer, PSTR("param")) == 0) {
                             dump_param();
                         }
-                        else if (strcmp_P(g_buffer, PSTR("size")) == 0) {
+                        else if (strcmp_P(sharedmemory_buffer, PSTR("size")) == 0) {
                             Serial.print(F("size : "));
                             snprintf(temp, sizeof(temp), "0x%05lX", Morikawa.getSizeSharedMemory());
                             Serial.print(temp);
                             Serial.println(F(" bytes"));
                         }
-                        else if (strcmp_P(g_buffer, PSTR("format")) == 0) {
+                        else if (strcmp_P(sharedmemory_buffer, PSTR("format")) == 0) {
                             Serial.print(F("format start, wait..."));
                             Morikawa.formatSharedMemory();
                             Serial.println(F("done."));
                         }
-                        else if (strcmp_P(g_buffer, PSTR("erase")) == 0) {
+                        else if (strcmp_P(sharedmemory_buffer, PSTR("erase")) == 0) {
                             Serial.print(F("erase "));
                             Serial.print(sizeof(data));
                             Serial.println(F(" bytes."));
                             memset(data, 0xFF, sizeof(data));
-                            switch (Morikawa.writeSharedMemory(g_addr, data, sizeof(data), &size)) {
+                            switch (Morikawa.writeSharedMemory(sharedmemory_addr, data, sizeof(data), &size)) {
                                 case TSTERROR_OK:
-                                    dump_memory(g_addr, size, NULL, NULL);
-                                    g_next = g_addr;
-                                    g_addr += size;
+                                    dump_memory(sharedmemory_addr, size, NULL, NULL);
+                                    sharedmemory_next = sharedmemory_addr;
+                                    sharedmemory_addr += size;
                                     break;
                                 case TSTERROR_INVALID_FORMAT:
                                     Serial.println(F("end of memory."));
@@ -133,77 +168,77 @@ void SharedMemory_loop(void)
                                     break;
                             }
                         }
-                        else if (strstr_P(g_buffer, PSTR("write")) == g_buffer) {
+                        else if (strstr_P(sharedmemory_buffer, PSTR("write")) == sharedmemory_buffer) {
                             pos = 5;
                             type = -1;
-                            if (strstr_P(&g_buffer[pos], PSTR(" ")) == &g_buffer[pos]) {
+                            if (strstr_P(&sharedmemory_buffer[pos], PSTR(" ")) == &sharedmemory_buffer[pos]) {
                                 pos += 1;
                                 type = 0;
                             }
-                            else if (strstr_P(&g_buffer[pos], PSTR("-count ")) == &g_buffer[pos]) {
+                            else if (strstr_P(&sharedmemory_buffer[pos], PSTR("-count ")) == &sharedmemory_buffer[pos]) {
                                 pos += 7;
                                 type = 1;
                             }
-                            else if (strstr_P(&g_buffer[pos], PSTR("-mode ")) == &g_buffer[pos]) {
+                            else if (strstr_P(&sharedmemory_buffer[pos], PSTR("-mode ")) == &sharedmemory_buffer[pos]) {
                                 pos += 6;
                                 type = 2;
                             }
-                            else if (strstr_P(&g_buffer[pos], PSTR("-note ")) == &g_buffer[pos]) {
+                            else if (strstr_P(&sharedmemory_buffer[pos], PSTR("-note ")) == &sharedmemory_buffer[pos]) {
                                 pos += 6;
                                 type = 3;
                             }
-                            else if (strstr_P(&g_buffer[pos], PSTR("-morse ")) == &g_buffer[pos]) {
+                            else if (strstr_P(&sharedmemory_buffer[pos], PSTR("-morse ")) == &sharedmemory_buffer[pos]) {
                                 pos += 7;
                                 type = 4;
                             }
-                            else if (strstr_P(&g_buffer[pos], PSTR("-digi ")) == &g_buffer[pos]) {
+                            else if (strstr_P(&sharedmemory_buffer[pos], PSTR("-digi ")) == &sharedmemory_buffer[pos]) {
                                 pos += 6;
                                 type = 5;
                             }
-                            else if (strstr_P(&g_buffer[pos], PSTR("-cam ")) == &g_buffer[pos]) {
+                            else if (strstr_P(&sharedmemory_buffer[pos], PSTR("-cam ")) == &sharedmemory_buffer[pos]) {
                                 pos += 5;
                                 type = 6;
                             }
-                            else if (strstr_P(&g_buffer[pos], PSTR("-text_x ")) == &g_buffer[pos]) {
+                            else if (strstr_P(&sharedmemory_buffer[pos], PSTR("-text_x ")) == &sharedmemory_buffer[pos]) {
                                 pos += 8;
                                 type = 7;
                             }
-                            else if (strstr_P(&g_buffer[pos], PSTR("-text_y ")) == &g_buffer[pos]) {
+                            else if (strstr_P(&sharedmemory_buffer[pos], PSTR("-text_y ")) == &sharedmemory_buffer[pos]) {
                                 pos += 8;
                                 type = 8;
                             }
-                            else if (strstr_P(&g_buffer[pos], PSTR("-text_z ")) == &g_buffer[pos]) {
+                            else if (strstr_P(&sharedmemory_buffer[pos], PSTR("-text_z ")) == &sharedmemory_buffer[pos]) {
                                 pos += 8;
                                 type = 9;
                             }
-                            else if (strstr_P(&g_buffer[pos], PSTR("-text_d ")) == &g_buffer[pos]) {
+                            else if (strstr_P(&sharedmemory_buffer[pos], PSTR("-text_d ")) == &sharedmemory_buffer[pos]) {
                                 pos += 8;
                                 type = 10;
                             }
                             if (type >= 0) {
                                 dump = false;
                                 Serial.print(F("write : "));
-                                Serial.println(&g_buffer[pos]);
-                                if (strstr_P(&g_buffer[pos], PSTR("0x")) == &g_buffer[pos]) {
-                                    for (i = pos + 2; i < g_index; ++i) {
-                                        if (!(('0' <= g_buffer[i] && g_buffer[i] <= '9') ||
-                                              ('a' <= g_buffer[i] && g_buffer[i] <= 'f') ||
-                                              ('A' <= g_buffer[i] && g_buffer[i] <= 'F'))) {
+                                Serial.println(&sharedmemory_buffer[pos]);
+                                if (strstr_P(&sharedmemory_buffer[pos], PSTR("0x")) == &sharedmemory_buffer[pos]) {
+                                    for (i = pos + 2; i < sharedmemory_index; ++i) {
+                                        if (!(('0' <= sharedmemory_buffer[i] && sharedmemory_buffer[i] <= '9') ||
+                                              ('a' <= sharedmemory_buffer[i] && sharedmemory_buffer[i] <= 'f') ||
+                                              ('A' <= sharedmemory_buffer[i] && sharedmemory_buffer[i] <= 'F'))) {
                                             break;
                                         }
                                     }
-                                    if (i >= g_index) {
-                                        if ((g_index - pos - 2) % 2 == 0) {
-                                            for (i = pos + 2, j = pos; i < g_index; i += 2, ++j) {
-                                                if (sscanf(&g_buffer[i], "%02X", &hex) == 1) {
-                                                    g_buffer[j] = hex;
+                                    if (i >= sharedmemory_index) {
+                                        if ((sharedmemory_index - pos - 2) % 2 == 0) {
+                                            for (i = pos + 2, j = pos; i < sharedmemory_index; i += 2, ++j) {
+                                                if (sscanf(&sharedmemory_buffer[i], "%02X", &hex) == 1) {
+                                                    sharedmemory_buffer[j] = hex;
                                                 }
                                                 else {
                                                     break;
                                                 }
                                             }
-                                            if (i >= g_index) {
-                                                g_index = j;
+                                            if (i >= sharedmemory_index) {
+                                                sharedmemory_index = j;
                                                 dump = true;
                                             }
                                         }
@@ -215,11 +250,11 @@ void SharedMemory_loop(void)
                                 if (dump) {
                                     switch (type) {
                                         case 0:
-                                            switch (Morikawa.writeSharedMemory(g_addr, &g_buffer[pos], g_index - pos, &size)) {
+                                            switch (Morikawa.writeSharedMemory(sharedmemory_addr, &sharedmemory_buffer[pos], sharedmemory_index - pos, &size)) {
                                                 case TSTERROR_OK:
-                                                    dump_memory(g_addr, size, NULL, NULL);
-                                                    g_next = g_addr;
-                                                    g_addr += size;
+                                                    dump_memory(sharedmemory_addr, size, NULL, NULL);
+                                                    sharedmemory_next = sharedmemory_addr;
+                                                    sharedmemory_addr += size;
                                                     break;
                                                 case TSTERROR_INVALID_FORMAT:
                                                     Serial.println(F("end of memory."));
@@ -230,94 +265,94 @@ void SharedMemory_loop(void)
                                             }
                                             break;
                                         case 1:
-                                            if (g_index - pos == 1) {
-                                                writeSharedMemory(0x7FF80UL +  0 + 4, &g_buffer[pos], g_index - pos, false);
-                                                writeSharedMemory(0x7FF80UL + 38 + 4, &g_buffer[pos], g_index - pos, false);
-                                                writeSharedMemory(0x7FF80UL + 76 + 4, &g_buffer[pos], g_index - pos, false);
-                                                dump_memory(0x7FF80UL, g_index - pos, NULL, NULL);
+                                            if (sharedmemory_index - pos == 1) {
+                                                writeSharedMemory(ADDRESS_BOOT +  0 + 4, &sharedmemory_buffer[pos], sharedmemory_index - pos, false);
+                                                writeSharedMemory(ADDRESS_BOOT + 38 + 4, &sharedmemory_buffer[pos], sharedmemory_index - pos, false);
+                                                writeSharedMemory(ADDRESS_BOOT + 76 + 4, &sharedmemory_buffer[pos], sharedmemory_index - pos, false);
+                                                dump_memory(ADDRESS_BOOT, sharedmemory_index - pos, NULL, NULL);
                                             }
                                             else {
                                                 Serial.println(F("invalid format (must be size == 1)."));
                                             }
                                             break;
                                         case 2:
-                                            if (g_index - pos == 1) {
-                                                writeSharedMemory(0x7FF80UL +  0 + 5, &g_buffer[pos], g_index - pos, false);
-                                                writeSharedMemory(0x7FF80UL + 38 + 5, &g_buffer[pos], g_index - pos, false);
-                                                writeSharedMemory(0x7FF80UL + 76 + 5, &g_buffer[pos], g_index - pos, false);
-                                                dump_memory(0x7FF80UL, g_index - pos, NULL, NULL);
+                                            if (sharedmemory_index - pos == 1) {
+                                                writeSharedMemory(ADDRESS_BOOT +  0 + 5, &sharedmemory_buffer[pos], sharedmemory_index - pos, false);
+                                                writeSharedMemory(ADDRESS_BOOT + 38 + 5, &sharedmemory_buffer[pos], sharedmemory_index - pos, false);
+                                                writeSharedMemory(ADDRESS_BOOT + 76 + 5, &sharedmemory_buffer[pos], sharedmemory_index - pos, false);
+                                                dump_memory(ADDRESS_BOOT, sharedmemory_index - pos, NULL, NULL);
                                             }
                                             else {
                                                 Serial.println(F("invalid format (must be size == 1)."));
                                             }
                                             break;
                                         case 3:
-                                            if (g_index - pos < 256) {
-                                                writeSharedMemory(0x7FC00UL, &g_buffer[pos], g_index - pos, true);
-                                                dump_memory(0x7FC00UL, g_index - pos, NULL, NULL);
+                                            if (sharedmemory_index - pos < 256) {
+                                                writeSharedMemory(ADDRESS_NOTE, &sharedmemory_buffer[pos], sharedmemory_index - pos, true);
+                                                dump_memory(ADDRESS_NOTE, sharedmemory_index - pos, NULL, NULL);
                                             }
                                             else {
                                                 Serial.println(F("invalid format (must be size < 256)."));
                                             }
                                             break;
                                         case 4:
-                                            if (g_index - pos < 64) {
-                                                writeSharedMemory(0x7FB40UL, &g_buffer[pos], g_index - pos, true);
-                                                dump_memory(0x7FB40UL, g_index - pos, NULL, NULL);
+                                            if (sharedmemory_index - pos < 64) {
+                                                writeSharedMemory(ADDRESS_MORSE, &sharedmemory_buffer[pos], sharedmemory_index - pos, true);
+                                                dump_memory(ADDRESS_MORSE, sharedmemory_index - pos, NULL, NULL);
                                             }
                                             else {
                                                 Serial.println(F("invalid format (must be size < 64)."));
                                             }
                                             break;
                                         case 5:
-                                            if (g_index - pos < 128) {
-                                                writeSharedMemory(0x7FB80UL, &g_buffer[pos], g_index - pos, true);
-                                                dump_memory(0x7FB80UL, g_index - pos, NULL, NULL);
+                                            if (sharedmemory_index - pos < 128) {
+                                                writeSharedMemory(ADDRESS_DIGITALKER, &sharedmemory_buffer[pos], sharedmemory_index - pos, true);
+                                                dump_memory(ADDRESS_DIGITALKER, sharedmemory_index - pos, NULL, NULL);
                                             }
                                             else {
                                                 Serial.println(F("invalid format (must be size < 128)."));
                                             }
                                             break;
                                         case 6:
-                                            if (g_index - pos < 64) {
-                                                writeSharedMemory(0x7FB00UL, &g_buffer[pos], g_index - pos, true);
-                                                dump_memory(0x7FB00UL, g_index - pos, NULL, NULL);
+                                            if (sharedmemory_index - pos < 64) {
+                                                writeSharedMemory(ADDRESS_CAMERA, &sharedmemory_buffer[pos], sharedmemory_index - pos, true);
+                                                dump_memory(ADDRESS_CAMERA, sharedmemory_index - pos, NULL, NULL);
                                             }
                                             else {
                                                 Serial.println(F("invalid format (must be size < 64)."));
                                             }
                                             break;
                                         case 7:
-                                            if (g_index - pos < 128) {
-                                                writeSharedMemory(0x7FE80UL, &g_buffer[pos], g_index - pos, true);
-                                                dump_memory(0x7FE80UL, g_index - pos, NULL, NULL);
+                                            if (sharedmemory_index - pos < 128) {
+                                                writeSharedMemory(ADDRESS_TEXT_X, &sharedmemory_buffer[pos], sharedmemory_index - pos, true);
+                                                dump_memory(ADDRESS_TEXT_X, sharedmemory_index - pos, NULL, NULL);
                                             }
                                             else {
                                                 Serial.println(F("invalid format (must be size < 128)."));
                                             }
                                             break;
                                         case 8:
-                                            if (g_index - pos < 128) {
-                                                writeSharedMemory(0x7FE00UL, &g_buffer[pos], g_index - pos, true);
-                                                dump_memory(0x7FE00UL, g_index - pos, NULL, NULL);
+                                            if (sharedmemory_index - pos < 128) {
+                                                writeSharedMemory(ADDRESS_TEXT_Y, &sharedmemory_buffer[pos], sharedmemory_index - pos, true);
+                                                dump_memory(ADDRESS_TEXT_Y, sharedmemory_index - pos, NULL, NULL);
                                             }
                                             else {
                                                 Serial.println(F("invalid format (must be size < 128)."));
                                             }
                                             break;
                                         case 9:
-                                            if (g_index - pos < 128) {
-                                                writeSharedMemory(0x7FD80UL, &g_buffer[pos], g_index - pos, true);
-                                                dump_memory(0x7FD80UL, g_index - pos, NULL, NULL);
+                                            if (sharedmemory_index - pos < 128) {
+                                                writeSharedMemory(ADDRESS_TEXT_Z, &sharedmemory_buffer[pos], sharedmemory_index - pos, true);
+                                                dump_memory(ADDRESS_TEXT_Z, sharedmemory_index - pos, NULL, NULL);
                                             }
                                             else {
                                                 Serial.println(F("invalid format (must be size < 128)."));
                                             }
                                             break;
                                         case 10:
-                                            if (g_index - pos < 128) {
-                                                writeSharedMemory(0x7FD00UL, &g_buffer[pos], g_index - pos, true);
-                                                dump_memory(0x7FD00UL, g_index - pos, NULL, NULL);
+                                            if (sharedmemory_index - pos < 128) {
+                                                writeSharedMemory(ADDRESS_TEXT_DEBUG, &sharedmemory_buffer[pos], sharedmemory_index - pos, true);
+                                                dump_memory(ADDRESS_TEXT_DEBUG, sharedmemory_index - pos, NULL, NULL);
                                             }
                                             else {
                                                 Serial.println(F("invalid format (must be size < 128)."));
@@ -334,32 +369,32 @@ void SharedMemory_loop(void)
                         }
                         else {
                             dump = false;
-                            if (g_index > 0) {
-                                for (i = 0; i < g_index; ++i) {
-                                    if (!(('0' <= g_buffer[i] && g_buffer[i] <= '9') ||
-                                          ('a' <= g_buffer[i] && g_buffer[i] <= 'f') ||
-                                          ('A' <= g_buffer[i] && g_buffer[i] <= 'F'))) {
+                            if (sharedmemory_index > 0) {
+                                for (i = 0; i < sharedmemory_index; ++i) {
+                                    if (!(('0' <= sharedmemory_buffer[i] && sharedmemory_buffer[i] <= '9') ||
+                                          ('a' <= sharedmemory_buffer[i] && sharedmemory_buffer[i] <= 'f') ||
+                                          ('A' <= sharedmemory_buffer[i] && sharedmemory_buffer[i] <= 'F'))) {
                                         break;
                                     }
                                 }
-                                if (i >= g_index) {
-                                    if (sscanf(g_buffer, "%lX", &g_addr) == 1) {
-                                        if (g_addr > Morikawa.getSizeSharedMemory()) {
-                                            g_addr = Morikawa.getSizeSharedMemory();
+                                if (i >= sharedmemory_index) {
+                                    if (sscanf(sharedmemory_buffer, "%lX", &sharedmemory_addr) == 1) {
+                                        if (sharedmemory_addr > Morikawa.getSizeSharedMemory()) {
+                                            sharedmemory_addr = Morikawa.getSizeSharedMemory();
                                         }
                                         dump = true;
                                     }
                                 }
                             }
                             else {
-                                g_addr = g_next;
+                                sharedmemory_addr = sharedmemory_next;
                                 dump = true;
                             }
                             if (dump) {
-                                switch (Morikawa.readSharedMemory(g_addr, data, sizeof(data), &size)) {
+                                switch (Morikawa.readSharedMemory(sharedmemory_addr, data, sizeof(data), &size)) {
                                     case TSTERROR_OK:
-                                        dump_memory(g_addr, size, NULL, data);
-                                        g_next = g_addr + size;
+                                        dump_memory(sharedmemory_addr, size, NULL, data);
+                                        sharedmemory_next = sharedmemory_addr + size;
                                         break;
                                     case TSTERROR_INVALID_FORMAT:
                                         Serial.println(F("end of memory."));
@@ -370,13 +405,13 @@ void SharedMemory_loop(void)
                                 }
                             }
                         }
-                        g_index = 0;
+                        sharedmemory_index = 0;
                         Serial.print(F("> "));
                     }
                 }
             }
             else {
-                g_index = 0;
+                sharedmemory_index = 0;
                 Serial.print(F("> "));
             }
         }
@@ -538,12 +573,35 @@ static void dump_memory(long addr, unsigned char size, char const* text, void co
 
 static void writeSharedMemory(unsigned long address, void const* data, unsigned char size, bool pascal)
 {
+#if defined(TARGET_INVADER_EM1) || defined(TARGET_INVADER_FM1)
+    static unsigned char const s_address[SECTOR_LIMIT] PROGMEM = {
+        0x50,
+        0x54,
+        0x51,
+        0x55,
+        0x52,
+        0x56,
+        0x53,
+        0x57
+    };
+    unsigned char i2c(pgm_read_byte(&s_address[(address >> 16) & 0x07]));
+#elif defined(TARGET_DESPATCH_FM1)
+    static unsigned char const s_address[SECTOR_LIMIT] PROGMEM = {
+        0x50,
+        0x54,
+        0x51,
+        0x55
+    };
+    unsigned char i2c(pgm_read_byte(&s_address[(address >> 16) & 0x03]));
+#else
+    unsigned char i2c(0);
+#endif
     unsigned char const* temp(static_cast<unsigned char const*>(data));
     
     if (pascal) {
         while (true) {
             I2Cm.clear();
-            if (I2Cm.send(((address >> 16) & 0x07) + 0x50, true) == 0) {
+            if (I2Cm.send(i2c, true) == 0) {
                 break;
             }
         }
@@ -551,13 +609,13 @@ static void writeSharedMemory(unsigned long address, void const* data, unsigned 
         I2Cm.write((address >> 8) & 0xFF);
         I2Cm.write((address >> 0) & 0xFF);
         I2Cm.write(size);
-        I2Cm.send(((address >> 16) & 0x07) + 0x50, true);
+        I2Cm.send(i2c, true);
         ++address;
     }
     for (; size > 0; --size, ++temp) {
         while (true) {
             I2Cm.clear();
-            if (I2Cm.send(((address >> 16) & 0x07) + 0x50, true) == 0) {
+            if (I2Cm.send(i2c, true) == 0) {
                 break;
             }
         }
@@ -565,7 +623,7 @@ static void writeSharedMemory(unsigned long address, void const* data, unsigned 
         I2Cm.write((address >> 8) & 0xFF);
         I2Cm.write((address >> 0) & 0xFF);
         I2Cm.write(*temp);
-        I2Cm.send(((address >> 16) & 0x07) + 0x50, true);
+        I2Cm.send(i2c, true);
         ++address;
     }
     return;

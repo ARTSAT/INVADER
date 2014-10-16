@@ -128,8 +128,8 @@ enum InvaderVMCode {
     VM_GE,        /* Equal And Greater Than   [char, char, char]    */
     
     VM_WAIT,      /* Delay n miliseconds      [char]                */
-    VM_TXT,       /* Load Text                [long, char...]       */
-    VM_EXC,       /* Load Heap As Program     [long]                */
+    VM_TXT,       /* Load Text                [long, long, char...] */
+    VM_EXC,       /* Load Heap As Program     [long, long]          */
     
     VM_COMPRESSED /* Compressed Flag                                */
 };
