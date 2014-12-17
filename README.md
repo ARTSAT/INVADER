@@ -6,3 +6,4 @@ o satellite/body : contains INVADER's body design and CAD data.
 o satellite/power : contains power OBC's CAD data and source codes.  
 o satellite/main : contains main OBC's CAD data and source codes.  
 o satellite/mission : contains mission OBC's CAD data and source codes.  
+o ground_station/mission : contains some utility software for mission operation.  
