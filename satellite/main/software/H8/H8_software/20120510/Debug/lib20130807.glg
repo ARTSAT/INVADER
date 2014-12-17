@@ -1,4 +1,0 @@
---compiler-options=-mh,-Os,-fdata-sections,-ffunction-sections,-falign-jumps,-fno-function-cse,-funit-at-a-time
---output="C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20130807.a"
---select-lib=optlib
---header-files=stdio,stdlib,string

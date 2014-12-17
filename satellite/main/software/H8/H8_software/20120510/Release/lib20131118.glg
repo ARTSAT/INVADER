@@ -1,4 +1,0 @@
---compiler-options=-mh,-mint32,-Os,-fdata-sections,-ffunction-sections,-falign-jumps,-fno-function-cse,-funit-at-a-time
---output="D:\com\í êMån\20131118\20120510\Release\lib20131118.a"
---select-lib=optlib
---header-files=stdio,stdlib,string

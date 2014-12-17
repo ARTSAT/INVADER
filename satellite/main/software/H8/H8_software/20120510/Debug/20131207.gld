@@ -1,8 +1,0 @@
--T "C:\Users\USER\Desktop\com\í êMån\20131207\20120510\Debug\20131207_Debug_auto.gsi"
--T "C:\Users\USER\Desktop\com\í êMån\20131207\20120510\Debug\20131207_input.tmp" 
--L "c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h"
--L "C:\Users\USER\Desktop\com\í êMån\20131207\20120510\Debug"
--Map "C:\Users\USER\Desktop\com\í êMån\20131207\20120510\Debug\20131207.map"
--( -l "gcc" -l "20120510" -)
--o "C:\Users\USER\Desktop\com\í êMån\20131207\20120510\Debug\20131207.x"
--e _start
