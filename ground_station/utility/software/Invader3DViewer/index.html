@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>INVADER - 3D Viewer</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				font-family: Monospace;
+				background-color: #000000;
+				margin: 0px;
+				overflow: hidden;
+			}
+
+			#info {
+				color: #fff;
+				position: absolute;
+				top: 10px;
+				width: 100%;
+				text-align: center;
+				z-index: 100;
+				display:block;
+
+			}
+			
+			#loading {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				margin-left:-30px;
+			}
+
+			a { color: skyblue }
+			.button { background:#999; color:#eee; padding:0.2em 0.5em; cursor:pointer }
+			.highlight { background:orange; color:#fff; }
+
+			span {
+				display: inline-block;
+				width: 60px;
+				float: left;
+				text-align: center;
+			}
+
+		</style>
+	</head>
+	
+	<body>
+		<div id="info">
+			<a href="http://artsat.jp/invader" target="_blank">ARTSAT1:INVADER</a> -
+			3D Viewer by <a href="https://github.com/ARTSAT/Invader3DViewer" target="_blank">ARTSAT Project</a>
+		</div>
+		
+		<div id="loading">
+			<img src="images/loading.gif">
+		</div>
+
+		<script src="js/three.min.js"></script>
+		<script src="js/STLLoader.js"></script>
+		<script src="js/Detector.js"></script>
+		<script src="js/stats.min.js"></script>
+		<script src="js/OrbitControls.js"></script>
+		<script src="js/jquery-2.1.0.min.js"></script>
+		
+		<script>
+		
+			if (!Detector.webgl) {
+				
+				Detector.addGetWebGLMessage ();
+				
+				$("#loading").fadeOut();
+			}
+			
+			var container, stats;
+			
+			var camera, scene, renderer;
+			var controls;	// camera control
+			
+			var frame_mesh, pannels_mesh, antennas_mesh;					// mesh for the satellite
+			var boards_mesh, batteries_mesh, telecoms_mesh, weights_mesh;	// mesh for the satellite
+			
+			var timer;
+			
+			init();
+			animate();
+			
+			function init () {
+				
+				container = document.createElement ('div');
+				document.body.appendChild (container);
+				
+				// camera
+				camera = new THREE.PerspectiveCamera (35, window.innerWidth / window.innerHeight, 1, 10000 );
+				
+				camera.up.x = 0;
+				camera.up.y = 1;
+				camera.up.z = 0;
+				
+				camera.position.x = -3.0;
+				camera.position.y =  0.3;
+				camera.position.z =  1.0;
+				
+				camera.lookAt (new THREE.Vector3 (0, 0, 0));
+				
+				// scene
+				scene = new THREE.Scene ();
+				
+				// mesh
+				var scale = 0.007;
+
+				// mesh of frame
+				var frameLoader = new THREE.STLLoader ();
+				frameLoader.addEventListener ('load', function (event) {
+					
+					var geometry = event.content;
+					
+					var material = new THREE.MeshPhongMaterial ({ambient: 0xffffff, color: 0xffffff, specular: 0xffffff, shininess: 50});
+					
+					frame_mesh = new THREE.Mesh (geometry, material);
+					
+					frame_mesh.position.set (0, 0, 0);
+					frame_mesh.scale.set (scale, scale, scale);
+					
+					frame_mesh.castShadow = true;
+					frame_mesh.receiveShadow = true;
+					
+					scene.add (frame_mesh);
+				});
+				frameLoader.load ('models/invader_frame.stl');
+				
+				// mesh of pannels
+				var pannelsLoader = new THREE.STLLoader ();
+				pannelsLoader.addEventListener ('load', function (event) {
+					
+					var geometry = event.content;
+					
+					var material = new THREE.MeshPhongMaterial ({ambient: 0x000000, color: 0x000000, specular: 0x171780, shininess: 200});
+					
+					pannels_mesh = new THREE.Mesh (geometry, material);
+					
+					pannels_mesh.position.set (0, 0, 0);
+					pannels_mesh.scale.set (scale, scale, scale);
+					
+					pannels_mesh.castShadow = true;
+					pannels_mesh.receiveShadow = true;
+					
+					scene.add (pannels_mesh);
+				});
+				pannelsLoader.load ('models/invader_pannels.stl');
+				
+				// mesh of antennas
+				var antennasLoader = new THREE.STLLoader ();
+				antennasLoader.addEventListener ('load', function (event) {
+					
+					var geometry = event.content;
+					
+					var material = new THREE.MeshPhongMaterial ({ambient: 0x555555, color: 0x3A322B, specular: 0x95411C, shininess: 200});
+					
+					antennas_mesh = new THREE.Mesh (geometry, material);
+					
+					antennas_mesh.position.set (0, 0, 0);
+					antennas_mesh.scale.set (scale, scale, scale);
+					
+					antennas_mesh.castShadow = true;
+					antennas_mesh.receiveShadow = true;
+					
+					scene.add (antennas_mesh);
+				});
+				antennasLoader.load ('models/invader_antennas.stl');
+				
+				// mesh of boards
+				var boardsLoader = new THREE.STLLoader ();
+				boardsLoader.addEventListener ('load', function (event) {
+					
+					var geometry = event.content;
+					
+					var material = new THREE.MeshPhongMaterial ({ambient: 0x002200, color: 0x008800, specular: 0x00ff00, shininess: 10});
+					
+					boards_mesh = new THREE.Mesh (geometry, material);
+					
+					boards_mesh.position.set (0, 0, 0);
+					boards_mesh.scale.set (scale, scale, scale);
+					
+					boards_mesh.castShadow = true;
+					boards_mesh.receiveShadow = true;
+					
+					//scene.add (boards_mesh);
+				});
+				boardsLoader.load ('models/invader_boards.stl');
+				
+				// mesh of batteries
+				var batteriesLoader = new THREE.STLLoader ();
+				batteriesLoader.addEventListener ('load', function (event) {
+					
+					var geometry = event.content;
+					
+					var material = new THREE.MeshPhongMaterial ({ambient: 0x000022, color: 0x0000aa, specular: 0x0000ff, shininess: 10});
+					
+					batteries_mesh = new THREE.Mesh (geometry, material);
+					
+					batteries_mesh.position.set (0, 0, 0);
+					batteries_mesh.scale.set (scale, scale, scale);
+					
+					batteries_mesh.castShadow = true;
+					batteries_mesh.receiveShadow = true;
+					
+					//scene.add (batteries_mesh);
+				});
+				batteriesLoader.load ('models/invader_batteries.stl');
+				
+				// mesh of telecoms
+				var telecomsLoader = new THREE.STLLoader ();
+				telecomsLoader.addEventListener ('load', function (event) {
+					
+					var geometry = event.content;
+					
+					var material = new THREE.MeshPhongMaterial ({ambient: 0xffffff, color: 0x222222, specular: 0xffffff, shininess: 300});
+					
+					telecoms_mesh = new THREE.Mesh (geometry, material);
+					
+					telecoms_mesh.position.set (0, 0, 0);
+					telecoms_mesh.scale.set (scale, scale, scale);
+					
+					telecoms_mesh.castShadow = true;
+					telecoms_mesh.receiveShadow = true;
+					
+					//scene.add (telecoms_mesh);
+				});
+				telecomsLoader.load ('models/invader_telecoms.stl');
+				
+				// mesh of weights
+				var weightsLoader = new THREE.STLLoader ();
+				weightsLoader.addEventListener ('load', function (event) {
+					
+					var geometry = event.content;
+					
+					var material = new THREE.MeshPhongMaterial ({ambient: 0x555555, color: 0x3A322B, specular: 0x95411C, shininess: 200});
+					
+					weights_mesh = new THREE.Mesh (geometry, material);
+					
+					weights_mesh.position.set (0, 0, 0);
+					weights_mesh.scale.set (scale, scale, scale);
+					
+					weights_mesh.castShadow = true;
+					weights_mesh.receiveShadow = true;
+					
+					//scene.add (weights_mesh);
+				});
+				weightsLoader.load ('models/invader_weights.stl');
+				
+				
+				// lights
+				scene.add (new THREE.AmbientLight (0x777777));
+				
+				var r = 6.0;
+				addShadowedLight ( r,  0,  0, 0xddeeff, 0.45);
+				addShadowedLight (-r,  0,  0, 0xddeeff, 0.45);
+				addShadowedLight ( 0,  r,  0, 0xddeeff, 0.45);
+				addShadowedLight ( 0, -r,  0, 0xddeeff, 0.45);
+				addShadowedLight ( 0,  0,  r, 0xddeeff, 0.45);
+				addShadowedLight ( 0,  0, -r, 0xddeeff, 0.45);
+				
+				// renderer
+				renderer = new THREE.WebGLRenderer ({antialias: true});
+				renderer.setSize (window.innerWidth, window.innerHeight);
+				
+				renderer.gammaInput = true;
+				renderer.gammaOutput = true;
+
+				renderer.shadowMapEnabled = true;
+				renderer.shadowMapCullFace = THREE.CullFaceBack;
+
+				container.appendChild (renderer.domElement);
+				
+				// camera control
+				controls = new THREE.OrbitControls (camera, renderer.domElement);
+				
+				controls.zoomSpeed = 0.5;
+				controls.panSpeed = 0.5;
+				
+				controls.minDistance = 2.0;
+				controls.maxDistance = 10.0;
+				
+				//controls.addEventListener('change', render);
+				
+				// stats
+				stats = new Stats ();
+				stats.domElement.style.position = 'absolute';
+				stats.domElement.style.top = '0px';
+				stats.domElement.style.leght = '0px';
+				container.appendChild (stats.domElement);
+				
+				// event listener
+				window.addEventListener ('resize', onWindowResize, false);
+				window.addEventListener ('dblclick', onDoubleClick, false);
+				
+				timer = Date.now ();
+				
+				//var fps = 30;
+				//setInterval (animate, 1000 / fps);
+			}
+
+			function addShadowedLight (x, y, z, color, intensity) {
+
+				var directionalLight = new THREE.DirectionalLight (color, intensity);
+				directionalLight.position.set (x, y, z);
+				scene.add (directionalLight);
+
+				directionalLight.castShadow = true;
+
+				var d = 1;
+				directionalLight.shadowCameraLeft = -d;
+				directionalLight.shadowCameraRight = d;
+				directionalLight.shadowCameraTop = d;
+				directionalLight.shadowCameraBottom = -d;
+
+				directionalLight.shadowCameraNear = 1;
+				directionalLight.shadowCameraFar = 4;
+
+				directionalLight.shadowMapWidth = 1024;
+				directionalLight.shadowMapHeight = 1024;
+
+				directionalLight.shadowBias = -0.005;
+				directionalLight.shadowDarkness = 0.15;
+			}
+			
+			function onWindowResize () {
+				
+				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.updateProjectionMatrix ();
+				
+				renderer.setSize (window.innerWidth, window.innerHeight);
+			}
+			
+			var schelton = false;
+			function onDoubleClick () {
+				
+				schelton = ~schelton;
+				
+				if (schelton) {
+					scene.remove (pannels_mesh);
+					
+					scene.add (boards_mesh);
+					scene.add (batteries_mesh);
+					scene.add (telecoms_mesh);
+					scene.add (weights_mesh);
+				}
+				else {
+					scene.remove (boards_mesh);
+					scene.remove (batteries_mesh);
+					scene.remove (telecoms_mesh);
+					scene.remove (weights_mesh);
+					
+					scene.add (pannels_mesh);
+				}
+			}
+
+			var finishLoading = false;
+			function animate () {
+				
+				requestAnimationFrame (animate);
+				
+				if (!finishLoading) {
+					
+					if (stlIsLoaded ()) {
+						
+						$("#loading").fadeOut();
+						finishLoading = true;
+					}
+				}
+				
+				//rotateMeshes ();
+				render ();
+				
+				stats.update ();
+				controls.update ();
+				
+				//console.log (camera.position.x + ',');
+				//console.log (camera.position.y + ',');
+				//console.log (camera.position.z + '\n');
+			}
+			
+			function render () {
+				
+				renderer.render (scene, camera);
+			}
+			
+			function rotateMeshes ()
+			{
+				var dt = timer - Date.now ();
+				timer = Date.now ();
+				
+				var speed = 0.0001;
+				
+				if (stlIsLoaded ()) {
+					
+					frame_mesh.rotation.y     += speed * dt;
+					pannels_mesh.rotation.y   += speed * dt;
+					antennas_mesh.rotation.y  += speed * dt;
+					
+					boards_mesh.rotation.y    += speed * dt;
+					batteries_mesh.rotation.y += speed * dt;
+					telecoms_mesh.rotation.y  += speed * dt;
+					weights_mesh.rotation.y   += speed * dt;
+				}
+				else;
+				
+			}
+			
+			function stlIsLoaded ()
+			{
+				if (!frame_mesh) {
+					return false;
+				}
+				else if (!pannels_mesh) {
+					return false;
+				}
+				else if (!antennas_mesh) {
+					return false;
+				}
+				else if (!boards_mesh) {
+					return false;
+				}
+				else if (!batteries_mesh) {
+					return false;
+				}
+				else if (!telecoms_mesh) {
+					return false;
+				}
+				else if (!weights_mesh) {
+					return false;
+				}
+				
+				return true;
+			}
+
+		</script>
+	</body>
+</html>
