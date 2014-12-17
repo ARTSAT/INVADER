@@ -1,0 +1,8 @@
+-T "C:\Users\Kimura\Desktop\INVADER_Dev\20131021\20120510\Debug\20131021_Debug_auto.gsi"
+-T "C:\Users\Kimura\Desktop\INVADER_Dev\20131021\20120510\Debug\20131021_input.tmp" 
+-L "c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h"
+-L "C:\Users\Kimura\Desktop\INVADER_Dev\20131021\20120510\Debug"
+-Map "C:\Users\Kimura\Desktop\INVADER_Dev\20131021\20120510\Debug\20131021.map"
+-( -l "gcc" -l "20120510" -)
+-o "C:\Users\Kimura\Desktop\INVADER_Dev\20131021\20120510\Debug\20131021.x"
+-e _start

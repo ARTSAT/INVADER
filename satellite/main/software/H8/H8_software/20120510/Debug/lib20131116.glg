@@ -1,0 +1,4 @@
+--compiler-options=-mh,-Os,-fdata-sections,-ffunction-sections,-falign-jumps,-fno-function-cse,-funit-at-a-time
+--output="D:\com\í êMån\20131116\20120510\Debug\lib20131116.a"
+--select-lib=optlib
+--header-files=stdio,stdlib,string

@@ -1,0 +1,4 @@
+--compiler-options=-mh,-Os,-fdata-sections,-ffunction-sections,-falign-jumps,-fno-function-cse,-funit-at-a-time
+--output="C:\WorkSpace\artsat\BBM\20120510\20120510\Debug\lib20120510.a"
+--select-lib=optlib
+--header-files=stdio,stdlib,string

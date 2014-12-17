@@ -1,0 +1,35 @@
+; Project Generator Setup Infomation
+
+[PGS Version]
+Version=1.0
+
+[Toolchain]
+Toolchain=KPIT GNUH8 [ELF]
+Toolchain Name=KPIT GNUH8 [ELF] Toolchain
+Toolchain Version=v1102
+
+[CPU]
+CPU Family=H8S,H8/300
+CPU Series=300H
+CPU Type=H8/3069R
+Operating Mode=Advanced
+Address Space=16M byte
+Multiple=Not Support
+Divide=Not Support
+
+[Project]
+Project Name=20120510
+Project Type=C Application
+
+[Stack Settings]
+Stack Pointer Address=
+Stack Size=
+Stack Section Name=
+Stack Section Address=
+Source File Name=stacksct.h
+Description=
+Default Stack Pointer Address=
+Default Stack Size=
+
+[Initial Settings]
+Simulator I/O=disable

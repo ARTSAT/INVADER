@@ -1,0 +1,43 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"20131118" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\20120510.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\adconv.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\command.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\debug.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\fm_tx.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\global.h" 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\iic0.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\iic1.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\init.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\message.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\mission.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\put_status.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\pwr.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\sci0.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\teleme.c" 
+[WORKSPACE_FILE_STATES]
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\20120510.c" 75 75 497 306 0 10 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\adconv.c" 50 50 497 306 0 9 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\command.c" 100 100 497 306 0 4 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\debug.c" 0 0 497 306 0 7 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\fm_tx.c" 0 0 778 494 0 0 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\global.h" 125 125 497 306 0 12 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\iic0.c" 25 25 497 306 0 8 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\iic1.c" 25 25 511 306 0 1 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\init.c" 100 100 497 306 0 11 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\message.c" 75 75 497 306 0 3 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\mission.c" 125 125 497 306 0 5 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\put_status.c" 150 150 497 306 0 6 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\pwr.c" -8 -30 663 494 1 13 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\sci0.c" 0 0 497 306 0 14 
+"C:\Users\USER\Desktop\com\í êMån\20131118\20120510\teleme.c" 50 50 497 306 0 2 
+[LOADED_PROJECTS]
+"20131118" 
+[END]

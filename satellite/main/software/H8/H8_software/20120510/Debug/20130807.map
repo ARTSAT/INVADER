@@ -1,0 +1,1084 @@
+Archive member included because of file (symbol)
+
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_divsi3.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o (__udivsi3)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_mulsi3.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o (__mulsi3)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fixunssfsi.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o (__fixunssfsi)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_addsub_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fixunssfsi.o) (__subsf3)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_div_sf.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o (__divsf3)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_ge_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fixunssfsi.o) (__gesf2)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_si_to_sf.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o (__floatsisf)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_sf_to_si.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fixunssfsi.o) (__fixsfsi)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_thenan_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_addsub_sf.o) (__thenan_sf)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clzsi2.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_si_to_sf.o) (__clzsi2)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_pack_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_addsub_sf.o) (__pack_f)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_unpack_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_addsub_sf.o) (__unpack_f)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fpcmp_parts_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_ge_sf.o) (__fpcmp_parts_f)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clz.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clzsi2.o) (__clz_tab)
+C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(exit.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\start.o (exit)
+C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newfree.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o (free)
+C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newheap.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newfree.o) (_heap_of_memory)
+C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newmalloc.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o (malloc)
+C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(_exit.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+command_H           0x78              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+P2_DDR              0x1               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o
+ena_overa           0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+flag_dispAD         0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+flag_overa          0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+flag_send_fm        0x1               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+i                   0x2               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+ena_alive           0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+fcslo               0x1               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+flag_dteleme        0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+flag_exe            0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+ena_rteleme         0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+ena_ateleme         0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+flag_pwrt           0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+ena_pwrt            0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+flag_ad             0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+my_wdt              0x4               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+uplink_rx_buff      0x4               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+flag_iteleme        0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+ena_iteleme         0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+kbit                0x2               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+ena_mywdt           0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+itu1_cnt            0x4               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+ena_dteleme         0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+flag_ateleme        0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+ena_misst           0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+time                0x2               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o
+FmPreamble          0x4               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+command_M           0x78              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+stuff               0x1               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+info_length         0x2               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+fcsflag_send_fm     0x1               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+ena_ad              0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+fcshi               0x1               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+flag_oteleme        0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+flag_rteleme        0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+flag_alive          0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+ena_dispAD          0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+mpx                 0x20              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+flag_scirx          0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+status              0x7f              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+flag_misst          0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+command_L           0x78              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+ena_oteleme         0x3               C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+message_global      0xcc              C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.vects          0x00000000      0x100
+ *(.vects)
+ .vects         0x00000000      0x100 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\vects.o
+                0x00000000                HardwareVectors
+
+.text           0x00000400     0xef10
+ *(.text)
+ .text          0x00000400        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\vects.o
+ .text          0x00000400       0xe4 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o
+                0x00000400                delay_ms
+                0x00000482                delay_us
+ .text          0x000004e4     0x12d0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+                0x000004e4                InitTelemetry
+                0x00000526                SetTelemetry_Rough
+                0x000009e6                SetTelemetry_Detail
+                0x00000ea6                SetTelemetry_API
+                0x000011ce                SetTelemetry_Initial
+                0x000012e8                Read_Initial
+                0x00001538                OBC_Majority
+                0x000016d4                Error_Majority
+ .text          0x000017b4       0x50 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\start.o
+                0x000017b4                start
+ .text          0x00001804      0x12c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci_util.o
+                0x00001804                debug_sci_init
+                0x00001834                debug_putc
+                0x00001852                debug_puts
+                0x00001874                debug_getc
+                0x00001888                debug_puthex
+                0x000018e2                debug_putdec
+                0x00001904                HexToAscii
+ .text          0x00001930      0x6d0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o
+                0x00001930                sci2_init
+                0x00001a64                sci2_putc
+                0x00001b24                sci2_puthex
+                0x00001b6c                sci2_putdec
+                0x00001cce                sci2_putdoublehex
+                0x00001cfa                sci2_putfourhex
+                0x00001d2c                sci2_putcrlf
+                0x00001d44                sci2_puts
+                0x00001db0                sci2_getc
+                0x00001e4a                INT_ERI2
+                0x00001e7c                INT_RXI2
+                0x00001f10                INT_TXI2
+                0x00001fce                INT_TEI2
+ .text          0x00002000      0x6d0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci1.o
+                0x00002000                sci1_init
+                0x00002134                sci1_putc
+                0x000021f4                sci1_puthex
+                0x0000223c                sci1_putdec
+                0x0000239e                sci1_putdoublehex
+                0x000023ca                sci1_putfourhex
+                0x000023fc                sci1_putcrlf
+                0x00002414                sci1_puts
+                0x00002480                sci1_getc
+                0x0000251a                INT_ERI1
+                0x0000254c                INT_RXI1
+                0x000025e0                INT_TXI1
+                0x0000269e                INT_TEI1
+ .text          0x000026d0      0x6d0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci0.o
+                0x000026d0                sci0_init
+                0x00002804                sci0_putc
+                0x000028c4                sci0_puthex
+                0x0000290c                sci0_putdec
+                0x00002a6e                sci0_putdoublehex
+                0x00002a9a                sci0_putfourhex
+                0x00002acc                sci0_putcrlf
+                0x00002ae4                sci0_puts
+                0x00002b50                sci0_getc
+                0x00002bea                INT_ERI0
+                0x00002c1c                INT_RXI0
+                0x00002cb0                INT_TXI0
+                0x00002d6e                INT_TEI0
+ .text          0x00002da0      0x95a C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+                0x00002da0                init_itu
+                0x00002dde                bitin
+                0x00002ed6                get_byte
+                0x00002fec                get_buff
+                0x000030da                precrc_bit
+                0x0000312e                Ax_to_info
+                0x000034cc                get_data
+                0x00003654                rx_init
+ .text          0x000036fa      0x252 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_pll_inv.o
+                0x000036fa                out_bit
+                0x00003750                strobe
+                0x00003774                out_bits
+                0x000037d2                set_reference_divider
+                0x0000380c                set_option_register
+                0x0000388c                set_programmable_divider
+                0x000038de                pll_init
+ .text          0x0000394c       0xee C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o
+                0x0000394c                main
+ .text          0x00003a3a      0x248 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+                0x00003a3a                InitPowerTelemetry
+                0x00003a5e                RequestPowerTelemetry
+                0x00003a78                UpdatePowerTelemetry
+                0x00003c12                RequestMainShutdown
+                0x00003c4e                SendHDRtoPIC
+                0x00003c68                SendHDStoPIC
+ .text          0x00003c82      0xe30 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\put_status.o
+                0x00003c82                SendStatusToGS
+                0x00004150                SendTelemetryToGS
+                0x00004178                PutOut_Rough
+                0x000043d8                PutOut_Detail
+                0x00004638                PutOut_API
+                0x00004882                PutOut_Initial
+ .text          0x00004ab2      0x6ee C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+                0x00004ab2                InitMissionTelemetry
+                0x00004acc                SendMissionTelemetory
+                0x00004f74                RequestMissionReboot
+                0x00004fb0                RequestMissionShutdown
+                0x0000503c                PronounceMissionAbort
+                0x0000509a                itu2_init
+                0x000050fc                INT_IMIA2
+ .text          0x000051a0     0x1c4a C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+                0x000051a0                InitMessage
+                0x000051ba                SplitMessage_SCI0
+                0x00005486                SplitMessage_SCI1
+                0x000057a0                SplitMessage_SCI2
+                0x00005aba                RecognizeCommand
+                0x00005f0c                RecognizeMissionCommand
+                0x00006376                FindCommand
+                0x0000639a                TransmitMessage
+                0x000063ce                InitPLL
+                0x000063e6                SendMessage
+                0x000067ea                FinishSendMessage
+                0x00006812                FinishCommunication
+                0x000068a2                SendStatusMessage
+ .text          0x00006dea      0x362 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu1.o
+                0x00006dea                itu1_init
+                0x00006e7c                INT_IMIA1
+ .text          0x0000714c      0x10a C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu0.o
+                0x0000714c                itu0_init
+                0x000071ca                INT_IMIA0
+                0x00007210                INT_IMIB0
+ .text          0x00007256      0x174 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\inthandler.o
+                0x00007256                INT_NMI
+                0x00007262                INT_TRAP1
+                0x0000726e                INT_TRAP2
+                0x0000727a                INT_TRAP3
+                0x00007286                INT_TRAP4
+                0x00007292                INT_IRQ0
+                0x0000729e                INT_IRQ1
+                0x000072aa                INT_IRQ2
+                0x000072b6                INT_IRQ3
+                0x000072c2                INT_IRQ4
+                0x000072ce                INT_IRQ5
+                0x000072da                INT_WOVI
+                0x000072e6                INT_CMI
+                0x000072f2                INT_ADI
+                0x000072fe                INT_OVI0
+                0x0000730a                INT_IMIB1
+                0x00007316                INT_OVI1
+                0x00007322                INT_IMIB2
+                0x0000732e                INT_OVI2
+                0x0000733a                INT_CMIA0
+                0x00007346                INT_CMIB0
+                0x00007352                INT_CMIA1B1
+                0x0000735e                INT_TOVI0_1
+                0x0000736a                INT_CMIA2
+                0x00007376                INT_CMIB2
+                0x00007382                INT_CMIA3B3
+                0x0000738e                INT_TOVI2_3
+                0x0000739a                INT_DEND0A
+                0x000073a6                INT_DEND0B
+                0x000073b2                INT_DEND1A
+                0x000073be                INT_DEND1B
+ .text          0x000073ca      0x2cc C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\init.o
+                0x000073ca                Init_MyFunction
+                0x000074f6                Init_Bus
+                0x0000764a                Init_Peripherals
+ .text          0x00007696      0x7d8 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o
+                0x00007696                IIC2_EEPWAIT
+                0x00007a94                IIC2_EEPSTOP
+                0x00007b2e                IIC2_EEPREAD
+                0x00007c52                IIC2_EEPWRITE
+                0x00007d52                IIC2_EEPRESET
+                0x00007e14                IIC2_EEPINIT
+                0x00007e36                IIC2_EEPCHANGE
+ .text          0x00007e6e      0x7de C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic1.o
+                0x00007e6e                IIC1_EEPWAIT
+                0x00008272                IIC1_EEPSTOP
+                0x0000830c                IIC1_EEPREAD
+                0x00008430                IIC1_EEPWRITE
+                0x00008530                IIC1_EEPRESET
+                0x000085f2                IIC1_EEPINIT
+                0x00008614                IIC1_EEPCHANGE
+ .text          0x0000864c      0x7de C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic0.o
+                0x0000864c                IIC0_EEPWAIT
+                0x00008a50                IIC0_EEPSTOP
+                0x00008aea                IIC0_EEPREAD
+                0x00008c0e                IIC0_EEPWRITE
+                0x00008d0e                IIC0_EEPRESET
+                0x00008dd0                IIC0_EEPINIT
+                0x00008df2                IIC0_EEPCHANGE
+ .text          0x00008e2a        0xc C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\hwinit.o
+                0x00008e2a                hw_initialise
+ .text          0x00008e36      0x452 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\global.o
+                0x00008e36                InitStatus
+                0x000090de                InitRoutine
+                0x00009166                CheckFlags
+                0x000091f8                ClearFlags
+                0x00009240                SetFlags
+ .text          0x00009288      0x828 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_tx.o
+                0x00009288                init_modem
+                0x000092e8                init_fm
+                0x0000936c                delay_modem
+                0x00009388                send_bit
+                0x000093fe                crcbit
+                0x000094d8                send_byte
+                0x0000958a                send_packet
+                0x00009640                AX_protocol
+                0x000098ae                on_off_ms
+                0x0000993e                on_off_sec
+                0x00009a20                on_off_us
+ .text          0x00009ab0       0x30 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_ptt.o
+                0x00009ab0                fmptt_on
+                0x00009ac8                fmptt_off
+ .text          0x00009ae0      0x2e4 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_pllcontrol.o
+                0x00009ae0                out_bit_fm
+                0x00009b3e                strobe_fm
+                0x00009b72                out_bits_fm
+                0x00009bce                set_reference_divider_fm
+                0x00009c04                set_option_register_fm
+                0x00009c82                set_programmable_divider_fm
+                0x00009cee                pll_init_fm
+                0x00009d60                set_pll_fm
+ .text          0x00009dc4     0x2a76 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\debug.o
+                0x00009dc4                DebugMultiplexer
+                0x00009f32                DebugPut_Status
+                0x0000a3da                DebugPut_Telemetry
+                0x0000a6cc                DebugEEPROM
+                0x0000ab8c                DebugDetail_Status
+                0x0000abf0                DebugPut_Rough
+                0x0000af2a                DebugPut_Detail
+                0x0000b264                DebugPut_API
+                0x0000b56e                DebugPut_Initial
+                0x0000b878                Debug_SharedROM
+                0x0000bab8                DebugWrite_SharedROM
+                0x0000c284                DebugPut_SharedROM
+                0x0000c370                DisplayRoutine
+                0x0000c59a                SetRoutine
+                0x0000c7b4                Check_PowerData
+ .text          0x0000c83a     0x1412 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+                0x0000c83a                GetCommandID
+                0x0000d002                GetMissionCommandID
+                0x0000d0c2                RegistCommand
+                0x0000d4c0                RegistMissionCommand
+                0x0000d632                ExecuteCommand
+ .text          0x0000dc4c       0x5e C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\comm_buffer.o
+                0x0000dc4c                comm_buffer_init
+ .text          0x0000dcaa      0x6da C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\adconv.o
+                0x0000dcaa                adconv_init
+                0x0000dce4                ami_switch
+                0x0000dd5c                mpx_switch
+                0x0000de3c                get_sensor
+                0x0000e114                check_overAmpare
+                0x0000e1c8                insertSpace
+                0x0000e20e                disp_AD
+ .text          0x0000e384      0x394 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20120510.o
+ .text          0x0000e718       0x8c c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_divsi3.o)
+                0x0000e73a                __modsi3
+                0x0000e746                __umodsi3
+                0x0000e74c                __divsi3
+                0x0000e762                __udivsi3
+ .text          0x0000e7a4       0x18 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_mulsi3.o)
+                0x0000e7a4                __mulsi3
+ .text          0x0000e7bc       0x40 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fixunssfsi.o)
+                0x0000e7bc                __fixunssfsi
+ .text          0x0000e7fc      0x36c c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_addsub_sf.o)
+                0x0000ea92                __addsf3
+                0x0000eaf8                __subsf3
+ .text          0x0000eb68      0x138 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_div_sf.o)
+                0x0000eb68                __divsf3
+ .text          0x0000eca0       0x72 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_ge_sf.o)
+                0x0000eca0                __gesf2
+ .text          0x0000ed12       0x9c c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_si_to_sf.o)
+                0x0000ed12                __floatsisf
+ .text          0x0000edae       0x82 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_sf_to_si.o)
+                0x0000edae                __fixsfsi
+ .text          0x0000ee30        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_thenan_sf.o)
+ .text          0x0000ee30       0x5a c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clzsi2.o)
+                0x0000ee30                __clzsi2
+ .text          0x0000ee8a      0x14c c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_pack_sf.o)
+                0x0000ee8a                __pack_f
+ .text          0x0000efd6       0xb0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_unpack_sf.o)
+                0x0000efd6                __unpack_f
+ .text          0x0000f086       0xa0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fpcmp_parts_sf.o)
+                0x0000f086                __fpcmp_parts_f
+ .text          0x0000f126        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clz.o)
+ .text          0x0000f126        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(exit.o)
+ .text          0x0000f126        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newfree.o)
+ .text          0x0000f126        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newheap.o)
+ .text          0x0000f126        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newmalloc.o)
+ *fill*         0x0000f126        0x2 00
+ .text          0x0000f128       0x10 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(_exit.o)
+                0x0000f128                _exit
+ *(.text.*)
+ .text.exit     0x0000f138       0x10 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(exit.o)
+                0x0000f138                exit
+ .text.free     0x0000f148       0xd4 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newfree.o)
+                0x0000f148                free
+ .text._top_of_heap
+                0x0000f21c        0xe C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newheap.o)
+                0x0000f21c                _top_of_heap
+ .text._make_new_mem_hole
+                0x0000f22a       0x2e C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newmalloc.o)
+                0x0000f22a                _make_new_mem_hole
+ .text.malloc   0x0000f258       0xb8 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newmalloc.o)
+                0x0000f258                malloc
+                0x0000f310                etext = .
+
+.init
+ *(.init)
+
+.fini
+ *(.fini)
+
+.got
+ *(.got)
+ *(.got.plt)
+
+.rodata         0x0000f310      0xacc
+ *(.rodata)
+ .rodata        0x0000f310       0x34 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+ .rodata        0x0000f344      0x171 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+ .rodata        0x0000f4b5       0x72 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o
+ .rodata        0x0000f527       0x34 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+ .rodata        0x0000f55b       0x3b C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\put_status.o
+ .rodata        0x0000f596       0xb4 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+ .rodata        0x0000f64a       0xc1 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+ *fill*         0x0000f70b        0x1 00
+ .rodata        0x0000f70c      0x340 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\debug.o
+ .rodata        0x0000fa4c      0x15c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+ .rodata        0x0000fba8       0x30 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\adconv.o
+ .rodata        0x0000fbd8       0xfa C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20120510.o
+ *fill*         0x0000fcd2        0x2 00
+ .rodata        0x0000fcd4        0x8 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_thenan_sf.o)
+                0x0000fcd4                __thenan_sf
+ .rodata        0x0000fcdc      0x100 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clz.o)
+                0x0000fcdc                __clz_tab
+ *(.rodata.*)
+                0x0000fddc                _erodata = .
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.jcr
+ *(.jcr)
+
+.tors           0x0000fddc        0x0
+                0x0000fddc                __CTOR_LIST__ = .
+                0x0000fddc                ___ctors = .
+ *(.ctors)
+                0x0000fddc                ___ctors_end = .
+                0x0000fddc                __CTOR_END__ = .
+                0x0000fddc                __DTOR_LIST__ = .
+                0x0000fddc                ___dtors = .
+ *(.dtors)
+                0x0000fddc                ___dtors_end = .
+                0x0000fddc                __DTOR_END__ = .
+                0x0000fddc                _mdata = .
+
+.data           0x00ffbf20        0x0 load address 0x0000fddc
+                0x00ffbf20                _data = .
+ *(.data)
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\vects.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\start.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci_util.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci1.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci0.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_pll_inv.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\put_status.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu1.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu0.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\inthandler.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\init.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic1.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic0.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\hwinit.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\global.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_tx.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_ptt.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_pllcontrol.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\debug.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\comm_buffer.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\adconv.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20120510.o
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_divsi3.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_mulsi3.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fixunssfsi.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_addsub_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_div_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_ge_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_si_to_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_sf_to_si.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_thenan_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clzsi2.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_pack_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_unpack_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fpcmp_parts_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clz.o)
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(exit.o)
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newfree.o)
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newheap.o)
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newmalloc.o)
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(_exit.o)
+ *(.data.*)
+                0x00ffbf20                _edata = .
+
+.gcc_exc
+ *(.gcc_exc)
+
+.bss            0x00ffbf20     0x1b90 load address 0x0000fddc
+                0x00ffbf20                _bss = .
+ *(.bss)
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\vects.o
+ .bss           0x00ffbf20        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o
+                0x00ffbf20                timer_flag
+ *fill*         0x00ffbf22        0x2 00
+ .bss           0x00ffbf24      0x25c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+ .bss           0x00ffc180        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\start.o
+ .bss           0x00ffc180        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci_util.o
+ .bss           0x00ffc180      0x20c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o
+ .bss           0x00ffc38c      0x20c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci1.o
+ .bss           0x00ffc598      0x20c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci0.o
+ .bss           0x00ffc7a4        0xc C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+                0x00ffc7a4                shiftbuff
+                0x00ffc7a6                bit
+ .bss           0x00ffc7b0        0x8 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_pll_inv.o
+ .bss           0x00ffc7b8        0x8 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o
+ .bss           0x00ffc7c0        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+ .bss           0x00ffc7c0      0x1a0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\put_status.o
+ .bss           0x00ffc960        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+ .bss           0x00ffc964      0xa48 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+ .bss           0x00ffd3ac        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu1.o
+ .bss           0x00ffd3ac        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu0.o
+ .bss           0x00ffd3ac        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\inthandler.o
+ .bss           0x00ffd3ac        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\init.o
+ .bss           0x00ffd3ac        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o
+ .bss           0x00ffd3ac        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic1.o
+ .bss           0x00ffd3ac        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic0.o
+ .bss           0x00ffd3ac        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\hwinit.o
+ .bss           0x00ffd3ac        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\global.o
+ .bss           0x00ffd3ac        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_tx.o
+ .bss           0x00ffd3ac        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_ptt.o
+ .bss           0x00ffd3ac        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_pllcontrol.o
+ .bss           0x00ffd3ac      0x3a0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\debug.o
+ .bss           0x00ffd74c        0x6 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+ *fill*         0x00ffd752        0x2 00
+ .bss           0x00ffd754        0x8 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\comm_buffer.o
+ .bss           0x00ffd75c        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\adconv.o
+ .bss           0x00ffd75d        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20120510.o
+ .bss           0x00ffd75d        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_divsi3.o)
+ .bss           0x00ffd75d        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_mulsi3.o)
+ .bss           0x00ffd75d        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fixunssfsi.o)
+ .bss           0x00ffd75d        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_addsub_sf.o)
+ .bss           0x00ffd75d        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_div_sf.o)
+ .bss           0x00ffd75d        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_ge_sf.o)
+ .bss           0x00ffd75d        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_si_to_sf.o)
+ .bss           0x00ffd75d        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_sf_to_si.o)
+ .bss           0x00ffd75d        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_thenan_sf.o)
+ .bss           0x00ffd75d        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clzsi2.o)
+ .bss           0x00ffd75d        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_pack_sf.o)
+ .bss           0x00ffd75d        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_unpack_sf.o)
+ .bss           0x00ffd75d        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x00ffd75d        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clz.o)
+ .bss           0x00ffd75d        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(exit.o)
+ .bss           0x00ffd75d        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newfree.o)
+ .bss           0x00ffd75d        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newheap.o)
+ .bss           0x00ffd75d        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newmalloc.o)
+ .bss           0x00ffd75d        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(_exit.o)
+ *(.bss.*)
+ *fill*         0x00ffd75d        0x3 00
+ .bss._heap_of_memory
+                0x00ffd760        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newheap.o)
+                0x00ffd760                _heap_of_memory
+ .bss._last_heap_object
+                0x00ffd764        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newheap.o)
+                0x00ffd764                _last_heap_object
+ *(COMMON)
+ COMMON         0x00ffd768        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o
+                0x00ffd768                time
+ *fill*         0x00ffd76a        0x2 00
+ COMMON         0x00ffd76c      0x1ac C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+                0x00ffd76c                ena_overa
+                0x00ffd76f                flag_dispAD
+                0x00ffd772                flag_overa
+                0x00ffd775                flag_dteleme
+                0x00ffd778                ena_rteleme
+                0x00ffd77b                ena_ateleme
+                0x00ffd77e                flag_ad
+                0x00ffd784                my_wdt
+                0x00ffd788                flag_iteleme
+                0x00ffd78b                ena_iteleme
+                0x00ffd78e                ena_mywdt
+                0x00ffd794                itu1_cnt
+                0x00ffd798                ena_dteleme
+                0x00ffd79b                flag_ateleme
+                0x00ffd79e                ena_ad
+                0x00ffd7a1                flag_oteleme
+                0x00ffd7a4                flag_rteleme
+                0x00ffd7a7                ena_dispAD
+                0x00ffd7aa                mpx
+                0x00ffd7ca                status
+                0x00ffd849                ena_oteleme
+                0x00ffd84c                message_global
+ COMMON         0x00ffd918        0xd C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+                0x00ffd918                i
+                0x00ffd91a                fcslo
+                0x00ffd91c                uplink_rx_buff
+                0x00ffd920                kbit
+                0x00ffd922                info_length
+                0x00ffd924                fcshi
+ COMMON         0x00ffd925        0xc C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+                0x00ffd925                ena_alive
+                0x00ffd928                flag_pwrt
+                0x00ffd92b                ena_pwrt
+                0x00ffd92e                flag_alive
+ COMMON         0x00ffd931        0x6 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+                0x00ffd931                ena_misst
+                0x00ffd934                flag_misst
+ *fill*         0x00ffd937        0x1 00
+ COMMON         0x00ffd938        0xd C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+                0x00ffd938                flag_send_fm
+                0x00ffd939                flag_exe
+                0x00ffd93c                FmPreamble
+                0x00ffd940                stuff
+                0x00ffd941                fcsflag_send_fm
+                0x00ffd942                flag_scirx
+ COMMON         0x00ffd945        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o
+                0x00ffd945                P2_DDR
+ *fill*         0x00ffd946        0x2 00
+ COMMON         0x00ffd948      0x168 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+                0x00ffd948                command_H
+                0x00ffd9c0                command_M
+                0x00ffda38                command_L
+                0x00ffdab0                _ebss = .
+                0x00ffdab0                _end = .
+
+.stack          0x00ffff00        0x0
+                0x00ffff00                _stack = .
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\vects.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\start.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci_util.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci1.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci0.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_pll_inv.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\put_status.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu1.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu0.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\inthandler.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\init.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic1.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic0.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\hwinit.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\global.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_tx.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_ptt.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_pllcontrol.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\debug.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\comm_buffer.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\adconv.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20120510.o
+START GROUP
+LOAD c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a
+END GROUP
+OUTPUT(C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20130807.x elf32-h8300)
+
+.debug_info     0x00000000     0xbb24
+ .debug_info    0x00000000       0x64 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\vects.o
+ .debug_info    0x00000064      0x5f3 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o
+ .debug_info    0x00000657      0x7e6 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+ .debug_info    0x00000e3d       0xb1 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\start.o
+ .debug_info    0x00000eee      0x158 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci_util.o
+ .debug_info    0x00001046      0x6aa C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o
+ .debug_info    0x000016f0      0x6aa C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci1.o
+ .debug_info    0x00001d9a      0x6aa C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci0.o
+ .debug_info    0x00002444      0xa27 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+ .debug_info    0x00002e6b      0x41d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_pll_inv.o
+ .debug_info    0x00003288      0x33c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o
+ .debug_info    0x000035c4      0x4cf C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+ .debug_info    0x00003a93      0x94e C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\put_status.o
+ .debug_info    0x000043e1      0x983 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+ .debug_info    0x00004d64      0xbda C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+ .debug_info    0x0000593e      0xb71 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu1.o
+ .debug_info    0x000064af      0x818 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu0.o
+ .debug_info    0x00006cc7      0x2ad C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\inthandler.o
+ .debug_info    0x00006f74      0x850 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\init.o
+ .debug_info    0x000077c4      0x410 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o
+ .debug_info    0x00007bd4      0x410 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic1.o
+ .debug_info    0x00007fe4      0x410 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic0.o
+ .debug_info    0x000083f4       0x53 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\hwinit.o
+ .debug_info    0x00008447      0x6cf C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\global.o
+ .debug_info    0x00008b16      0x59c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_tx.o
+ .debug_info    0x000090b2      0x114 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_ptt.o
+ .debug_info    0x000091c6      0x3ba C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_pllcontrol.o
+ .debug_info    0x00009580      0xf2e C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\debug.o
+ .debug_info    0x0000a4ae      0x58e C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+ .debug_info    0x0000aa3c      0x137 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\comm_buffer.o
+ .debug_info    0x0000ab73      0x765 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\adconv.o
+ .debug_info    0x0000b2d8      0x84c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20120510.o
+
+.debug_abbrev   0x00000000     0x262f
+ .debug_abbrev  0x00000000       0x62 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\vects.o
+ .debug_abbrev  0x00000062       0xf7 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o
+ .debug_abbrev  0x00000159      0x140 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+ .debug_abbrev  0x00000299       0x14 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\start.o
+ .debug_abbrev  0x000002ad       0xb1 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci_util.o
+ .debug_abbrev  0x0000035e      0x1be C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o
+ .debug_abbrev  0x0000051c      0x1be C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci1.o
+ .debug_abbrev  0x000006da      0x1be C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci0.o
+ .debug_abbrev  0x00000898      0x243 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+ .debug_abbrev  0x00000adb       0xfc C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_pll_inv.o
+ .debug_abbrev  0x00000bd7      0x1a1 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o
+ .debug_abbrev  0x00000d78       0xde C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+ .debug_abbrev  0x00000e56      0x120 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\put_status.o
+ .debug_abbrev  0x00000f76      0x1cb C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+ .debug_abbrev  0x00001141      0x1a3 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+ .debug_abbrev  0x000012e4      0x14d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu1.o
+ .debug_abbrev  0x00001431      0x13e C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu0.o
+ .debug_abbrev  0x0000156f       0x27 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\inthandler.o
+ .debug_abbrev  0x00001596      0x121 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\init.o
+ .debug_abbrev  0x000016b7      0x147 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o
+ .debug_abbrev  0x000017fe      0x147 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic1.o
+ .debug_abbrev  0x00001945      0x147 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic0.o
+ .debug_abbrev  0x00001a8c       0x32 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\hwinit.o
+ .debug_abbrev  0x00001abe      0x104 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\global.o
+ .debug_abbrev  0x00001bc2      0x1c8 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_tx.o
+ .debug_abbrev  0x00001d8a       0x7d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_ptt.o
+ .debug_abbrev  0x00001e07       0xe4 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_pllcontrol.o
+ .debug_abbrev  0x00001eeb      0x1d6 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\debug.o
+ .debug_abbrev  0x000020c1      0x198 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+ .debug_abbrev  0x00002259       0x82 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\comm_buffer.o
+ .debug_abbrev  0x000022db      0x1de C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\adconv.o
+ .debug_abbrev  0x000024b9      0x176 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20120510.o
+
+.debug_line     0x00000000     0x918c
+ .debug_line    0x00000000       0x66 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\vects.o
+ .debug_line    0x00000066      0x159 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o
+ .debug_line    0x000001bf      0x8a9 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+ .debug_line    0x00000a68       0x89 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\start.o
+ .debug_line    0x00000af1      0x151 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci_util.o
+ .debug_line    0x00000c42      0x4ce C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o
+ .debug_line    0x00001110      0x4ce C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci1.o
+ .debug_line    0x000015de      0x4ce C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci0.o
+ .debug_line    0x00001aac      0x6c8 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+ .debug_line    0x00002174      0x260 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_pll_inv.o
+ .debug_line    0x000023d4      0x1de C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o
+ .debug_line    0x000025b2      0x220 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+ .debug_line    0x000027d2      0x620 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\put_status.o
+ .debug_line    0x00002df2      0x422 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+ .debug_line    0x00003214      0xe9c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+ .debug_line    0x000040b0      0x2b4 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu1.o
+ .debug_line    0x00004364      0x165 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu0.o
+ .debug_line    0x000044c9      0x25b C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\inthandler.o
+ .debug_line    0x00004724      0x2b8 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\init.o
+ .debug_line    0x000049dc      0x48c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o
+ .debug_line    0x00004e68      0x48c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic1.o
+ .debug_line    0x000052f4      0x48c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic0.o
+ .debug_line    0x00005780       0x77 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\hwinit.o
+ .debug_line    0x000057f7      0x3af C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\global.o
+ .debug_line    0x00005ba6      0x737 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_tx.o
+ .debug_line    0x000062dd       0xde C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_ptt.o
+ .debug_line    0x000063bb      0x2a9 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_pllcontrol.o
+ .debug_line    0x00006664     0x1829 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\debug.o
+ .debug_line    0x00007e8d      0x983 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+ .debug_line    0x00008810      0x11a C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\comm_buffer.o
+ .debug_line    0x0000892a      0x498 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\adconv.o
+ .debug_line    0x00008dc2      0x3ca C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20120510.o
+
+.debug_str      0x00000000     0x1d1b
+ .debug_str     0x00000000       0x78 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\vects.o
+ .debug_str     0x00000078      0x192 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o
+                                0x1d2 (size before relaxing)
+ .debug_str     0x0000020a      0x258 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+                                0x2d0 (size before relaxing)
+ .debug_str     0x00000462       0xa1 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci_util.o
+                                 0xfa (size before relaxing)
+ .debug_str     0x00000503      0x17e C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o
+                                0x1f6 (size before relaxing)
+ .debug_str     0x00000681      0x115 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci1.o
+                                0x1f6 (size before relaxing)
+ .debug_str     0x00000796      0x115 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci0.o
+                                0x1f6 (size before relaxing)
+ .debug_str     0x000008ab      0x198 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+                                0x31e (size before relaxing)
+ .debug_str     0x00000a43      0x136 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_pll_inv.o
+                                0x209 (size before relaxing)
+ .debug_str     0x00000b79       0x5b C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o
+                                0x13d (size before relaxing)
+ .debug_str     0x00000bd4       0xd1 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+                                0x23e (size before relaxing)
+ .debug_str     0x00000ca5      0x142 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\put_status.o
+                                0x248 (size before relaxing)
+ .debug_str     0x00000de7       0xdf C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+                                0x2e8 (size before relaxing)
+ .debug_str     0x00000ec6      0x2ab C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+                                0x44e (size before relaxing)
+ .debug_str     0x00001171       0x52 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu1.o
+                                0x375 (size before relaxing)
+ .debug_str     0x000011c3       0x5c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu0.o
+                                0x274 (size before relaxing)
+ .debug_str     0x0000121f      0x176 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\inthandler.o
+                                0x18d (size before relaxing)
+ .debug_str     0x00001395       0x70 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\init.o
+                                0x2e8 (size before relaxing)
+ .debug_str     0x00001405       0xe5 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o
+                                0x149 (size before relaxing)
+ .debug_str     0x000014ea       0x9a C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic1.o
+                                0x149 (size before relaxing)
+ .debug_str     0x00001584       0x9a C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic0.o
+                                0x149 (size before relaxing)
+ .debug_str     0x0000161e       0x4e C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\hwinit.o
+                                 0x9d (size before relaxing)
+ .debug_str     0x0000166c       0x7f C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\global.o
+                                0x28d (size before relaxing)
+ .debug_str     0x000016eb      0x13a C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_tx.o
+                                0x22b (size before relaxing)
+ .debug_str     0x00001825       0x40 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_ptt.o
+                                 0xaf (size before relaxing)
+ .debug_str     0x00001865       0xd3 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_pllcontrol.o
+                                0x1f0 (size before relaxing)
+ .debug_str     0x00001938      0x187 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\debug.o
+                                0x405 (size before relaxing)
+ .debug_str     0x00001abf       0xdb C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+                                0x2a6 (size before relaxing)
+ .debug_str     0x00001b9a       0x56 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\comm_buffer.o
+                                0x110 (size before relaxing)
+ .debug_str     0x00001bf0       0xd6 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\adconv.o
+                                0x219 (size before relaxing)
+ .debug_str     0x00001cc6       0x55 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20120510.o
+                                0x2bd (size before relaxing)
+
+.comment        0x00000000       0x38
+ .comment       0x00000000       0x1c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\vects.o
+                                 0x1d (size before relaxing)
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci_util.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci1.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci0.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_pll_inv.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\put_status.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu1.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu0.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\inthandler.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\init.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic1.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic0.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\hwinit.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\global.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_tx.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_ptt.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_pllcontrol.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\debug.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\comm_buffer.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\adconv.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20120510.o
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fixunssfsi.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_addsub_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_div_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_ge_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_si_to_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_sf_to_si.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_thenan_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clzsi2.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_pack_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_unpack_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fpcmp_parts_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clz.o)
+ .comment       0x0000001c       0x1c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(exit.o)
+                                 0x1d (size before relaxing)
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newfree.o)
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newheap.o)
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\lib20120510.a(newmalloc.o)
+
+.debug_frame    0x00000000     0x253c
+ .debug_frame   0x00000000       0x5c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o
+ .debug_frame   0x0000005c      0x158 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+ .debug_frame   0x000001b4      0x114 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci_util.o
+ .debug_frame   0x000002c8      0x210 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o
+ .debug_frame   0x000004d8      0x210 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci1.o
+ .debug_frame   0x000006e8      0x210 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci0.o
+ .debug_frame   0x000008f8      0x148 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+ .debug_frame   0x00000a40      0x11c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_pll_inv.o
+ .debug_frame   0x00000b5c       0x38 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o
+ .debug_frame   0x00000b94       0xec C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+ .debug_frame   0x00000c80      0x14c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\put_status.o
+ .debug_frame   0x00000dcc      0x120 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+ .debug_frame   0x00000eec      0x224 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+ .debug_frame   0x00001110       0x6c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu1.o
+ .debug_frame   0x0000117c       0x90 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu0.o
+ .debug_frame   0x0000120c      0x470 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\inthandler.o
+ .debug_frame   0x0000167c       0x8c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\init.o
+ .debug_frame   0x00001708      0x17c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o
+ .debug_frame   0x00001884      0x17c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic1.o
+ .debug_frame   0x00001a00      0x17c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic0.o
+ .debug_frame   0x00001b7c       0x38 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\hwinit.o
+ .debug_frame   0x00001bb4       0xc8 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\global.o
+ .debug_frame   0x00001c7c      0x1a0 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_tx.o
+ .debug_frame   0x00001e1c       0x5c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_ptt.o
+ .debug_frame   0x00001e78      0x14c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_pllcontrol.o
+ .debug_frame   0x00001fc4      0x330 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\debug.o
+ .debug_frame   0x000022f4       0xc8 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+ .debug_frame   0x000023bc       0x38 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\comm_buffer.o
+ .debug_frame   0x000023f4      0x110 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\adconv.o
+ .debug_frame   0x00002504       0x38 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20120510.o
+
+.debug_loc      0x00000000     0x275c
+ .debug_loc     0x00000000       0x58 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o
+ .debug_loc     0x00000058      0x160 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+ .debug_loc     0x000001b8      0x134 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci_util.o
+ .debug_loc     0x000002ec      0x23c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o
+ .debug_loc     0x00000528      0x23c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci1.o
+ .debug_loc     0x00000764      0x23c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci0.o
+ .debug_loc     0x000009a0      0x160 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+ .debug_loc     0x00000b00      0x134 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_pll_inv.o
+ .debug_loc     0x00000c34       0x2c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o
+ .debug_loc     0x00000c60      0x108 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+ .debug_loc     0x00000d68      0x108 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\put_status.o
+ .debug_loc     0x00000e70      0x134 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+ .debug_loc     0x00000fa4      0x23c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+ .debug_loc     0x000011e0       0x58 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu1.o
+ .debug_loc     0x00001238       0x84 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu0.o
+ .debug_loc     0x000012bc      0x554 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\inthandler.o
+ .debug_loc     0x00001810       0x84 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\init.o
+ .debug_loc     0x00001894      0x1b8 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o
+ .debug_loc     0x00001a4c      0x1b8 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic1.o
+ .debug_loc     0x00001c04      0x1b8 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic0.o
+ .debug_loc     0x00001dbc       0x2c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\hwinit.o
+ .debug_loc     0x00001de8       0xdc C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\global.o
+ .debug_loc     0x00001ec4      0x1e4 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_tx.o
+ .debug_loc     0x000020a8       0x58 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_ptt.o
+ .debug_loc     0x00002100      0x160 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_pllcontrol.o
+ .debug_loc     0x00002260      0x294 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\debug.o
+ .debug_loc     0x000024f4       0xdc C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+ .debug_loc     0x000025d0       0x2c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\comm_buffer.o
+ .debug_loc     0x000025fc      0x134 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\adconv.o
+ .debug_loc     0x00002730       0x2c C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20120510.o
+
+.debug_aranges  0x00000000      0x3e0
+ .debug_aranges
+                0x00000000       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o
+ .debug_aranges
+                0x00000020       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o
+ .debug_aranges
+                0x00000040       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\start.o
+ .debug_aranges
+                0x00000060       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci_util.o
+ .debug_aranges
+                0x00000080       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o
+ .debug_aranges
+                0x000000a0       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci1.o
+ .debug_aranges
+                0x000000c0       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci0.o
+ .debug_aranges
+                0x000000e0       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o
+ .debug_aranges
+                0x00000100       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_pll_inv.o
+ .debug_aranges
+                0x00000120       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o
+ .debug_aranges
+                0x00000140       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o
+ .debug_aranges
+                0x00000160       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\put_status.o
+ .debug_aranges
+                0x00000180       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o
+ .debug_aranges
+                0x000001a0       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o
+ .debug_aranges
+                0x000001c0       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu1.o
+ .debug_aranges
+                0x000001e0       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu0.o
+ .debug_aranges
+                0x00000200       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\inthandler.o
+ .debug_aranges
+                0x00000220       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\init.o
+ .debug_aranges
+                0x00000240       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o
+ .debug_aranges
+                0x00000260       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic1.o
+ .debug_aranges
+                0x00000280       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic0.o
+ .debug_aranges
+                0x000002a0       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\hwinit.o
+ .debug_aranges
+                0x000002c0       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\global.o
+ .debug_aranges
+                0x000002e0       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_tx.o
+ .debug_aranges
+                0x00000300       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_ptt.o
+ .debug_aranges
+                0x00000320       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_pllcontrol.o
+ .debug_aranges
+                0x00000340       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\debug.o
+ .debug_aranges
+                0x00000360       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+ .debug_aranges
+                0x00000380       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\comm_buffer.o
+ .debug_aranges
+                0x000003a0       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\adconv.o
+ .debug_aranges
+                0x000003c0       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20120510.o
+
+.debug_ranges   0x00000000       0x18
+ .debug_ranges  0x00000000       0x18 C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o
+
+
+==============================================================
+
+Listfile generated by KPIT GNUH8 [ELF]-v12.01 on Wednesday, August 07, 2013, 16:04:45
+
+Build options:
+
+-T "C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20130807_Debug_auto.gsi"
+-T "C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20130807_input.tmp" 
+-L "c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h"
+-L "C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug"
+-Map "C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20130807.map"
+-( -l "gcc" -l "20120510" -)
+-o "C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20130807.x"
+-e _start
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\vects.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\timer.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\teleme.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\start.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci_util.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci2.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci1.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\sci0.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_protcol_inv.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx_pll_inv.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\rx.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\pwr.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\put_status.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\mission.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\message.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu1.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\itu0.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\inthandler.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\init.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic2.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic1.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\iic0.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\hwinit.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\global.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_tx.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_ptt.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\fm_pllcontrol.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\debug.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\command.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\comm_buffer.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\adconv.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130807-2\20120510\Debug\20120510.o")

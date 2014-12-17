@@ -1,0 +1,88 @@
+Archive member included because of file (symbol)
+
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_divsi3.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\sci2.o (__udivsi3)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_mulsi3.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\sci2.o (__mulsi3)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fixunssfsi.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\teleme.o (__fixunssfsi)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_addsub_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fixunssfsi.o) (__subsf3)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_div_sf.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\teleme.o (__divsf3)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_ge_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fixunssfsi.o) (__gesf2)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_si_to_sf.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\teleme.o (__floatsisf)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_sf_to_si.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fixunssfsi.o) (__fixsfsi)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_thenan_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_addsub_sf.o) (__thenan_sf)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clzsi2.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_si_to_sf.o) (__clzsi2)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_pack_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_addsub_sf.o) (__pack_f)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_unpack_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_addsub_sf.o) (__unpack_f)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_fpcmp_parts_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_ge_sf.o) (__fpcmp_parts_f)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clz.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_clzsi2.o) (__clz_tab)
+C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\lib20120510.a(exit.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\start.o (exit)
+C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\lib20120510.a(newfree.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\rx.o (free)
+C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\lib20120510.a(newheap.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\lib20120510.a(newfree.o) (_heap_of_memory)
+C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\lib20120510.a(newmalloc.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\rx_protcol_inv.o (malloc)
+C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\lib20120510.a(_exit.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\lib20120510.a(exit.o) (_exit)
+
+
+==============================================================
+
+Listfile generated by KPIT GNUH8 [ELF]-v12.01 on Saturday, September 21, 2013, 13:34:16
+
+Build options:
+
+-T "C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\20130921_Debug_auto.gsi"
+-T "C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\20130921_input.tmp" 
+-L "c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h"
+-L "C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug"
+-Map "C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\20130921.map"
+-( -l "gcc" -l "20120510" -)
+-o "C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\20130921.x"
+-e _start
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\vects.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\timer.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\teleme.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\start.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\sci_util.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\sci2.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\sci1.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\sci0.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\rx_protcol_inv.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\rx_pll_inv.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\rx.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\pwr.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\put_status.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\mission.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\message.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\itu1.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\itu0.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\inthandler.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\init.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\iic2.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\iic1.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\iic0.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\hwinit.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\global.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\fm_tx.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\fm_ptt.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\fm_pllcontrol.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\debug.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\command.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\comm_buffer.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\adconv.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130921\20120510\Debug\20120510.o")

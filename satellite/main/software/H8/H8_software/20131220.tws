@@ -1,0 +1,39 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"20131220" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\20120510.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\adconv.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\command.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\debug.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\fm_tx.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\iic.h" 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\message.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\mission.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\mission.h" 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\put_status.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\sci_util.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\teleme.c" 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\teleme.h" 
+[WORKSPACE_FILE_STATES]
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\20120510.c" 125 125 602 279 0 10 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\adconv.c" 50 50 602 279 0 7 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\command.c" 75 75 614 279 0 3 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\debug.c" -8 -30 743 442 1 4 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\fm_tx.c" 25 25 602 279 0 6 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\iic.h" 0 0 602 279 0 11 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\message.c" 100 100 602 279 0 9 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\mission.c" 25 25 614 279 0 1 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\mission.h" 25 25 602 279 0 12 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\put_status.c" 0 0 602 279 0 5 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\sci_util.c" 75 75 602 279 0 8 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\teleme.c" 0 0 755 442 0 0 
+"C:\Users\USER\Desktop\com\í êMån\20131220\20120510\teleme.h" 75 75 614 279 0 2 
+[LOADED_PROJECTS]
+"20131220" 
+[END]

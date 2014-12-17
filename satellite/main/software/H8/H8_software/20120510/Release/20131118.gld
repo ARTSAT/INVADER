@@ -1,0 +1,10 @@
+-T "D:\com\í êMån\20131118\20120510\Release\20131118_Release_auto.gsi"
+-T "D:\com\í êMån\20131118\20120510\Release\20131118_input.tmp" 
+-L "c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32"
+-L "D:\com\í êMån\20131118\20120510\Release"
+-Map "D:\com\í êMån\20131118\20120510\Release\20131118.map"
+-no-keep-memory
+-S
+-( -l "20131118" -l "gcc" -)
+-o "D:\com\í êMån\20131118\20120510\Release\20131118.x"
+-e _start

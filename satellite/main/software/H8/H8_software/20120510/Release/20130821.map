@@ -1,0 +1,1416 @@
+Archive member included because of file (symbol)
+
+C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newfree.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx.o (free)
+C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newheap.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newfree.o) (_last_heap_object)
+C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newmalloc.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o (malloc)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_divsi3.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o (__udivsi3)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_mulsi3.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o (__mulsi3)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fixunssfsi.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o (__fixunssfsi)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_addsub_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fixunssfsi.o) (__subsf3)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_div_sf.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o (__divsf3)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_ge_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fixunssfsi.o) (__gesf2)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_si_to_sf.o)
+                              C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o (__floatsisf)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_sf_to_si.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fixunssfsi.o) (__fixsfsi)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_thenan_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_addsub_sf.o) (__thenan_sf)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clzsi2.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_si_to_sf.o) (__clzsi2)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_pack_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_addsub_sf.o) (__pack_f)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_unpack_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_addsub_sf.o) (__unpack_f)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fpcmp_parts_sf.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_ge_sf.o) (__fpcmp_parts_f)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clz.o)
+                              c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clzsi2.o) (__clz_tab)
+
+Allocating common symbols
+Common symbol       size              file
+
+command_H           0x78              C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+P2_DDR              0x1               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+ena_overa           0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+flag_dispAD         0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+flag_overa          0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+flag_send_fm        0x1               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+i                   0x4               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+ena_alive           0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+fcslo               0x1               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+flag_rx             0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+flag_dteleme        0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+flag_exe            0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ena_rteleme         0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ena_ateleme         0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+flag_pwrt           0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+ena_pwrt            0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+flag_ad             0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+my_wdt              0x4               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+uplink_rx_buff      0x4               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+flag_iteleme        0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ena_iteleme         0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+kbit                0x4               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+ena_mywdt           0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+itu1_cnt            0x4               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ena_dteleme         0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+flag_ateleme        0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ena_misst           0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+time                0x4               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\timer.o
+FmPreamble          0x4               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+command_M           0x78              C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+stuff               0x1               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+info_length         0x4               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+fcsflag_send_fm     0x1               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ena_ad              0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+fcshi               0x1               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+flag_oteleme        0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+flag_rteleme        0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+flag_alive          0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+ena_dispAD          0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+mpx                 0x20              C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+flag_scirx          0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+status              0x7f              C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+flag_misst          0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+command_L           0x78              C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+ena_oteleme         0x3               C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+message_global      0xcc              C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.vects          0x00000000      0x100
+ *(.vects)
+ .vects         0x00000000      0x100 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\vects.o
+                0x00000000                HardwareVectors
+
+.text           0x00000400     0x9a6a
+ *(.text)
+ .text          0x00000400        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\vects.o
+ .text          0x00000400        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\timer.o
+ .text          0x00000400        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ .text          0x00000400       0x4e C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\start.o
+                0x00000400                start
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci_util.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_pll_inv.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu1.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu0.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\init.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\hwinit.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\global.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_ptt.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_pllcontrol.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\comm_buffer.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\20120510.o
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newfree.o)
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newheap.o)
+ .text          0x0000044e        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newmalloc.o)
+ *fill*         0x0000044e        0x2 00
+ .text          0x00000450       0x8c c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_divsi3.o)
+                0x00000472                __modsi3
+                0x0000047e                __umodsi3
+                0x00000484                __divsi3
+                0x0000049a                __udivsi3
+ .text          0x000004dc       0x18 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_mulsi3.o)
+                0x000004dc                __mulsi3
+ .text          0x000004f4       0x40 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fixunssfsi.o)
+                0x000004f4                __fixunssfsi
+ .text          0x00000534      0x38a c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_addsub_sf.o)
+                0x000007e8                __addsf3
+                0x0000084e                __subsf3
+ .text          0x000008be      0x138 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_div_sf.o)
+                0x000008be                __divsf3
+ .text          0x000009f6       0x70 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_ge_sf.o)
+                0x000009f6                __gesf2
+ .text          0x00000a66       0x9c c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_si_to_sf.o)
+                0x00000a66                __floatsisf
+ .text          0x00000b02       0x84 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_sf_to_si.o)
+                0x00000b02                __fixsfsi
+ .text          0x00000b86        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_thenan_sf.o)
+ .text          0x00000b86       0x5a c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clzsi2.o)
+                0x00000b86                __clzsi2
+ .text          0x00000be0      0x162 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_pack_sf.o)
+                0x00000be0                __pack_f
+ .text          0x00000d42       0xb2 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_unpack_sf.o)
+                0x00000d42                __unpack_f
+ .text          0x00000df4       0xa4 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fpcmp_parts_sf.o)
+                0x00000df4                __fpcmp_parts_f
+ .text          0x00000e98        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clz.o)
+ *(.text.*)
+ .text.delay_ms
+                0x00000e98       0x48 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\timer.o
+                0x00000e98                delay_ms
+ .text.delay_us
+                0x00000ee0       0x34 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\timer.o
+                0x00000ee0                delay_us
+ .text.delay_us_rx
+                0x00000f14       0x38 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\timer.o
+                0x00000f14                delay_us_rx
+ .text.InitTelemetry
+                0x00000f4c       0x40 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+                0x00000f4c                InitTelemetry
+ .text.SetTelemetry_Rough
+                0x00000f8c      0x276 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+                0x00000f8c                SetTelemetry_Rough
+ .text.SetTelemetry_Detail
+                0x00001202      0x276 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+                0x00001202                SetTelemetry_Detail
+ .text.SetTelemetry_API
+                0x00001478      0x1c4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+                0x00001478                SetTelemetry_API
+ .text.SetTelemetry_Initial
+                0x0000163c       0x94 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+                0x0000163c                SetTelemetry_Initial
+ .text.OBC_Majority
+                0x000016d0       0x14 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+                0x000016d0                OBC_Majority
+ .text.Error_Majority
+                0x000016e4       0x2a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+                0x000016e4                Error_Majority
+ .text.Read_Initial
+                0x0000170e      0x154 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+                0x0000170e                Read_Initial
+ .text.debug_sci_init
+                0x00001862       0x2a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci_util.o
+                0x00001862                debug_sci_init
+ .text.debug_putc
+                0x0000188c       0x10 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci_util.o
+                0x0000188c                debug_putc
+ .text.debug_puts
+                0x0000189c       0x10 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci_util.o
+                0x0000189c                debug_puts
+ .text.debug_getc
+                0x000018ac       0x10 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci_util.o
+                0x000018ac                debug_getc
+ .text.debug_puthex
+                0x000018bc       0x28 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci_util.o
+                0x000018bc                debug_puthex
+ .text.debug_putdec
+                0x000018e4       0x10 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci_util.o
+                0x000018e4                debug_putdec
+ .text.HexToAscii
+                0x000018f4       0x16 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci_util.o
+                0x000018f4                HexToAscii
+ .text.sci2_init
+                0x0000190a       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+                0x0000190a                sci2_init
+ .text.sci2_putc
+                0x0000198a       0x72 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+                0x0000198a                sci2_putc
+ .text.sci2_puthex
+                0x000019fc       0x38 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+                0x000019fc                sci2_puthex
+ .text.sci2_putdec
+                0x00001a34       0xbc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+                0x00001a34                sci2_putdec
+ .text.sci2_putdoublehex
+                0x00001af0       0x24 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+                0x00001af0                sci2_putdoublehex
+ .text.sci2_putfourhex
+                0x00001b14       0x24 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+                0x00001b14                sci2_putfourhex
+ .text.sci2_putcrlf
+                0x00001b38       0x18 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+                0x00001b38                sci2_putcrlf
+ .text.sci2_puts
+                0x00001b50       0x3a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+                0x00001b50                sci2_puts
+ .text.sci2_getc
+                0x00001b8a       0x64 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+                0x00001b8a                sci2_getc
+ .text.INT_ERI2
+                0x00001bee       0x1a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+                0x00001bee                INT_ERI2
+ .text.INT_RXI2
+                0x00001c08       0x6c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+                0x00001c08                INT_RXI2
+ .text.INT_TXI2
+                0x00001c74       0x88 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+                0x00001c74                INT_TXI2
+ .text.INT_TEI2
+                0x00001cfc       0x1a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+                0x00001cfc                INT_TEI2
+ .text.sci1_init
+                0x00001d16       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                0x00001d16                sci1_init
+ .text.sci1_putc
+                0x00001d96       0x72 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                0x00001d96                sci1_putc
+ .text.sci1_puthex
+                0x00001e08       0x38 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                0x00001e08                sci1_puthex
+ .text.sci1_putdec
+                0x00001e40       0xbc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                0x00001e40                sci1_putdec
+ .text.sci1_putdoublehex
+                0x00001efc       0x24 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                0x00001efc                sci1_putdoublehex
+ .text.sci1_putfourhex
+                0x00001f20       0x24 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                0x00001f20                sci1_putfourhex
+ .text.sci1_putcrlf
+                0x00001f44       0x18 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                0x00001f44                sci1_putcrlf
+ .text.sci1_puts
+                0x00001f5c       0x3a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                0x00001f5c                sci1_puts
+ .text.sci1_getc
+                0x00001f96       0x64 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                0x00001f96                sci1_getc
+ .text.INT_ERI1
+                0x00001ffa       0x1a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                0x00001ffa                INT_ERI1
+ .text.sci1_puts_rx
+                0x00002014      0x10c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                0x00002014                sci1_puts_rx
+ .text.INT_RXI1
+                0x00002120       0x6c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                0x00002120                INT_RXI1
+ .text.INT_TXI1
+                0x0000218c       0x88 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                0x0000218c                INT_TXI1
+ .text.INT_TEI1
+                0x00002214       0x1a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                0x00002214                INT_TEI1
+ .text.sci0_init
+                0x0000222e       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+                0x0000222e                sci0_init
+ .text.sci0_putc
+                0x000022ae       0x72 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+                0x000022ae                sci0_putc
+ .text.sci0_puthex
+                0x00002320       0x38 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+                0x00002320                sci0_puthex
+ .text.sci0_putdec
+                0x00002358       0xbc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+                0x00002358                sci0_putdec
+ .text.sci0_putdoublehex
+                0x00002414       0x24 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+                0x00002414                sci0_putdoublehex
+ .text.sci0_putfourhex
+                0x00002438       0x24 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+                0x00002438                sci0_putfourhex
+ .text.sci0_putcrlf
+                0x0000245c       0x18 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+                0x0000245c                sci0_putcrlf
+ .text.sci0_puts
+                0x00002474       0x3a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+                0x00002474                sci0_puts
+ .text.sci0_getc
+                0x000024ae       0x64 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+                0x000024ae                sci0_getc
+ .text.INT_ERI0
+                0x00002512       0x1a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+                0x00002512                INT_ERI0
+ .text.INT_RXI0
+                0x0000252c       0x6c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+                0x0000252c                INT_RXI0
+ .text.INT_TXI0
+                0x00002598       0x88 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+                0x00002598                INT_TXI0
+ .text.INT_TEI0
+                0x00002620       0x1a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+                0x00002620                INT_TEI0
+ .text.init_itu
+                0x0000263a       0x24 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+                0x0000263a                init_itu
+ .text.bitin    0x0000265e       0x82 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+                0x0000265e                bitin
+ .text.get_byte
+                0x000026e0       0xec C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+                0x000026e0                get_byte
+ .text.get_buff
+                0x000027cc       0xf8 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+                0x000027cc                get_buff
+ .text.precrc_bit
+                0x000028c4       0x30 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+                0x000028c4                precrc_bit
+ .text.Ax_to_info
+                0x000028f4      0x168 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+                0x000028f4                Ax_to_info
+ .text.get_data
+                0x00002a5c      0x10a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+                0x00002a5c                get_data
+ .text.rx_init  0x00002b66       0x64 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+                0x00002b66                rx_init
+ .text.out_bit  0x00002bca       0x2e C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_pll_inv.o
+                0x00002bca                out_bit
+ .text.strobe   0x00002bf8       0x1c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_pll_inv.o
+                0x00002bf8                strobe
+ .text.out_bits
+                0x00002c14       0x44 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_pll_inv.o
+                0x00002c14                out_bits
+ .text.set_reference_divider
+                0x00002c58       0x2a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_pll_inv.o
+                0x00002c58                set_reference_divider
+ .text.set_option_register
+                0x00002c82       0x7e C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_pll_inv.o
+                0x00002c82                set_option_register
+ .text.set_programmable_divider
+                0x00002d00       0x3c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_pll_inv.o
+                0x00002d00                set_programmable_divider
+ .text.pll_init
+                0x00002d3c       0x5a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_pll_inv.o
+                0x00002d3c                pll_init
+ .text.RX       0x00002d96       0x5c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx.o
+                0x00002d96                RX
+ .text.InitPowerTelemetry
+                0x00002df2       0x22 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+                0x00002df2                InitPowerTelemetry
+ .text.RequestPowerTelemetry
+                0x00002e14       0x18 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+                0x00002e14                RequestPowerTelemetry
+ .text.UpdatePowerTelemetry
+                0x00002e2c       0xae C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+                0x00002e2c                UpdatePowerTelemetry
+ .text.RequestMainShutdown
+                0x00002eda       0x3a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+                0x00002eda                RequestMainShutdown
+ .text.SendHDRtoPIC
+                0x00002f14       0x18 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+                0x00002f14                SendHDRtoPIC
+ .text.SendHDStoPIC
+                0x00002f2c       0x18 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+                0x00002f2c                SendHDStoPIC
+ .text.SendStatusToGS
+                0x00002f44      0x264 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+                0x00002f44                SendStatusToGS
+ .text.SendTelemetryToGS
+                0x000031a8        0xe C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+                0x000031a8                SendTelemetryToGS
+ .text.PutOut_Rough
+                0x000031b6      0x174 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+                0x000031b6                PutOut_Rough
+ .text.PutOut_Detail
+                0x0000332a      0x174 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+                0x0000332a                PutOut_Detail
+ .text.PutOut_API
+                0x0000349e      0x16e C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+                0x0000349e                PutOut_API
+ .text.PutOut_Initial
+                0x0000360c      0x156 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+                0x0000360c                PutOut_Initial
+ .text.InitMissionTelemetry
+                0x00003762       0x18 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+                0x00003762                InitMissionTelemetry
+ .text.SendMissionTelemetory
+                0x0000377a      0x236 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+                0x0000377a                SendMissionTelemetory
+ .text.RequestMissionReboot
+                0x000039b0       0x32 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+                0x000039b0                RequestMissionReboot
+ .text.RequestMissionShutdown
+                0x000039e2       0x5c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+                0x000039e2                RequestMissionShutdown
+ .text.PronounceMissionAbort
+                0x00003a3e       0x36 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+                0x00003a3e                PronounceMissionAbort
+ .text.itu2_init
+                0x00003a74       0x44 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+                0x00003a74                itu2_init
+ .text.INT_IMIA2
+                0x00003ab8       0x82 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+                0x00003ab8                INT_IMIA2
+ .text.InitMessage
+                0x00003b3a       0x18 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                0x00003b3a                InitMessage
+ .text.SplitMessage_SCI0
+                0x00003b52      0x242 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                0x00003b52                SplitMessage_SCI0
+ .text.SplitMessage_SCI1
+                0x00003d94      0x25e C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                0x00003d94                SplitMessage_SCI1
+ .text.SplitMessage_SCI2
+                0x00003ff2      0x25e C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                0x00003ff2                SplitMessage_SCI2
+ .text.RecognizeCommand
+                0x00004250      0x316 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                0x00004250                RecognizeCommand
+ .text.RecognizeMissionCommand
+                0x00004566      0x31a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                0x00004566                RecognizeMissionCommand
+ .text.FindCommand
+                0x00004880       0x22 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                0x00004880                FindCommand
+ .text.TransmitMessage
+                0x000048a2       0x32 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                0x000048a2                TransmitMessage
+ .text.InitPLL  0x000048d4       0x16 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                0x000048d4                InitPLL
+ .text.SendMessage
+                0x000048ea      0x1fa C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                0x000048ea                SendMessage
+ .text.FinishSendMessage
+                0x00004ae4       0x26 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                0x00004ae4                FinishSendMessage
+ .text.FinishCommunication
+                0x00004b0a       0x5a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                0x00004b0a                FinishCommunication
+ .text.SendStatusMessage
+                0x00004b64      0x258 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                0x00004b64                SendStatusMessage
+ .text.itu1_init
+                0x00004dbc       0x5e C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu1.o
+                0x00004dbc                itu1_init
+ .text.INT_IMIA1
+                0x00004e1a      0x2a8 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu1.o
+                0x00004e1a                INT_IMIA1
+ .text.itu0_init
+                0x000050c2       0x40 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu0.o
+                0x000050c2                itu0_init
+ .text.INT_IMIA0
+                0x00005102       0x2a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu0.o
+                0x00005102                INT_IMIA0
+ .text.INT_IMIB0
+                0x0000512c       0x2a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu0.o
+                0x0000512c                INT_IMIB0
+ .text.INT_NMI  0x00005156        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x00005156                INT_NMI
+ .text.INT_TRAP1
+                0x00005162        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x00005162                INT_TRAP1
+ .text.INT_TRAP2
+                0x0000516e        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x0000516e                INT_TRAP2
+ .text.INT_TRAP3
+                0x0000517a        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x0000517a                INT_TRAP3
+ .text.INT_TRAP4
+                0x00005186        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x00005186                INT_TRAP4
+ .text.INT_IRQ0
+                0x00005192        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x00005192                INT_IRQ0
+ .text.INT_IRQ1
+                0x0000519e        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x0000519e                INT_IRQ1
+ .text.INT_IRQ2
+                0x000051aa        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x000051aa                INT_IRQ2
+ .text.INT_IRQ3
+                0x000051b6        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x000051b6                INT_IRQ3
+ .text.INT_IRQ4
+                0x000051c2        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x000051c2                INT_IRQ4
+ .text.INT_IRQ5
+                0x000051ce        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x000051ce                INT_IRQ5
+ .text.INT_WOVI
+                0x000051da        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x000051da                INT_WOVI
+ .text.INT_CMI  0x000051e6        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x000051e6                INT_CMI
+ .text.INT_ADI  0x000051f2        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x000051f2                INT_ADI
+ .text.INT_OVI0
+                0x000051fe        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x000051fe                INT_OVI0
+ .text.INT_IMIB1
+                0x0000520a        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x0000520a                INT_IMIB1
+ .text.INT_OVI1
+                0x00005216        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x00005216                INT_OVI1
+ .text.INT_IMIB2
+                0x00005222        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x00005222                INT_IMIB2
+ .text.INT_OVI2
+                0x0000522e        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x0000522e                INT_OVI2
+ .text.INT_CMIA0
+                0x0000523a        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x0000523a                INT_CMIA0
+ .text.INT_CMIB0
+                0x00005246        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x00005246                INT_CMIB0
+ .text.INT_CMIA1B1
+                0x00005252        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x00005252                INT_CMIA1B1
+ .text.INT_TOVI0_1
+                0x0000525e        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x0000525e                INT_TOVI0_1
+ .text.INT_CMIA2
+                0x0000526a        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x0000526a                INT_CMIA2
+ .text.INT_CMIB2
+                0x00005276        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x00005276                INT_CMIB2
+ .text.INT_CMIA3B3
+                0x00005282        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x00005282                INT_CMIA3B3
+ .text.INT_TOVI2_3
+                0x0000528e        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x0000528e                INT_TOVI2_3
+ .text.INT_DEND0A
+                0x0000529a        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x0000529a                INT_DEND0A
+ .text.INT_DEND0B
+                0x000052a6        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x000052a6                INT_DEND0B
+ .text.INT_DEND1A
+                0x000052b2        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x000052b2                INT_DEND1A
+ .text.INT_DEND1B
+                0x000052be        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+                0x000052be                INT_DEND1B
+ .text.Init_MyFunction
+                0x000052ca      0x104 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\init.o
+                0x000052ca                Init_MyFunction
+ .text.Init_Bus
+                0x000053ce       0xae C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\init.o
+                0x000053ce                Init_Bus
+ .text.Init_Peripherals
+                0x0000547c       0x26 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\init.o
+                0x0000547c                Init_Peripherals
+ .text.IIC2_EEPWAIT
+                0x000054a2       0x2a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+                0x000054a2                IIC2_EEPWAIT
+ .text.IIC2_WRITEB
+                0x000054cc       0xce C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+ .text.IIC2_EEPSTART
+                0x0000559a       0xb2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+ .text.IIC2_READB
+                0x0000564c       0xd8 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+ .text.IIC2_EEPSTOP
+                0x00005724       0x62 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+                0x00005724                IIC2_EEPSTOP
+ .text.IIC2_EEPRESET
+                0x00005786       0x82 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+                0x00005786                IIC2_EEPRESET
+ .text.IIC2_EEPINIT
+                0x00005808       0x1a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+                0x00005808                IIC2_EEPINIT
+ .text.IIC2_EEPCHANGE
+                0x00005822       0x1c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+                0x00005822                IIC2_EEPCHANGE
+ .text.IIC2_EEPWRITE
+                0x0000583e       0xa2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+                0x0000583e                IIC2_EEPWRITE
+ .text.IIC2_EEPREAD
+                0x000058e0       0xde C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+                0x000058e0                IIC2_EEPREAD
+ .text.IIC1_EEPWAIT
+                0x000059be       0x2a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+                0x000059be                IIC1_EEPWAIT
+ .text.IIC1_WRITEB
+                0x000059e8       0xce C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+ .text.IIC1_EEPSTART
+                0x00005ab6       0xb2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+ .text.IIC1_READB
+                0x00005b68       0xda C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+ .text.IIC1_EEPSTOP
+                0x00005c42       0x62 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+                0x00005c42                IIC1_EEPSTOP
+ .text.IIC1_EEPRESET
+                0x00005ca4       0x82 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+                0x00005ca4                IIC1_EEPRESET
+ .text.IIC1_EEPINIT
+                0x00005d26       0x1a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+                0x00005d26                IIC1_EEPINIT
+ .text.IIC1_EEPCHANGE
+                0x00005d40       0x1c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+                0x00005d40                IIC1_EEPCHANGE
+ .text.IIC1_EEPWRITE
+                0x00005d5c       0xa2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+                0x00005d5c                IIC1_EEPWRITE
+ .text.IIC1_EEPREAD
+                0x00005dfe       0xde C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+                0x00005dfe                IIC1_EEPREAD
+ .text.IIC0_EEPWAIT
+                0x00005edc       0x2a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+                0x00005edc                IIC0_EEPWAIT
+ .text.IIC0_WRITEB
+                0x00005f06       0xcc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+ .text.IIC0_EEPSTART
+                0x00005fd2       0xb2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+ .text.IIC0_READB
+                0x00006084       0xda C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+ .text.IIC0_EEPSTOP
+                0x0000615e       0x62 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+                0x0000615e                IIC0_EEPSTOP
+ .text.IIC0_EEPRESET
+                0x000061c0       0x82 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+                0x000061c0                IIC0_EEPRESET
+ .text.IIC0_EEPINIT
+                0x00006242       0x1a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+                0x00006242                IIC0_EEPINIT
+ .text.IIC0_EEPCHANGE
+                0x0000625c       0x1c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+                0x0000625c                IIC0_EEPCHANGE
+ .text.IIC0_EEPWRITE
+                0x00006278       0xa2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+                0x00006278                IIC0_EEPWRITE
+ .text.IIC0_EEPREAD
+                0x0000631a       0xde C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+                0x0000631a                IIC0_EEPREAD
+ .text.hw_initialise
+                0x000063f8        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\hwinit.o
+                0x000063f8                hw_initialise
+ .text.InitStatus
+                0x00006404      0x15e C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\global.o
+                0x00006404                InitStatus
+ .text.CheckFlags
+                0x00006562       0x38 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\global.o
+                0x00006562                CheckFlags
+ .text.ClearFlags
+                0x0000659a       0x18 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\global.o
+                0x0000659a                ClearFlags
+ .text.SetFlags
+                0x000065b2       0x18 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\global.o
+                0x000065b2                SetFlags
+ .text.InitRoutine
+                0x000065ca       0x86 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\global.o
+                0x000065ca                InitRoutine
+ .text.init_modem
+                0x00006650       0x28 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+                0x00006650                init_modem
+ .text.init_fm  0x00006678       0x36 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+                0x00006678                init_fm
+ .text.delay_modem
+                0x000066ae       0x12 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+                0x000066ae                delay_modem
+ .text.send_bit
+                0x000066c0       0x2e C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+                0x000066c0                send_bit
+ .text.crcbit   0x000066ee       0x60 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+                0x000066ee                crcbit
+ .text.send_byte
+                0x0000674e       0x84 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+                0x0000674e                send_byte
+ .text.send_packet
+                0x000067d2       0x8c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+                0x000067d2                send_packet
+ .text.AX_protocol
+                0x0000685e      0x16c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+                0x0000685e                AX_protocol
+ .text.on_off_ms
+                0x000069ca       0x70 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+                0x000069ca                on_off_ms
+ .text.on_off_sec
+                0x00006a3a       0x8e C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+                0x00006a3a                on_off_sec
+ .text.on_off_us
+                0x00006ac8       0x70 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+                0x00006ac8                on_off_us
+ .text.fmptt_on
+                0x00006b38       0x18 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_ptt.o
+                0x00006b38                fmptt_on
+ .text.fmptt_off
+                0x00006b50       0x10 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_ptt.o
+                0x00006b50                fmptt_off
+ .text.out_bit_fm
+                0x00006b60       0x36 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_pllcontrol.o
+                0x00006b60                out_bit_fm
+ .text.strobe_fm
+                0x00006b96       0x34 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_pllcontrol.o
+                0x00006b96                strobe_fm
+ .text.out_bits_fm
+                0x00006bca       0x42 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_pllcontrol.o
+                0x00006bca                out_bits_fm
+ .text.set_reference_divider_fm
+                0x00006c0c       0x26 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_pllcontrol.o
+                0x00006c0c                set_reference_divider_fm
+ .text.set_option_register_fm
+                0x00006c32       0x7c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_pllcontrol.o
+                0x00006c32                set_option_register_fm
+ .text.set_programmable_divider_fm
+                0x00006cae       0x54 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_pllcontrol.o
+                0x00006cae                set_programmable_divider_fm
+ .text.pll_init_fm
+                0x00006d02       0x56 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_pllcontrol.o
+                0x00006d02                pll_init_fm
+ .text.set_pll_fm
+                0x00006d58       0x5a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_pllcontrol.o
+                0x00006d58                set_pll_fm
+ .text.DebugMultiplexer
+                0x00006db2      0x100 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x00006db2                DebugMultiplexer
+ .text.DebugPut_Status
+                0x00006eb2      0x236 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x00006eb2                DebugPut_Status
+ .text.DebugPut_Telemetry
+                0x000070e8      0x216 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x000070e8                DebugPut_Telemetry
+ .text.DebugEEPROM
+                0x000072fe      0x398 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x000072fe                DebugEEPROM
+ .text.DebugDetail_Status
+                0x00007696       0x3a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x00007696                DebugDetail_Status
+ .text.DebugPut_Rough
+                0x000076d0      0x260 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x000076d0                DebugPut_Rough
+ .text.DebugPut_Detail
+                0x00007930      0x260 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x00007930                DebugPut_Detail
+ .text.DebugPut_API
+                0x00007b90      0x22a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x00007b90                DebugPut_API
+ .text.DebugPut_Initial
+                0x00007dba      0x22a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x00007dba                DebugPut_Initial
+ .text.Debug_SharedROM
+                0x00007fe4      0x1da C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x00007fe4                Debug_SharedROM
+ .text.DebugWrite_SharedROM
+                0x000081be      0x33e C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x000081be                DebugWrite_SharedROM
+ .text.DebugPut_SharedROM
+                0x000084fc       0x58 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x000084fc                DebugPut_SharedROM
+ .text.DisplayRoutine
+                0x00008554      0x1e6 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x00008554                DisplayRoutine
+ .text.SetRoutine
+                0x0000873a      0x156 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x0000873a                SetRoutine
+ .text.Check_PowerData
+                0x00008890       0x6c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                0x00008890                Check_PowerData
+ .text.GetCommandID
+                0x000088fc      0x384 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+                0x000088fc                GetCommandID
+ .text.GetMissionCommandID
+                0x00008c80       0x4c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+                0x00008c80                GetMissionCommandID
+ .text.RegistCommand
+                0x00008ccc      0x322 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+                0x00008ccc                RegistCommand
+ .text.RegistMissionCommand
+                0x00008fee      0x130 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+                0x00008fee                RegistMissionCommand
+ .text.ExecuteCommand
+                0x0000911e      0x410 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+                0x0000911e                ExecuteCommand
+ .text.comm_buffer_init
+                0x0000952e       0x3a C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\comm_buffer.o
+                0x0000952e                comm_buffer_init
+ .text.adconv_init
+                0x00009568       0x30 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+                0x00009568                adconv_init
+ .text.ami_switch
+                0x00009598       0x34 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+                0x00009598                ami_switch
+ .text.mpx_switch
+                0x000095cc       0x88 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+                0x000095cc                mpx_switch
+ .text.get_sensor
+                0x00009654      0x1da C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+                0x00009654                get_sensor
+ .text.check_overAmpare
+                0x0000982e       0x5c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+                0x0000982e                check_overAmpare
+ .text.insertSpace
+                0x0000988a       0x2e C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+                0x0000988a                insertSpace
+ .text.disp_AD  0x000098b8       0xe0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+                0x000098b8                disp_AD
+ .text.startup.main
+                0x00009998      0x320 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\20120510.o
+                0x00009998                main
+ .text.free     0x00009cb8       0xc2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newfree.o)
+                0x00009cb8                free
+ .text._top_of_heap
+                0x00009d7a        0xe C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newheap.o)
+                0x00009d7a                _top_of_heap
+ .text._make_new_mem_hole
+                0x00009d88       0x2e C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newmalloc.o)
+                0x00009d88                _make_new_mem_hole
+ .text.malloc   0x00009db6       0xb4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newmalloc.o)
+                0x00009db6                malloc
+                0x00009e6a                etext = .
+
+.init
+ *(.init)
+
+.fini
+ *(.fini)
+
+.got
+ *(.got)
+ *(.got.plt)
+
+.rodata         0x00009e6c      0x995
+ *(.rodata)
+ .rodata        0x00009e6c        0x8 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_thenan_sf.o)
+                0x00009e6c                __thenan_sf
+ .rodata        0x00009e74      0x100 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clz.o)
+                0x00009e74                __clz_tab
+ *(.rodata.*)
+ .rodata.str1.1
+                0x00009f74       0x32 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+                                 0x34 (size before relaxing)
+ .rodata.str1.1
+                0x00009fa6       0x2c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+                                 0x31 (size before relaxing)
+ .rodata.str1.1
+                0x00009fd2       0xba C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+                                 0xc3 (size before relaxing)
+ .rodata.str1.1
+                0x0000a08c       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx.o
+                                 0x1f (size before relaxing)
+ .rodata.str1.1
+                0x0000a0a9       0x34 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+ .rodata.str1.1
+                0x0000a0dd       0x37 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+                                 0x3b (size before relaxing)
+ .rodata.str1.1
+                0x0000a114       0xb0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+                                 0xb4 (size before relaxing)
+ .rodata.str1.1
+                0x0000a1c4       0xbf C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                                 0xc1 (size before relaxing)
+ .rodata.str1.1
+                0x0000a283      0x265 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+                                0x28b (size before relaxing)
+ .rodata.DebugWrite_SharedROM
+                0x0000a4e8       0x48 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+ .rodata.SetRoutine
+                0x0000a530       0x60 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+ .rodata.str1.1
+                0x0000a590       0x29 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+ *fill*         0x0000a5b9        0x3 00
+ .rodata.ExecuteCommand
+                0x0000a5bc      0x12c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+ .rodata.get_sensor
+                0x0000a6e8       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+ .rodata.str1.1
+                0x0000a708        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+                                  0xd (size before relaxing)
+ .rodata.str1.1
+                0x0000a70c       0xf5 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\20120510.o
+                                 0xfa (size before relaxing)
+                0x0000a801                _erodata = .
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.jcr
+ *(.jcr)
+
+.tors           0x0000a801        0x0
+                0x0000a801                __CTOR_LIST__ = .
+                0x0000a801                ___ctors = .
+ *(.ctors)
+                0x0000a801                ___ctors_end = .
+                0x0000a801                __CTOR_END__ = .
+                0x0000a801                __DTOR_LIST__ = .
+                0x0000a801                ___dtors = .
+ *(.dtors)
+                0x0000a801                ___dtors_end = .
+                0x0000a801                __DTOR_END__ = .
+                0x0000a801                _mdata = .
+
+.data           0x00ffbf20        0x0 load address 0x0000a801
+                0x00ffbf20                _data = .
+ *(.data)
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\vects.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\timer.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\start.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci_util.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_pll_inv.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu1.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu0.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\init.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\hwinit.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\global.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_ptt.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_pllcontrol.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\comm_buffer.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\20120510.o
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newfree.o)
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newheap.o)
+ .data          0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newmalloc.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_divsi3.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_mulsi3.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fixunssfsi.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_addsub_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_div_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_ge_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_si_to_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_sf_to_si.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_thenan_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clzsi2.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_pack_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_unpack_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fpcmp_parts_sf.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clz.o)
+ *(.data.*)
+                0x00ffbf20                _edata = .
+
+.gcc_exc
+ *(.gcc_exc)
+
+.bss            0x00ffbf20     0x1b6c load address 0x0000a804
+                0x00ffbf20                _bss = .
+ *(.bss)
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\vects.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\timer.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\start.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci_util.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_pll_inv.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu1.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu0.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\init.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\hwinit.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\global.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_ptt.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_pllcontrol.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\comm_buffer.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\20120510.o
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newfree.o)
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newheap.o)
+ .bss           0x00ffbf20        0x0 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newmalloc.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_divsi3.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_mulsi3.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fixunssfsi.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_addsub_sf.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_div_sf.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_ge_sf.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_si_to_sf.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_sf_to_si.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_thenan_sf.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clzsi2.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_pack_sf.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_unpack_sf.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clz.o)
+ *(.bss.*)
+ .bss.timer_flag
+                0x00ffbf20        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\timer.o
+                0x00ffbf20                timer_flag
+ .bss.data_set___2432
+                0x00ffbf24       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ .bss.slave___2430
+                0x00ffbfa4        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ *fill*         0x00ffbfa5        0x3 00
+ .bss.eep_page___2429
+                0x00ffbfa8        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ .bss.eep_lastpage___2431
+                0x00ffbfac        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ .bss.data_set___2487
+                0x00ffbfb0       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ .bss.slave___2485
+                0x00ffc030        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ *fill*         0x00ffc031        0x3 00
+ .bss.eep_page___2484
+                0x00ffc034        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ .bss.eep_lastpage___2486
+                0x00ffc038        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ .bss.data_set___2540
+                0x00ffc03c       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ .bss.eep_page___2539
+                0x00ffc05c        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ .bss.data___2569
+                0x00ffc060       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ .bss.data___2590
+                0x00ffc0e0       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ .bss.tx2_length
+                0x00ffc160        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+ .bss.tx2_wp    0x00ffc162        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+ .bss.tx2_rp    0x00ffc164        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+ .bss.rx2_length
+                0x00ffc166        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+ .bss.rx2_wp    0x00ffc168        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+ .bss.rx2_rp    0x00ffc16a        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+ .bss.tx2_buff  0x00ffc16c      0x100 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+ .bss.rx2_buff  0x00ffc26c      0x100 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+ .bss.tx1_length
+                0x00ffc36c        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+ .bss.tx1_wp    0x00ffc36e        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+ .bss.tx1_rp    0x00ffc370        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+ .bss.rx1_length
+                0x00ffc372        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+ .bss.rx1_wp    0x00ffc374        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+ .bss.rx1_rp    0x00ffc376        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+ .bss.tx1_buff  0x00ffc378      0x100 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+ .bss.rx1_buff  0x00ffc478      0x100 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+ .bss.tx0_length
+                0x00ffc578        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+ .bss.tx0_wp    0x00ffc57a        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+ .bss.tx0_rp    0x00ffc57c        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+ .bss.rx0_length
+                0x00ffc57e        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+ .bss.rx0_wp    0x00ffc580        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+ .bss.rx0_rp    0x00ffc582        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+ .bss.tx0_buff  0x00ffc584      0x100 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+ .bss.rx0_buff  0x00ffc684      0x100 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+ .bss.fcs_error
+                0x00ffc784        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+                0x00ffc784                fcs_error
+ .bss.bit       0x00ffc788        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+                0x00ffc788                bit
+ .bss.shiftbuff
+                0x00ffc78c        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+                0x00ffc78c                shiftbuff
+ .bss.oldstate  0x00ffc790        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+ .bss.info      0x00ffc794        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+ .bss.a___2729  0x00ffc798        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+ .bss.info      0x00ffc79c        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx.o
+ .bss.tlm___1319
+                0x00ffc7a0       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+ .bss.tlm___1355
+                0x00ffc820       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+ .bss.tlm___1387
+                0x00ffc8a0       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+ .bss.tlm___1418
+                0x00ffc8c0       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+ .bss.cnt___2501
+                0x00ffc940        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+ .bss.start___2447
+                0x00ffc944        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.found___2446
+                0x00ffc946        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ *fill*         0x00ffc947        0x1 00
+ .bss.i___2445  0x00ffc948        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.split_sci0_buff___2443
+                0x00ffc94a      0x100 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.split_sci0_wp___2444
+                0x00ffca4a        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.start___2469
+                0x00ffca4c        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.found___2468
+                0x00ffca4e        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ *fill*         0x00ffca4f        0x1 00
+ .bss.i___2467  0x00ffca50        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.start___2494
+                0x00ffca52        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.found___2493
+                0x00ffca54        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ *fill*         0x00ffca55        0x1 00
+ .bss.i___2492  0x00ffca56        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.message_fm
+                0x00ffca58       0xc8 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.mission_counter
+                0x00ffcb20        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.mission_length
+                0x00ffcb24        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.mission_rp
+                0x00ffcb26        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.mission_wp
+                0x00ffcb28        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.mission_length_buff
+                0x00ffcb2a        0x8 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ *fill*         0x00ffcb32        0x2 00
+ .bss.message_counter
+                0x00ffcb34        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.message_length
+                0x00ffcb38        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.message_rp
+                0x00ffcb3a        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.message_wp
+                0x00ffcb3c        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.message_length_buff
+                0x00ffcb3e        0x8 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.message_buff
+                0x00ffcb46      0x320 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.split_sci1_wp___2466
+                0x00ffce66        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.split_sci1_buff___2465
+                0x00ffce68      0x100 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.split_sci2_wp___2491
+                0x00ffcf68        0x2 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.split_sci2_buff___2490
+                0x00ffcf6a      0x100 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.mission_buff
+                0x00ffd06a      0x320 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .bss.tlm___2580
+                0x00ffd38a       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+ .bss.buf___2596
+                0x00ffd40a       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+ .bss.tlm___2631
+                0x00ffd48a       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+ .bss.tlm___2657
+                0x00ffd50a       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+ .bss.tlm___2679
+                0x00ffd58a       0x20 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+ .bss.tlm___2701
+                0x00ffd5aa       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+ .bss.buf___2714
+                0x00ffd62a       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+ .bss.tlm_mission___2813
+                0x00ffd6aa       0x80 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+ .bss.l_rp      0x00ffd72a        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+ .bss.l_wp      0x00ffd72b        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+ .bss.m_rp      0x00ffd72c        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+ .bss.m_wp      0x00ffd72d        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+ .bss.h_rp      0x00ffd72e        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+ .bss.h_wp      0x00ffd72f        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+ .bss.mpx_ch___2440
+                0x00ffd730        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+ *fill*         0x00ffd731        0x3 00
+ .bss._last_heap_object
+                0x00ffd734        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newheap.o)
+                0x00ffd734                _last_heap_object
+ .bss._heap_of_memory
+                0x00ffd738        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newheap.o)
+                0x00ffd738                _heap_of_memory
+ *(COMMON)
+ COMMON         0x00ffd73c        0x4 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\timer.o
+                0x00ffd73c                time
+ COMMON         0x00ffd740      0x1ac C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+                0x00ffd740                ena_overa
+                0x00ffd743                flag_dispAD
+                0x00ffd746                flag_overa
+                0x00ffd749                flag_dteleme
+                0x00ffd74c                ena_rteleme
+                0x00ffd74f                ena_ateleme
+                0x00ffd752                flag_ad
+                0x00ffd758                my_wdt
+                0x00ffd75c                flag_iteleme
+                0x00ffd75f                ena_iteleme
+                0x00ffd762                ena_mywdt
+                0x00ffd768                itu1_cnt
+                0x00ffd76c                ena_dteleme
+                0x00ffd76f                flag_ateleme
+                0x00ffd772                ena_ad
+                0x00ffd775                flag_oteleme
+                0x00ffd778                flag_rteleme
+                0x00ffd77b                ena_dispAD
+                0x00ffd77e                mpx
+                0x00ffd79e                status
+                0x00ffd81d                ena_oteleme
+                0x00ffd820                message_global
+ COMMON         0x00ffd8ec       0x15 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+                0x00ffd8ec                i
+                0x00ffd8f0                fcslo
+                0x00ffd8f1                flag_rx
+                0x00ffd8f4                uplink_rx_buff
+                0x00ffd8f8                kbit
+                0x00ffd8fc                info_length
+                0x00ffd900                fcshi
+ COMMON         0x00ffd901        0xc C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+                0x00ffd901                ena_alive
+                0x00ffd904                flag_pwrt
+                0x00ffd907                ena_pwrt
+                0x00ffd90a                flag_alive
+ COMMON         0x00ffd90d        0x6 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+                0x00ffd90d                ena_misst
+                0x00ffd910                flag_misst
+ *fill*         0x00ffd913        0x1 00
+ COMMON         0x00ffd914        0xd C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+                0x00ffd914                flag_send_fm
+                0x00ffd915                flag_exe
+                0x00ffd918                FmPreamble
+                0x00ffd91c                stuff
+                0x00ffd91d                fcsflag_send_fm
+                0x00ffd91e                flag_scirx
+ COMMON         0x00ffd921        0x1 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+                0x00ffd921                P2_DDR
+ *fill*         0x00ffd922        0x2 00
+ COMMON         0x00ffd924      0x168 C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+                0x00ffd924                command_H
+                0x00ffd99c                command_M
+                0x00ffda14                command_L
+                0x00ffda8c                _ebss = .
+                0x00ffda8c                _end = .
+
+.stack          0x00ffff00        0x0
+                0x00ffff00                _stack = .
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\vects.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\timer.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\start.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci_util.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_pll_inv.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu1.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu0.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\init.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\hwinit.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\global.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_ptt.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_pllcontrol.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\comm_buffer.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\20120510.o
+START GROUP
+LOAD C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a
+LOAD c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a
+END GROUP
+OUTPUT(C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\20130821.x elf32-h8300)
+
+.comment        0x00000000       0x1c
+ .comment       0x00000000       0x1c C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\vects.o
+                                 0x1d (size before relaxing)
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\timer.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci_util.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_pll_inv.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu1.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu0.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\init.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\hwinit.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\global.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_ptt.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_pllcontrol.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\comm_buffer.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\20120510.o
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newfree.o)
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newheap.o)
+ .comment       0x00000000       0x1d C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\lib20130821.a(newmalloc.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fixunssfsi.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_addsub_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_div_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_ge_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_si_to_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_sf_to_si.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_thenan_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clzsi2.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_pack_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_unpack_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fpcmp_parts_sf.o)
+ .comment       0x00000000       0x1d c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clz.o)
+
+
+==============================================================
+
+Listfile generated by KPIT GNUH8 [ELF]-v12.01 on Thursday, August 22, 2013, 12:59:59
+
+Build options:
+
+-T "C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\20130821_Release_auto.gsi"
+-T "C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\20130821_input.tmp" 
+-L "c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32"
+-L "C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release"
+-Map "C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\20130821.map"
+-no-keep-memory
+-S
+-( -l "20130821" -l "gcc" -)
+-o "C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\20130821.x"
+-e _start
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\vects.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\timer.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\teleme.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\start.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci_util.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci2.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci1.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\sci0.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_protcol_inv.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx_pll_inv.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\rx.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\pwr.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\put_status.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\mission.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\message.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu1.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\itu0.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\inthandler.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\init.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic2.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic1.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\iic0.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\hwinit.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\global.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_tx.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_ptt.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\fm_pllcontrol.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\debug.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\command.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\comm_buffer.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\adconv.o")
+INPUT("C:\Users\nozomi\Desktop\com\í êMån\20130821\20120510\Release\20120510.o")

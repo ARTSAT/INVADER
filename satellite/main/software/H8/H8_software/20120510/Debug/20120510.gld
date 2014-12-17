@@ -1,0 +1,8 @@
+-T "C:\WorkSpace\artsat\BBM\20120510\20120510\Debug\20120510_Debug_auto.gsi"
+-T "C:\WorkSpace\artsat\BBM\20120510\20120510\Debug\20120510_input.tmp" 
+-L "c:\program files\renesas\hew\tools\kpit cummins\gnuh8-elf\v11.02\h8300-elf\lib\gcc\h8300-elf\4.5-GNUH8_v11.02\h8300h"
+-L "C:\WorkSpace\artsat\BBM\20120510\20120510\Debug"
+-Map "C:\WorkSpace\artsat\BBM\20120510\20120510\Debug\20120510.map"
+-( -l "gcc" -l "20120510" -)
+-o "C:\WorkSpace\artsat\BBM\20120510\20120510\Debug\20120510.x"
+-e _start

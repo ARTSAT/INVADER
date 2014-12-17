@@ -1,0 +1,1469 @@
+Archive member included because of file (symbol)
+
+C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newfree.o)
+                              C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o (free)
+C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newheap.o)
+                              C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newfree.o) (_last_heap_object)
+C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newmalloc.o)
+                              C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o (malloc)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_divsi3.o)
+                              C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o (__udivsi3)
+c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_mulsi3.o)
+                              C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o (__mulsi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+command_H           0x78              C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+P2_DDR              0x1               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+ena_overa           0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+flag_dispAD         0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+flag_overa          0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+flag_send_fm        0x1               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+i                   0x4               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+flag_pic            0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ena_alive           0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+fcslo               0x1               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+flag_tof            0x1               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+flag_rx             0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+flag_dteleme        0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+flag_exe            0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+sms_time            0x4               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+ena_rteleme         0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+flag_cpr            0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+ena_ateleme         0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+flag_pwrt           0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+DT_time             0x4               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+flag_tx             0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+ena_pwrt            0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+flag_ad             0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+my_wdt              0x4               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+uplink_rx_buff      0x4               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+flag_iteleme        0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+smr_time            0x4               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+FM_buffer_length    0x14              C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+ena_iteleme         0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+flag_ton            0x1               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+flag_smr            0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+kbit                0x4               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+ena_mywdt           0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+itu1_cnt            0x4               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ena_dteleme         0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+flag_ateleme        0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ena_misst           0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+mission_cnt         0x4               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+time                0x4               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\timer.o
+flag_sms            0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+FmPreamble          0x4               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+command_M           0x78              C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+stuff               0x1               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+info_length         0x4               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+fcsflag_send_fm     0x1               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+ena_ad              0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+fcshi               0x1               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+flag_oteleme        0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+flag_rteleme        0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+flag_alive          0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+ena_dispAD          0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+mission_timeout     0x4               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+FM_sender_num       0x1               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+mpx                 0x20              C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+flag_scirx          0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+status              0x7f              C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+FM_buffer_num       0x1               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+FM_buffer           0x1400            C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+flag_misst          0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+command_L           0x78              C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+ena_oteleme         0x3               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+message_global      0xcc              C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+DT_mode             0x1               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+num_overAmpare      0x1               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+FM_mode             0x1               C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.vects          0x00000000      0x100
+ *(.vects)
+ .vects         0x00000000      0x100 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\vects.o
+                0x00000000                HardwareVectors
+
+.text           0x00000400     0xd3d6
+ *(.text)
+ .text          0x00000400        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\vects.o
+ .text          0x00000400        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\timer.o
+ .text          0x00000400        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .text          0x00000400       0x4e C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\start.o
+                0x00000400                start
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci_util.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_pll_inv.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu1.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu0.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\init.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\hwinit.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\global.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_ptt.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_pllcontrol.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\comm_buffer.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\20120510.o
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newfree.o)
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newheap.o)
+ .text          0x0000044e        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newmalloc.o)
+ *fill*         0x0000044e        0x2 00
+ .text          0x00000450       0x8c c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_divsi3.o)
+                0x00000472                __modsi3
+                0x0000047e                __umodsi3
+                0x00000484                __divsi3
+                0x0000049a                __udivsi3
+ .text          0x000004dc       0x18 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_mulsi3.o)
+                0x000004dc                __mulsi3
+ *(.text.*)
+ .text.delay_ms
+                0x000004f4       0x48 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\timer.o
+                0x000004f4                delay_ms
+ .text.delay_us
+                0x0000053c       0x34 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\timer.o
+                0x0000053c                delay_us
+ .text.delay_us_rx
+                0x00000570       0x42 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\timer.o
+                0x00000570                delay_us_rx
+ .text.InitTelemetry
+                0x000005b2       0x40 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x000005b2                InitTelemetry
+ .text.SetTelemetry_Rough
+                0x000005f2      0x2ca C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x000005f2                SetTelemetry_Rough
+ .text.SetTelemetry_Detail
+                0x000008bc      0x2fc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x000008bc                SetTelemetry_Detail
+ .text.Setup_DTelemetry
+                0x00000bb8       0x4a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00000bb8                Setup_DTelemetry
+ .text.SetTelemetry_API
+                0x00000c02      0x264 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00000c02                SetTelemetry_API
+ .text.SetTelemetry_Initial
+                0x00000e66      0x130 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00000e66                SetTelemetry_Initial
+ .text.OBC_Majority
+                0x00000f96       0x2c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00000f96                OBC_Majority
+ .text.Error_Majority
+                0x00000fc2       0x2e C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00000fc2                Error_Majority
+ .text.Read_Initial
+                0x00000ff0      0x256 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00000ff0                Read_Initial
+ .text.WriteIicBootMode
+                0x00001246      0x26c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00001246                WriteIicBootMode
+ .text.WriteIicBootFlag
+                0x000014b2      0x2b8 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x000014b2                WriteIicBootFlag
+ .text.WriteIicBootTime
+                0x0000176a      0x2c2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x0000176a                WriteIicBootTime
+ .text.WriteIicCameraParam
+                0x00001a2c      0x24a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00001a2c                WriteIicCameraParam
+ .text.WriteIicMorseParam
+                0x00001c76      0x250 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00001c76                WriteIicMorseParam
+ .text.WriteIicDigitalkerParam
+                0x00001ec6      0x24a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00001ec6                WriteIicDigitalkerParam
+ .text.WriteIicNoteParam
+                0x00002110      0x282 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00002110                WriteIicNoteParam
+ .text.WriteIicTextDebug
+                0x00002392      0x24a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00002392                WriteIicTextDebug
+ .text.WriteIicTextZParam
+                0x000025dc      0x24a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x000025dc                WriteIicTextZParam
+ .text.WriteIicTextYParam
+                0x00002826      0x24a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00002826                WriteIicTextYParam
+ .text.WriteIicTextXParam
+                0x00002a70      0x24a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00002a70                WriteIicTextXParam
+ .text.ReadSharedROM
+                0x00002cba      0x2fc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00002cba                ReadSharedROM
+ .text.LongReadSharedROM
+                0x00002fb6      0x248 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00002fb6                LongReadSharedROM
+ .text.GeneralWriteSharedMomery
+                0x000031fe      0x3c2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x000031fe                GeneralWriteSharedMomery
+ .text.GeneralReadSharedMomery
+                0x000035c0      0x318 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x000035c0                GeneralReadSharedMomery
+ .text.GeneralReadIIC0
+                0x000038d8      0x2c6 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x000038d8                GeneralReadIIC0
+ .text.GeneralReadIIC1
+                0x00003b9e      0x2c6 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00003b9e                GeneralReadIIC1
+ .text.debug_sci_init
+                0x00003e64       0x2a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci_util.o
+                0x00003e64                debug_sci_init
+ .text.debug_putc
+                0x00003e8e       0x10 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci_util.o
+                0x00003e8e                debug_putc
+ .text.debug_puts
+                0x00003e9e       0x10 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci_util.o
+                0x00003e9e                debug_puts
+ .text.debug_getc
+                0x00003eae       0x10 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci_util.o
+                0x00003eae                debug_getc
+ .text.debug_puthex
+                0x00003ebe       0x28 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci_util.o
+                0x00003ebe                debug_puthex
+ .text.debug_putdec
+                0x00003ee6       0x10 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci_util.o
+                0x00003ee6                debug_putdec
+ .text.HexToAscii
+                0x00003ef6       0x16 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci_util.o
+                0x00003ef6                HexToAscii
+ .text.sci2_init
+                0x00003f0c       0x80 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+                0x00003f0c                sci2_init
+ .text.sci2_putc
+                0x00003f8c       0x72 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+                0x00003f8c                sci2_putc
+ .text.sci2_puthex
+                0x00003ffe       0x38 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+                0x00003ffe                sci2_puthex
+ .text.sci2_putdec
+                0x00004036       0xbc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+                0x00004036                sci2_putdec
+ .text.sci2_putdoublehex
+                0x000040f2       0x24 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+                0x000040f2                sci2_putdoublehex
+ .text.sci2_putfourhex
+                0x00004116       0x24 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+                0x00004116                sci2_putfourhex
+ .text.sci2_putcrlf
+                0x0000413a       0x18 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+                0x0000413a                sci2_putcrlf
+ .text.sci2_puts
+                0x00004152       0x3a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+                0x00004152                sci2_puts
+ .text.sci2_getc
+                0x0000418c       0x64 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+                0x0000418c                sci2_getc
+ .text.INT_ERI2
+                0x000041f0       0x1a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+                0x000041f0                INT_ERI2
+ .text.INT_RXI2
+                0x0000420a       0x6c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+                0x0000420a                INT_RXI2
+ .text.INT_TXI2
+                0x00004276       0x88 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+                0x00004276                INT_TXI2
+ .text.INT_TEI2
+                0x000042fe       0x1a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+                0x000042fe                INT_TEI2
+ .text.sci1_init
+                0x00004318       0x80 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+                0x00004318                sci1_init
+ .text.sci1_putc
+                0x00004398       0x72 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+                0x00004398                sci1_putc
+ .text.sci1_puthex
+                0x0000440a       0x38 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+                0x0000440a                sci1_puthex
+ .text.sci1_putdec
+                0x00004442       0xbc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+                0x00004442                sci1_putdec
+ .text.sci1_putdoublehex
+                0x000044fe       0x24 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+                0x000044fe                sci1_putdoublehex
+ .text.sci1_putfourhex
+                0x00004522       0x24 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+                0x00004522                sci1_putfourhex
+ .text.sci1_putcrlf
+                0x00004546       0x18 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+                0x00004546                sci1_putcrlf
+ .text.sci1_puts
+                0x0000455e       0x3a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+                0x0000455e                sci1_puts
+ .text.sci1_getc
+                0x00004598       0x64 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+                0x00004598                sci1_getc
+ .text.INT_ERI1
+                0x000045fc       0x1a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+                0x000045fc                INT_ERI1
+ .text.sci1_puts_rx
+                0x00004616       0x86 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+                0x00004616                sci1_puts_rx
+ .text.INT_RXI1
+                0x0000469c       0x6c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+                0x0000469c                INT_RXI1
+ .text.INT_TXI1
+                0x00004708       0x88 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+                0x00004708                INT_TXI1
+ .text.INT_TEI1
+                0x00004790       0x1a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+                0x00004790                INT_TEI1
+ .text.sci0_init
+                0x000047aa       0x80 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+                0x000047aa                sci0_init
+ .text.sci0_putc
+                0x0000482a       0x72 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+                0x0000482a                sci0_putc
+ .text.sci0_puthex
+                0x0000489c       0x38 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+                0x0000489c                sci0_puthex
+ .text.sci0_putdec
+                0x000048d4       0xbc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+                0x000048d4                sci0_putdec
+ .text.sci0_putdoublehex
+                0x00004990       0x24 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+                0x00004990                sci0_putdoublehex
+ .text.sci0_putfourhex
+                0x000049b4       0x24 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+                0x000049b4                sci0_putfourhex
+ .text.sci0_putcrlf
+                0x000049d8       0x18 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+                0x000049d8                sci0_putcrlf
+ .text.sci0_puts
+                0x000049f0       0x3a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+                0x000049f0                sci0_puts
+ .text.sci0_getc
+                0x00004a2a       0x64 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+                0x00004a2a                sci0_getc
+ .text.INT_ERI0
+                0x00004a8e       0x1a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+                0x00004a8e                INT_ERI0
+ .text.INT_RXI0
+                0x00004aa8       0x6c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+                0x00004aa8                INT_RXI0
+ .text.INT_TXI0
+                0x00004b14       0x88 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+                0x00004b14                INT_TXI0
+ .text.INT_TEI0
+                0x00004b9c       0x1a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+                0x00004b9c                INT_TEI0
+ .text.init_itu
+                0x00004bb6       0x24 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+                0x00004bb6                init_itu
+ .text.bitin    0x00004bda       0x82 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+                0x00004bda                bitin
+ .text.get_byte
+                0x00004c5c       0xf0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+                0x00004c5c                get_byte
+ .text.get_buff
+                0x00004d4c       0xb8 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+                0x00004d4c                get_buff
+ .text.precrc_bit
+                0x00004e04       0x30 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+                0x00004e04                precrc_bit
+ .text.crc_length
+                0x00004e34       0x2c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+                0x00004e34                crc_length
+ .text.Ax_to_info
+                0x00004e60      0x11c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+                0x00004e60                Ax_to_info
+ .text.get_data
+                0x00004f7c       0xa2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+                0x00004f7c                get_data
+ .text.rx_init  0x0000501e       0x56 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+                0x0000501e                rx_init
+ .text.out_bit  0x00005074       0x34 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_pll_inv.o
+                0x00005074                out_bit
+ .text.strobe   0x000050a8       0x34 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_pll_inv.o
+                0x000050a8                strobe
+ .text.out_bits
+                0x000050dc       0x44 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_pll_inv.o
+                0x000050dc                out_bits
+ .text.set_reference_divider
+                0x00005120       0x2a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_pll_inv.o
+                0x00005120                set_reference_divider
+ .text.set_option_register
+                0x0000514a       0x7e C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_pll_inv.o
+                0x0000514a                set_option_register
+ .text.set_programmable_divider
+                0x000051c8       0x3c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_pll_inv.o
+                0x000051c8                set_programmable_divider
+ .text.pll_init_rx
+                0x00005204       0x5a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_pll_inv.o
+                0x00005204                pll_init_rx
+ .text.check_rx_working
+                0x0000525e       0x42 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+                0x0000525e                check_rx_working
+ .text.RX       0x000052a0       0x5a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+                0x000052a0                RX
+ .text.InitPowerTelemetry
+                0x000052fa       0x22 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+                0x000052fa                InitPowerTelemetry
+ .text.RequestPowerTelemetry
+                0x0000531c       0x18 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+                0x0000531c                RequestPowerTelemetry
+ .text.UpdatePowerTelemetry
+                0x00005334       0xae C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+                0x00005334                UpdatePowerTelemetry
+ .text.RequestMainShutdown
+                0x000053e2       0x3a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+                0x000053e2                RequestMainShutdown
+ .text.SendHDRtoPIC
+                0x0000541c       0x18 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+                0x0000541c                SendHDRtoPIC
+ .text.SendHDStoPIC
+                0x00005434       0x18 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+                0x00005434                SendHDStoPIC
+ .text.DebugPowerMessage
+                0x0000544c       0x96 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+                0x0000544c                DebugPowerMessage
+ .text.SendStatusToGS
+                0x000054e2      0x25a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+                0x000054e2                SendStatusToGS
+ .text.PutOut_Rough
+                0x0000573c      0x228 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+                0x0000573c                PutOut_Rough
+ .text.PutOut_Detail
+                0x00005964      0x23c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+                0x00005964                PutOut_Detail
+ .text.PutOut_API
+                0x00005ba0      0x1b8 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+                0x00005ba0                PutOut_API
+ .text.PutOut_Initial
+                0x00005d58      0x128 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+                0x00005d58                PutOut_Initial
+ .text.InitMissionTelemetry
+                0x00005e80       0x18 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                0x00005e80                InitMissionTelemetry
+ .text.SendMissionTelemetry
+                0x00005e98       0xd0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                0x00005e98                SendMissionTelemetry
+ .text.RequestMissionReboot
+                0x00005f68       0x5e C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                0x00005f68                RequestMissionReboot
+ .text.ScheduledRequestMissionReboot
+                0x00005fc6      0x210 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                0x00005fc6                ScheduledRequestMissionReboot
+ .text.ScheduledRequestMissionSwitch
+                0x000061d6      0x266 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                0x000061d6                ScheduledRequestMissionSwitch
+ .text.RequestMissionShutdown
+                0x0000643c       0x68 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                0x0000643c                RequestMissionShutdown
+ .text.PronounceMissionAbort
+                0x000064a4       0x3a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                0x000064a4                PronounceMissionAbort
+ .text.itu2_init
+                0x000064de       0x54 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                0x000064de                itu2_init
+ .text.INT_IMIA2
+                0x00006532       0x9c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                0x00006532                INT_IMIA2
+ .text.CheckNowTime
+                0x000065ce       0xee C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                0x000065ce                CheckNowTime
+ .text.DegitalkerON
+                0x000066bc       0x44 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                0x000066bc                DegitalkerON
+ .text.DegitalkerOFF
+                0x00006700       0x3c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                0x00006700                DegitalkerOFF
+ .text.Eco      0x0000673c       0x18 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                0x0000673c                Eco
+ .text.InitMessage
+                0x00006754       0x18 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x00006754                InitMessage
+ .text.SplitMessage_SCI0
+                0x0000676c      0x242 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x0000676c                SplitMessage_SCI0
+ .text.SplitMessage_SCI1
+                0x000069ae      0x368 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x000069ae                SplitMessage_SCI1
+ .text.SplitMessage_SCI2
+                0x00006d16      0x32c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x00006d16                SplitMessage_SCI2
+ .text.RecognizeCommand
+                0x00007042      0x316 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x00007042                RecognizeCommand
+ .text.RecognizeMissionCommand
+                0x00007358      0x31a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x00007358                RecognizeMissionCommand
+ .text.FindCommand
+                0x00007672       0x22 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x00007672                FindCommand
+ .text.TransmitMessage
+                0x00007694       0x3a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x00007694                TransmitMessage
+ .text.TransmitDigitalker
+                0x000076ce       0x3c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x000076ce                TransmitDigitalker
+ .text.InitPLL  0x0000770a       0x8e C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x0000770a                InitPLL
+ .text.SendMessage
+                0x00007798      0x1fa C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x00007798                SendMessage
+ .text.FinishSendMessage
+                0x00007992       0x3c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x00007992                FinishSendMessage
+ .text.FinishCommunication
+                0x000079ce       0x86 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x000079ce                FinishCommunication
+ .text.SendStatusMessage
+                0x00007a54      0x290 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x00007a54                SendStatusMessage
+ .text.CheckPowerReply
+                0x00007ce4       0x34 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x00007ce4                CheckPowerReply
+ .text.itu1_init
+                0x00007d18       0x5e C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu1.o
+                0x00007d18                itu1_init
+ .text.INT_IMIA1
+                0x00007d76      0x366 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu1.o
+                0x00007d76                INT_IMIA1
+ .text.itu0_init
+                0x000080dc       0x40 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu0.o
+                0x000080dc                itu0_init
+ .text.INT_IMIA0
+                0x0000811c       0x2a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu0.o
+                0x0000811c                INT_IMIA0
+ .text.INT_IMIB0
+                0x00008146       0x2a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu0.o
+                0x00008146                INT_IMIB0
+ .text.INT_NMI  0x00008170        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x00008170                INT_NMI
+ .text.INT_TRAP1
+                0x0000817c        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x0000817c                INT_TRAP1
+ .text.INT_TRAP2
+                0x00008188        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x00008188                INT_TRAP2
+ .text.INT_TRAP3
+                0x00008194        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x00008194                INT_TRAP3
+ .text.INT_TRAP4
+                0x000081a0        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x000081a0                INT_TRAP4
+ .text.INT_IRQ0
+                0x000081ac        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x000081ac                INT_IRQ0
+ .text.INT_IRQ1
+                0x000081b8        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x000081b8                INT_IRQ1
+ .text.INT_IRQ2
+                0x000081c4        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x000081c4                INT_IRQ2
+ .text.INT_IRQ3
+                0x000081d0        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x000081d0                INT_IRQ3
+ .text.INT_IRQ4
+                0x000081dc        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x000081dc                INT_IRQ4
+ .text.INT_IRQ5
+                0x000081e8        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x000081e8                INT_IRQ5
+ .text.INT_WOVI
+                0x000081f4        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x000081f4                INT_WOVI
+ .text.INT_CMI  0x00008200        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x00008200                INT_CMI
+ .text.INT_ADI  0x0000820c        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x0000820c                INT_ADI
+ .text.INT_OVI0
+                0x00008218        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x00008218                INT_OVI0
+ .text.INT_IMIB1
+                0x00008224        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x00008224                INT_IMIB1
+ .text.INT_OVI1
+                0x00008230        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x00008230                INT_OVI1
+ .text.INT_OVI2
+                0x0000823c        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x0000823c                INT_OVI2
+ .text.INT_CMIA0
+                0x00008248        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x00008248                INT_CMIA0
+ .text.INT_CMIB0
+                0x00008254        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x00008254                INT_CMIB0
+ .text.INT_CMIA1B1
+                0x00008260        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x00008260                INT_CMIA1B1
+ .text.INT_TOVI0_1
+                0x0000826c        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x0000826c                INT_TOVI0_1
+ .text.INT_CMIA2
+                0x00008278        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x00008278                INT_CMIA2
+ .text.INT_CMIB2
+                0x00008284        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x00008284                INT_CMIB2
+ .text.INT_CMIA3B3
+                0x00008290        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x00008290                INT_CMIA3B3
+ .text.INT_TOVI2_3
+                0x0000829c        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x0000829c                INT_TOVI2_3
+ .text.INT_DEND0A
+                0x000082a8        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x000082a8                INT_DEND0A
+ .text.INT_DEND0B
+                0x000082b4        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x000082b4                INT_DEND0B
+ .text.INT_DEND1A
+                0x000082c0        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x000082c0                INT_DEND1A
+ .text.INT_DEND1B
+                0x000082cc        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+                0x000082cc                INT_DEND1B
+ .text.Init_MyFunction
+                0x000082d8      0x104 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\init.o
+                0x000082d8                Init_MyFunction
+ .text.Init_Bus
+                0x000083dc       0xbe C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\init.o
+                0x000083dc                Init_Bus
+ .text.Init_Peripherals
+                0x0000849a       0x26 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\init.o
+                0x0000849a                Init_Peripherals
+ .text.IIC2_EEPWAIT
+                0x000084c0       0x2a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+                0x000084c0                IIC2_EEPWAIT
+ .text.IIC2_WRITEB
+                0x000084ea       0xce C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+ .text.IIC2_EEPSTART
+                0x000085b8       0xb2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+ .text.IIC2_READB
+                0x0000866a       0xd8 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+ .text.IIC2_EEPSTOP
+                0x00008742       0x62 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+                0x00008742                IIC2_EEPSTOP
+ .text.IIC2_EEPRESET
+                0x000087a4       0x82 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+                0x000087a4                IIC2_EEPRESET
+ .text.IIC2_EEPINIT
+                0x00008826       0x1a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+                0x00008826                IIC2_EEPINIT
+ .text.IIC2_EEPCHANGE
+                0x00008840       0x1c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+                0x00008840                IIC2_EEPCHANGE
+ .text.IIC2_EEPWRITE
+                0x0000885c       0xa2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+                0x0000885c                IIC2_EEPWRITE
+ .text.IIC2_EEPREAD
+                0x000088fe       0xde C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+                0x000088fe                IIC2_EEPREAD
+ .text.IIC1_EEPWAIT
+                0x000089dc       0x2a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+                0x000089dc                IIC1_EEPWAIT
+ .text.IIC1_WRITEB
+                0x00008a06       0xce C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+ .text.IIC1_EEPSTART
+                0x00008ad4       0xb2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+ .text.IIC1_READB
+                0x00008b86       0xda C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+ .text.IIC1_EEPSTOP
+                0x00008c60       0x62 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+                0x00008c60                IIC1_EEPSTOP
+ .text.IIC1_EEPRESET
+                0x00008cc2       0x82 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+                0x00008cc2                IIC1_EEPRESET
+ .text.IIC1_EEPINIT
+                0x00008d44       0x1a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+                0x00008d44                IIC1_EEPINIT
+ .text.IIC1_EEPCHANGE
+                0x00008d5e       0x1c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+                0x00008d5e                IIC1_EEPCHANGE
+ .text.IIC1_EEPWRITE
+                0x00008d7a       0xa2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+                0x00008d7a                IIC1_EEPWRITE
+ .text.IIC1_EEPREAD
+                0x00008e1c       0xde C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+                0x00008e1c                IIC1_EEPREAD
+ .text.IIC0_EEPWAIT
+                0x00008efa       0x2a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+                0x00008efa                IIC0_EEPWAIT
+ .text.IIC0_WRITEB
+                0x00008f24       0xcc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+ .text.IIC0_EEPSTART
+                0x00008ff0       0xb2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+ .text.IIC0_READB
+                0x000090a2       0xda C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+ .text.IIC0_EEPSTOP
+                0x0000917c       0x62 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+                0x0000917c                IIC0_EEPSTOP
+ .text.IIC0_EEPRESET
+                0x000091de       0x82 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+                0x000091de                IIC0_EEPRESET
+ .text.IIC0_EEPINIT
+                0x00009260       0x1a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+                0x00009260                IIC0_EEPINIT
+ .text.IIC0_EEPCHANGE
+                0x0000927a       0x1c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+                0x0000927a                IIC0_EEPCHANGE
+ .text.IIC0_EEPWRITE
+                0x00009296       0xa2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+                0x00009296                IIC0_EEPWRITE
+ .text.IIC0_EEPREAD
+                0x00009338       0xde C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+                0x00009338                IIC0_EEPREAD
+ .text.hw_initialise
+                0x00009416        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\hwinit.o
+                0x00009416                hw_initialise
+ .text.InitStatus
+                0x00009422      0x15e C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\global.o
+                0x00009422                InitStatus
+ .text.CheckFlags
+                0x00009580       0x38 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\global.o
+                0x00009580                CheckFlags
+ .text.ClearFlags
+                0x000095b8       0x18 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\global.o
+                0x000095b8                ClearFlags
+ .text.SetFlags
+                0x000095d0       0x18 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\global.o
+                0x000095d0                SetFlags
+ .text.InitRoutine
+                0x000095e8       0x86 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\global.o
+                0x000095e8                InitRoutine
+ .text.init_modem
+                0x0000966e       0x26 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+                0x0000966e                init_modem
+ .text.init_fm  0x00009694       0x36 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+                0x00009694                init_fm
+ .text.delay_modem
+                0x000096ca       0x12 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+                0x000096ca                delay_modem
+ .text.send_bit
+                0x000096dc       0x42 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+                0x000096dc                send_bit
+ .text.crcbit   0x0000971e       0x60 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+                0x0000971e                crcbit
+ .text.send_byte
+                0x0000977e       0x84 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+                0x0000977e                send_byte
+ .text.send_packet
+                0x00009802       0x8a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+                0x00009802                send_packet
+ .text.AX_protocol
+                0x0000988c      0x27e C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+                0x0000988c                AX_protocol
+ .text.Ax_Send  0x00009b0a       0xf8 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+                0x00009b0a                Ax_Send
+ .text.TX       0x00009c02      0x18a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+                0x00009c02                TX
+ .text.on_off_ms
+                0x00009d8c       0x84 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+                0x00009d8c                on_off_ms
+ .text.on_off_sec
+                0x00009e10       0x8c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+                0x00009e10                on_off_sec
+ .text.on_off_us
+                0x00009e9c       0x84 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+                0x00009e9c                on_off_us
+ .text.fmptt_on
+                0x00009f20       0x18 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_ptt.o
+                0x00009f20                fmptt_on
+ .text.fmptt_off
+                0x00009f38       0x10 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_ptt.o
+                0x00009f38                fmptt_off
+ .text.out_bit_fm
+                0x00009f48       0x36 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_pllcontrol.o
+                0x00009f48                out_bit_fm
+ .text.strobe_fm
+                0x00009f7e       0x34 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_pllcontrol.o
+                0x00009f7e                strobe_fm
+ .text.out_bits_fm
+                0x00009fb2       0x42 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_pllcontrol.o
+                0x00009fb2                out_bits_fm
+ .text.set_reference_divider_fm
+                0x00009ff4       0x26 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_pllcontrol.o
+                0x00009ff4                set_reference_divider_fm
+ .text.set_option_register_fm
+                0x0000a01a       0x7c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_pllcontrol.o
+                0x0000a01a                set_option_register_fm
+ .text.set_programmable_divider_fm
+                0x0000a096       0x54 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_pllcontrol.o
+                0x0000a096                set_programmable_divider_fm
+ .text.pll_init_fm
+                0x0000a0ea       0x56 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_pllcontrol.o
+                0x0000a0ea                pll_init_fm
+ .text.set_pll_fm
+                0x0000a140       0x5a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_pllcontrol.o
+                0x0000a140                set_pll_fm
+ .text.DebugMultiplexer
+                0x0000a19a      0x100 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                0x0000a19a                DebugMultiplexer
+ .text.DebugPut_Status
+                0x0000a29a      0x236 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                0x0000a29a                DebugPut_Status
+ .text.DebugEEPROM
+                0x0000a4d0      0x398 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                0x0000a4d0                DebugEEPROM
+ .text.DebugPut_Rough
+                0x0000a868      0x254 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                0x0000a868                DebugPut_Rough
+ .text.DebugPut_Detail
+                0x0000aabc      0x254 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                0x0000aabc                DebugPut_Detail
+ .text.DebugPut_API
+                0x0000ad10      0x22a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                0x0000ad10                DebugPut_API
+ .text.DebugPut_Initial
+                0x0000af3a      0x14a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                0x0000af3a                DebugPut_Initial
+ .text.DebugPut_SharedROM
+                0x0000b084      0x298 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                0x0000b084                DebugPut_SharedROM
+ .text.Debug_SharedROM
+                0x0000b31c      0x1da C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                0x0000b31c                Debug_SharedROM
+ .text.DebugWrite_SharedROM
+                0x0000b4f6      0x38a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                0x0000b4f6                DebugWrite_SharedROM
+ .text.DisplayRoutine
+                0x0000b880      0x1e6 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                0x0000b880                DisplayRoutine
+ .text.SetRoutine
+                0x0000ba66      0x156 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                0x0000ba66                SetRoutine
+ .text.Check_PowerData
+                0x0000bbbc       0x6c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                0x0000bbbc                Check_PowerData
+ .text.StopAlivePeriod
+                0x0000bc28       0x20 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                0x0000bc28                StopAlivePeriod
+ .text.GetCommandID
+                0x0000bc48      0x570 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+                0x0000bc48                GetCommandID
+ .text.GetMissionCommandID
+                0x0000c1b8       0xc6 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+                0x0000c1b8                GetMissionCommandID
+ .text.RegistCommand
+                0x0000c27e      0x36a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+                0x0000c27e                RegistCommand
+ .text.RegistMissionCommand
+                0x0000c5e8      0x166 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+                0x0000c5e8                RegistMissionCommand
+ .text.ExecuteCommand
+                0x0000c74e      0x4fc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+                0x0000c74e                ExecuteCommand
+ .text.comm_buffer_init
+                0x0000cc4a       0x3a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\comm_buffer.o
+                0x0000cc4a                comm_buffer_init
+ .text.adconv_init
+                0x0000cc84       0x30 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+                0x0000cc84                adconv_init
+ .text.ami_switch
+                0x0000ccb4       0x32 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+                0x0000ccb4                ami_switch
+ .text.mpx_switch
+                0x0000cce6       0x88 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+                0x0000cce6                mpx_switch
+ .text.get_sensor
+                0x0000cd6e      0x1da C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+                0x0000cd6e                get_sensor
+ .text.check_overAmpare
+                0x0000cf48       0xf2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+                0x0000cf48                check_overAmpare
+ .text.PowerReset
+                0x0000d03a       0x4c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+                0x0000d03a                PowerReset
+ .text.RequestPowerReboot
+                0x0000d086       0x26 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+                0x0000d086                RequestPowerReboot
+ .text.RequestPowerShutdown
+                0x0000d0ac       0x26 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+                0x0000d0ac                RequestPowerShutdown
+ .text.INT_IMIB2
+                0x0000d0d2       0x88 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+                0x0000d0d2                INT_IMIB2
+ .text.insertSpace
+                0x0000d15a       0x2e C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+                0x0000d15a                insertSpace
+ .text.disp_AD  0x0000d188       0xe0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+                0x0000d188                disp_AD
+ .text.startup.main
+                0x0000d268      0x3bc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\20120510.o
+                0x0000d268                main
+ .text.free     0x0000d624       0xc2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newfree.o)
+                0x0000d624                free
+ .text._top_of_heap
+                0x0000d6e6        0xe C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newheap.o)
+                0x0000d6e6                _top_of_heap
+ .text._make_new_mem_hole
+                0x0000d6f4       0x2e C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newmalloc.o)
+                0x0000d6f4                _make_new_mem_hole
+ .text.malloc   0x0000d722       0xb4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newmalloc.o)
+                0x0000d722                malloc
+                0x0000d7d6                etext = .
+
+.init
+ *(.init)
+
+.fini
+ *(.fini)
+
+.got
+ *(.got)
+ *(.got.plt)
+
+.rodata         0x0000d7d8      0xe8b
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.str1.1
+                0x0000d7d8      0x2f5 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                                0x32d (size before relaxing)
+ .rodata.str1.1
+                0x0000dacd       0x16 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+ .rodata.str1.1
+                0x0000dae3       0x21 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+                                 0x23 (size before relaxing)
+ .rodata.str1.1
+                0x0000db04       0x88 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+                                 0x8c (size before relaxing)
+ .rodata.str1.1
+                0x0000db8c       0x9b C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+                                 0xa9 (size before relaxing)
+ .rodata.str1.1
+                0x0000dc27      0x241 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                                0x24c (size before relaxing)
+ .rodata.str1.1
+                0x0000de68      0x169 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                                0x16b (size before relaxing)
+ .rodata.str1.1
+                0x0000dfd1       0xc6 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+                                 0xd9 (size before relaxing)
+ .rodata.str1.1
+                0x0000e097      0x20f C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+                                0x2c2 (size before relaxing)
+ *fill*         0x0000e2a6        0x2 00
+ .rodata.DebugWrite_SharedROM
+                0x0000e2a8       0x48 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+ .rodata.SetRoutine
+                0x0000e2f0       0x60 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+ .rodata.str1.1
+                0x0000e350       0x46 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+                                 0x4a (size before relaxing)
+ *fill*         0x0000e396        0x2 00
+ .rodata.ExecuteCommand
+                0x0000e398       0xf0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+ .rodata.get_sensor
+                0x0000e488       0x20 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+ .rodata.str1.1
+                0x0000e4a8       0xb9 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+                                 0xc2 (size before relaxing)
+ .rodata.str1.1
+                0x0000e561      0x102 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\20120510.o
+                                0x107 (size before relaxing)
+                0x0000e663                _erodata = .
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.jcr
+ *(.jcr)
+
+.tors           0x0000e663        0x0
+                0x0000e663                __CTOR_LIST__ = .
+                0x0000e663                ___ctors = .
+ *(.ctors)
+                0x0000e663                ___ctors_end = .
+                0x0000e663                __CTOR_END__ = .
+                0x0000e663                __DTOR_LIST__ = .
+                0x0000e663                ___dtors = .
+ *(.dtors)
+                0x0000e663                ___dtors_end = .
+                0x0000e663                __DTOR_END__ = .
+                0x0000e663                _mdata = .
+
+.data           0x00ffbf20        0x0 load address 0x0000e663
+                0x00ffbf20                _data = .
+ *(.data)
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\vects.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\timer.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\start.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci_util.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_pll_inv.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu1.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu0.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\init.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\hwinit.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\global.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_ptt.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_pllcontrol.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\comm_buffer.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\20120510.o
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newfree.o)
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newheap.o)
+ .data          0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newmalloc.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_divsi3.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_mulsi3.o)
+ *(.data.*)
+                0x00ffbf20                _edata = .
+
+.gcc_exc
+ *(.gcc_exc)
+
+.bss            0x00ffbf20     0x2f10 load address 0x0000e664
+                0x00ffbf20                _bss = .
+ *(.bss)
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\vects.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\timer.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\start.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci_util.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_pll_inv.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu1.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu0.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\init.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\hwinit.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\global.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_ptt.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_pllcontrol.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\comm_buffer.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\20120510.o
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newfree.o)
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newheap.o)
+ .bss           0x00ffbf20        0x0 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newmalloc.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_divsi3.o)
+ .bss           0x00ffbf20        0x0 c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_mulsi3.o)
+ *(.bss.*)
+ .bss.timer_flag
+                0x00ffbf20        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\timer.o
+                0x00ffbf20                timer_flag
+ .bss.data_set___2491
+                0x00ffbf24       0x80 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .bss.slave___2489
+                0x00ffbfa4        0x1 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ *fill*         0x00ffbfa5        0x3 00
+ .bss.eep_page___2490
+                0x00ffbfa8        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .bss.slave___2547
+                0x00ffbfac        0x1 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ *fill*         0x00ffbfad        0x3 00
+ .bss.eep_page___2548
+                0x00ffbfb0        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .bss.data_set___2549
+                0x00ffbfb4       0x80 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .bss.data_set___2599
+                0x00ffc034       0x20 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .bss.eep_page___2598
+                0x00ffc054        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .bss.data_obc___2612
+                0x00ffc058       0x20 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .bss.data_error___2613
+                0x00ffc078       0x20 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .bss.data_obc___2632
+                0x00ffc098       0x20 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .bss.data_error___2633
+                0x00ffc0b8       0x20 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .bss.tlm___2872
+                0x00ffc0d8       0x80 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .bss.tlm___2905
+                0x00ffc158       0x80 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .bss.tx2_length
+                0x00ffc1d8        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+ .bss.tx2_wp    0x00ffc1da        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+ .bss.tx2_rp    0x00ffc1dc        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+ .bss.rx2_length
+                0x00ffc1de        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+ .bss.rx2_wp    0x00ffc1e0        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+ .bss.rx2_rp    0x00ffc1e2        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+ .bss.tx2_buff  0x00ffc1e4      0x100 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+ .bss.rx2_buff  0x00ffc2e4      0x100 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+ .bss.tx1_length
+                0x00ffc3e4        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+ .bss.tx1_wp    0x00ffc3e6        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+ .bss.tx1_rp    0x00ffc3e8        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+ .bss.rx1_length
+                0x00ffc3ea        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+ .bss.rx1_wp    0x00ffc3ec        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+ .bss.rx1_rp    0x00ffc3ee        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+ .bss.tx1_buff  0x00ffc3f0      0x100 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+ .bss.rx1_buff  0x00ffc4f0      0x100 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+ .bss.tx0_length
+                0x00ffc5f0        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+ .bss.tx0_wp    0x00ffc5f2        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+ .bss.tx0_rp    0x00ffc5f4        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+ .bss.rx0_length
+                0x00ffc5f6        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+ .bss.rx0_wp    0x00ffc5f8        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+ .bss.rx0_rp    0x00ffc5fa        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+ .bss.tx0_buff  0x00ffc5fc      0x100 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+ .bss.rx0_buff  0x00ffc6fc      0x100 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+ .bss.fcs_error
+                0x00ffc7fc        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+                0x00ffc7fc                fcs_error
+ .bss.bit       0x00ffc800        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+                0x00ffc800                bit
+ .bss.shiftbuff
+                0x00ffc804        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+                0x00ffc804                shiftbuff
+ .bss.oldstate  0x00ffc808        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+ .bss.info      0x00ffc80c        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+ .bss.a___2743  0x00ffc810        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+ .bss.info      0x00ffc814        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+ .bss.tlm___1386
+                0x00ffc818       0x80 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+ .bss.tlm___1423
+                0x00ffc898       0x80 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+ .bss.tlm___1457
+                0x00ffc918       0x20 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+ .bss.tlm___1478
+                0x00ffc938       0x20 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+ .bss.start___2488
+                0x00ffc958        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.found___2487
+                0x00ffc95a        0x1 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ *fill*         0x00ffc95b        0x1 00
+ .bss.i___2486  0x00ffc95c        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.split_sci0_buff___2484
+                0x00ffc95e      0x100 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.split_sci0_wp___2485
+                0x00ffca5e        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.start___2510
+                0x00ffca60        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.found___2509
+                0x00ffca62        0x1 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ *fill*         0x00ffca63        0x1 00
+ .bss.i___2508  0x00ffca64        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.start___2540
+                0x00ffca66        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.found___2539
+                0x00ffca68        0x1 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ *fill*         0x00ffca69        0x1 00
+ .bss.i___2538  0x00ffca6a        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.message_fm
+                0x00ffca6c       0xc8 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.mission_counter
+                0x00ffcb34        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.mission_length
+                0x00ffcb38        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.mission_rp
+                0x00ffcb3a        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.mission_wp
+                0x00ffcb3c        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.mission_length_buff
+                0x00ffcb3e        0x8 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ *fill*         0x00ffcb46        0x2 00
+ .bss.message_counter
+                0x00ffcb48        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.message_length
+                0x00ffcb4c        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.message_rp
+                0x00ffcb4e        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.message_wp
+                0x00ffcb50        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.message_length_buff
+                0x00ffcb52        0x8 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.message_buff
+                0x00ffcb5a      0x320 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.split_sci1_wp___2507
+                0x00ffce7a        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.split_sci1_buff___2506
+                0x00ffce7c      0x100 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.split_sci2_wp___2537
+                0x00ffcf7c        0x2 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.split_sci2_buff___2536
+                0x00ffcf7e      0x100 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.mission_buff
+                0x00ffd07e      0x320 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .bss.buf___2656
+                0x00ffd39e       0x80 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+ .bss.tlm___2682
+                0x00ffd41e       0x80 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+ .bss.tlm___2707
+                0x00ffd49e       0x80 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+ .bss.tlm___2728
+                0x00ffd51e       0x20 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+ .bss.buf_obc___2738
+                0x00ffd53e       0x20 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+ .bss.buf_error___2739
+                0x00ffd55e       0x20 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+ .bss.tlm___2764
+                0x00ffd57e       0x80 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+ .bss.buf___2779
+                0x00ffd5fe       0x80 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+ .bss.l_rp      0x00ffd67e        0x1 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+ .bss.l_wp      0x00ffd67f        0x1 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+ .bss.m_rp      0x00ffd680        0x1 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+ .bss.m_wp      0x00ffd681        0x1 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+ .bss.h_rp      0x00ffd682        0x1 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+ .bss.h_wp      0x00ffd683        0x1 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+ .bss.cnt___2519
+                0x00ffd684        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+ .bss.mpx_ch___2487
+                0x00ffd688        0x1 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+ *fill*         0x00ffd689        0x3 00
+ .bss._last_heap_object
+                0x00ffd68c        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newheap.o)
+                0x00ffd68c                _last_heap_object
+ .bss._heap_of_memory
+                0x00ffd690        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newheap.o)
+                0x00ffd690                _heap_of_memory
+ *(COMMON)
+ COMMON         0x00ffd694        0x4 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\timer.o
+                0x00ffd694                time
+ COMMON         0x00ffd698      0x1ad C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+                0x00ffd698                ena_overa
+                0x00ffd69b                flag_dispAD
+                0x00ffd69e                flag_overa
+                0x00ffd6a1                flag_pic
+                0x00ffd6a4                flag_dteleme
+                0x00ffd6a7                ena_rteleme
+                0x00ffd6aa                ena_ateleme
+                0x00ffd6ad                flag_ad
+                0x00ffd6b0                my_wdt
+                0x00ffd6b4                flag_iteleme
+                0x00ffd6b7                ena_iteleme
+                0x00ffd6ba                ena_mywdt
+                0x00ffd6c0                itu1_cnt
+                0x00ffd6c4                ena_dteleme
+                0x00ffd6c7                flag_ateleme
+                0x00ffd6ca                ena_ad
+                0x00ffd6cd                flag_oteleme
+                0x00ffd6d0                flag_rteleme
+                0x00ffd6d3                ena_dispAD
+                0x00ffd6d6                mpx
+                0x00ffd6f6                status
+                0x00ffd775                ena_oteleme
+                0x00ffd778                message_global
+                0x00ffd844                num_overAmpare
+ *fill*         0x00ffd845        0x3 00
+ COMMON         0x00ffd848       0x15 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+                0x00ffd848                i
+                0x00ffd84c                fcslo
+                0x00ffd84d                flag_rx
+                0x00ffd850                uplink_rx_buff
+                0x00ffd854                kbit
+                0x00ffd858                info_length
+                0x00ffd85c                fcshi
+ *fill*         0x00ffd85d        0x3 00
+ COMMON         0x00ffd860     0x142a C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+                0x00ffd860                flag_send_fm
+                0x00ffd864                DT_time
+                0x00ffd868                flag_tx
+                0x00ffd86b                FM_buffer_length
+                0x00ffd880                FmPreamble
+                0x00ffd884                stuff
+                0x00ffd885                fcsflag_send_fm
+                0x00ffd886                FM_sender_num
+                0x00ffd887                FM_buffer_num
+                0x00ffd888                FM_buffer
+                0x00ffec88                DT_mode
+                0x00ffec89                FM_mode
+ COMMON         0x00ffec8a        0xc C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+                0x00ffec8a                ena_alive
+                0x00ffec8d                flag_pwrt
+                0x00ffec90                ena_pwrt
+                0x00ffec93                flag_alive
+ *fill*         0x00ffec96        0x2 00
+ COMMON         0x00ffec98       0x27 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+                0x00ffec98                flag_tof
+                0x00ffec9c                sms_time
+                0x00ffeca0                flag_cpr
+                0x00ffeca4                smr_time
+                0x00ffeca8                flag_ton
+                0x00ffeca9                flag_smr
+                0x00ffecac                ena_misst
+                0x00ffecb0                mission_cnt
+                0x00ffecb4                flag_sms
+                0x00ffecb8                mission_timeout
+                0x00ffecbc                flag_misst
+ COMMON         0x00ffecbf        0x6 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+                0x00ffecbf                flag_exe
+                0x00ffecc2                flag_scirx
+ COMMON         0x00ffecc5        0x1 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+                0x00ffecc5                P2_DDR
+ *fill*         0x00ffecc6        0x2 00
+ COMMON         0x00ffecc8      0x168 C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+                0x00ffecc8                command_H
+                0x00ffed40                command_M
+                0x00ffedb8                command_L
+                0x00ffee30                _ebss = .
+                0x00ffee30                _end = .
+
+.stack          0x00ffff00        0x0
+                0x00ffff00                _stack = .
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\vects.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\timer.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\start.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci_util.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_pll_inv.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu1.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu0.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\init.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\hwinit.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\global.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_ptt.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_pllcontrol.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\comm_buffer.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\20120510.o
+START GROUP
+LOAD C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a
+LOAD c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a
+END GROUP
+OUTPUT(C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\20140113.x elf32-h8300)
+
+.comment        0x00000000       0x1c
+ .comment       0x00000000       0x1c C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\vects.o
+                                 0x1d (size before relaxing)
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\timer.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci_util.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_pll_inv.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu1.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu0.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\init.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\hwinit.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\global.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_ptt.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_pllcontrol.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\comm_buffer.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\20120510.o
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newfree.o)
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newheap.o)
+ .comment       0x00000000       0x1d C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\lib20140113.a(newmalloc.o)
+
+
+==============================================================
+
+Listfile generated by KPIT GNUH8 [ELF]-v12.01 on Thursday, January 16, 2014, 20:47:15
+
+Build options:
+
+-T "C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\20140113_Release_auto.gsi"
+-T "C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\20140113_input.tmp" 
+-L "c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32"
+-L "C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release"
+-Map "C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\20140113.map"
+-no-keep-memory
+-S
+-( -l "20140113" -l "gcc" -)
+-o "C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\20140113.x"
+-e _start
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\vects.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\timer.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\teleme.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\start.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci_util.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci2.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci1.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\sci0.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_protcol_inv.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx_pll_inv.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\rx.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\pwr.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\put_status.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\mission.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\message.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu1.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\itu0.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\inthandler.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\init.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic2.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic1.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\iic0.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\hwinit.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\global.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_tx.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_ptt.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\fm_pllcontrol.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\debug.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\command.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\comm_buffer.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\adconv.o")
+INPUT("C:\Users\USER\Desktop\com\í êMån\20140113\20120510\Release\20120510.o")

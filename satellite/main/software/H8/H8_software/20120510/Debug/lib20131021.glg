@@ -1,0 +1,4 @@
+--compiler-options=-mh,-Os,-fdata-sections,-ffunction-sections,-falign-jumps,-fno-function-cse,-funit-at-a-time
+--output="C:\Users\Kimura\Desktop\INVADER_Dev\20131021\20120510\Debug\lib20131021.a"
+--select-lib=optlib
+--header-files=stdio,stdlib,string

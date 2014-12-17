@@ -1,0 +1,10 @@
+-T "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\20131028_Release_auto.gsi"
+-T "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\20131028_input.tmp" 
+-L "c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32"
+-L "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release"
+-Map "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\20131028.map"
+-no-keep-memory
+-S
+-( -l "20131028" -l "gcc" -)
+-o "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\20131028.x"
+-e _start

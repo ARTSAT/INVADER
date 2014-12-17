@@ -1,0 +1,86 @@
+Archive member included because of file (symbol)
+
+C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\lib20131028.a(newfree.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\rx.o (free)
+C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\lib20131028.a(newheap.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\lib20131028.a(newfree.o) (_last_heap_object)
+C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\lib20131028.a(newmalloc.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\rx_protcol_inv.o (malloc)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_divsi3.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\sci2.o (__udivsi3)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_mulsi3.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\sci2.o (__mulsi3)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fixunssfsi.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\teleme.o (__fixunssfsi)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_addsub_sf.o)
+                              c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fixunssfsi.o) (__subsf3)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_div_sf.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\teleme.o (__divsf3)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_ge_sf.o)
+                              c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fixunssfsi.o) (__gesf2)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_si_to_sf.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\teleme.o (__floatsisf)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_sf_to_si.o)
+                              c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fixunssfsi.o) (__fixsfsi)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_thenan_sf.o)
+                              c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_addsub_sf.o) (__thenan_sf)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clzsi2.o)
+                              c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_si_to_sf.o) (__clzsi2)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_pack_sf.o)
+                              c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_addsub_sf.o) (__pack_f)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_unpack_sf.o)
+                              c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_addsub_sf.o) (__unpack_f)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_fpcmp_parts_sf.o)
+                              c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_ge_sf.o) (__fpcmp_parts_f)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clz.o)
+                              c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32\libgcc.a(_clzsi2.o) (__clz_tab)
+
+
+==============================================================
+
+Listfile generated by KPIT GNUH8 [ELF]-v12.01 on Wednesday, October 30, 2013, 19:08:25
+
+Build options:
+
+-T "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\20131028_Release_auto.gsi"
+-T "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\20131028_input.tmp" 
+-L "c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\int32"
+-L "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release"
+-Map "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\20131028.map"
+-no-keep-memory
+-S
+-( -l "20131028" -l "gcc" -)
+-o "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\20131028.x"
+-e _start
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\vects.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\timer.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\teleme.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\start.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\sci_util.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\sci2.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\sci1.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\sci0.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\rx_protcol_inv.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\rx_pll_inv.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\rx.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\pwr.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\put_status.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\mission.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\message.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\itu1.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\itu0.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\inthandler.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\init.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\iic2.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\iic1.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\iic0.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\hwinit.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\global.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\fm_tx.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\fm_ptt.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\fm_pllcontrol.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\debug.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\command.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\comm_buffer.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\adconv.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Release\20120510.o")

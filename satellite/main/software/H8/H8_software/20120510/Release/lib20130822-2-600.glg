@@ -1,0 +1,4 @@
+--compiler-options=-mh,-mint32,-Os,-fdata-sections,-ffunction-sections,-falign-jumps,-fno-function-cse,-funit-at-a-time
+--output="C:\Users\nozomi\Desktop\com\í êMån\20130822-2-600\20120510\Release\lib20130822-2-600.a"
+--select-lib=optlib
+--header-files=stdio,stdlib,string

@@ -1,0 +1,10 @@
+-c -x c
+-mh
+-I "c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\h8300-elf\optlibinc"
+-I "c:\program files\renesas\hew\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\optlibinc"
+-D DEBUG
+-nostdinc
+"C:\Users\USER\Desktop\com\í êMån\20131207\20120510\itu0.c"
+-g
+-g2
+-o "C:\Users\USER\Desktop\com\í êMån\20131207\20120510\Debug\itu0.o"

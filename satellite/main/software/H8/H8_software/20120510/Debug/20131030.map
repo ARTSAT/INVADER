@@ -1,0 +1,1064 @@
+Archive member included because of file (symbol)
+
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_divsi3.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o (__udivsi3)
+c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_mulsi3.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o (__mulsi3)
+C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(exit.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\start.o (exit)
+C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newfree.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o (free)
+C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newheap.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newfree.o) (_heap_of_memory)
+C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newmalloc.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o (malloc)
+C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(_exit.o)
+                              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+command_H           0x78              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+P2_DDR              0x1               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o
+ena_overa           0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+flag_dispAD         0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+flag_overa          0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+flag_send_fm        0x1               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+i                   0x2               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+ena_alive           0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+fcslo               0x1               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+flag_tof            0x1               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+flag_rx             0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+flag_dteleme        0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+flag_exe            0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+sms_time            0x4               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+ena_rteleme         0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+flag_cpr            0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+ena_ateleme         0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+flag_pwrt           0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+DT_time             0x2               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+flag_tx             0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+ena_pwrt            0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+flag_ad             0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+my_wdt              0x4               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+uplink_rx_buff      0x4               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+flag_iteleme        0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+smr_time            0x4               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+FM_buffer_length    0xc               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+ena_iteleme         0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+flag_ton            0x1               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+flag_smr            0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+kbit                0x2               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+ena_mywdt           0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+itu1_cnt            0x4               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+ena_dteleme         0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+flag_ateleme        0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+ena_misst           0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+mission_cnt         0x4               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+time                0x2               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+flag_sms            0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+FmPreamble          0x4               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+command_M           0x78              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+stuff               0x1               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+info_length         0x2               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+fcsflag_send_fm     0x1               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+ena_ad              0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+fcshi               0x1               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+flag_oteleme        0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+flag_rteleme        0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+flag_alive          0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+ena_dispAD          0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+FM_sender_num       0x1               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+mpx                 0x20              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+flag_scirx          0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+status              0x7f              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+FM_buffer_num       0x1               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+FM_buffer           0xc00             C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+flag_misst          0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+command_L           0x78              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+ena_oteleme         0x3               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+message_global      0xcc              C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+DT_mode             0x1               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+FM_mode             0x1               C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.vects          0x00000000      0x100
+ *(.vects)
+ .vects         0x00000000      0x100 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\vects.o
+                0x00000000                HardwareVectors
+
+.text           0x00000400    0x101f4
+ *(.text)
+ .text          0x00000400        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\vects.o
+ .text          0x00000400      0x17c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+                0x00000400                delay_ms
+                0x00000482                delay_us
+                0x000004e4                delay_us_rx
+ .text          0x0000057c     0x111a C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+                0x0000057c                InitTelemetry
+                0x000005be                SetTelemetry_Rough
+                0x00000a4a                SetTelemetry_Detail
+                0x00000ed6                SetTelemetry_API
+                0x0000110c                SetTelemetry_Initial
+                0x0000122a                Read_Initial
+                0x00001516                OBC_Majority
+                0x000015d8                Error_Majority
+ .text          0x00001696       0x50 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\start.o
+                0x00001696                start
+ .text          0x000016e6      0x12c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci_util.o
+                0x000016e6                debug_sci_init
+                0x00001716                debug_putc
+                0x00001734                debug_puts
+                0x00001756                debug_getc
+                0x0000176a                debug_puthex
+                0x000017c4                debug_putdec
+                0x000017e6                HexToAscii
+ .text          0x00001812      0x6d0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o
+                0x00001812                sci2_init
+                0x00001946                sci2_putc
+                0x00001a06                sci2_puthex
+                0x00001a4e                sci2_putdec
+                0x00001bb0                sci2_putdoublehex
+                0x00001bdc                sci2_putfourhex
+                0x00001c0e                sci2_putcrlf
+                0x00001c26                sci2_puts
+                0x00001c92                sci2_getc
+                0x00001d2c                INT_ERI2
+                0x00001d5e                INT_RXI2
+                0x00001df2                INT_TXI2
+                0x00001eb0                INT_TEI2
+ .text          0x00001ee2      0x856 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci1.o
+                0x00001ee2                sci1_init
+                0x00002016                sci1_putc
+                0x000020d6                sci1_puthex
+                0x0000211e                sci1_putdec
+                0x00002280                sci1_putdoublehex
+                0x000022ac                sci1_putfourhex
+                0x000022de                sci1_putcrlf
+                0x000022f6                sci1_puts
+                0x00002362                sci1_getc
+                0x000023fc                INT_ERI1
+                0x0000242e                sci1_puts_rx
+                0x000025b4                INT_RXI1
+                0x00002648                INT_TXI1
+                0x00002706                INT_TEI1
+ .text          0x00002738      0x6d0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci0.o
+                0x00002738                sci0_init
+                0x0000286c                sci0_putc
+                0x0000292c                sci0_puthex
+                0x00002974                sci0_putdec
+                0x00002ad6                sci0_putdoublehex
+                0x00002b02                sci0_putfourhex
+                0x00002b34                sci0_putcrlf
+                0x00002b4c                sci0_puts
+                0x00002bb8                sci0_getc
+                0x00002c52                INT_ERI0
+                0x00002c84                INT_RXI0
+                0x00002d18                INT_TXI0
+                0x00002dd6                INT_TEI0
+ .text          0x00002e08      0x9a4 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+                0x00002e08                init_itu
+                0x00002e46                bitin
+                0x00002f06                get_byte
+                0x00003024                get_buff
+                0x000031ac                precrc_bit
+                0x00003200                crc_length
+                0x00003270                Ax_to_info
+                0x0000358e                get_data
+                0x00003740                rx_init
+ .text          0x000037ac      0x26a C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_pll_inv.o
+                0x000037ac                out_bit
+                0x0000380a                strobe
+                0x0000383e                out_bits
+                0x0000389c                set_reference_divider
+                0x000038d6                set_option_register
+                0x00003956                set_programmable_divider
+                0x000039a8                pll_init_rx
+ .text          0x00003a16       0xe8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o
+                0x00003a16                main
+ .text          0x00003afe       0xe4 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+                0x00003afe                RX
+                0x00003b94                check_rx_working
+ .text          0x00003be2      0x248 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+                0x00003be2                InitPowerTelemetry
+                0x00003c06                RequestPowerTelemetry
+                0x00003c20                UpdatePowerTelemetry
+                0x00003dba                RequestMainShutdown
+                0x00003df6                SendHDRtoPIC
+                0x00003e10                SendHDStoPIC
+ .text          0x00003e2a     0x173c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\put_status.o
+                0x00003e2a                SendStatusToGS
+                0x00004452                SendTelemetryToGS
+                0x0000447a                PutOut_Rough
+                0x000048c2                PutOut_Detail
+                0x00004d10                PutOut_API
+                0x00005148                PutOut_Initial
+ .text          0x00005566      0xfbc C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+                0x00005566                InitMissionTelemetry
+                0x00005580                SendMissionTelemetry
+                0x000056c8                RequestMissionReboot
+                0x00005744                ScheduledRequestMissionReboot
+                0x00005aa8                ScheduledRequestMissionSwitch
+                0x00006110                RequestMissionShutdown
+                0x0000618c                PronounceMissionAbort
+                0x000061f4                itu2_init
+                0x00006256                INT_IMIA2
+                0x0000632a                CheckNowTime
+                0x000064a6                DegitalkerON
+                0x000064e4                DegitalkerOFF
+ .text          0x00006522     0x1ff2 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+                0x00006522                InitMessage
+                0x0000653c                SplitMessage_SCI0
+                0x00006808                SplitMessage_SCI1
+                0x00006c44                SplitMessage_SCI2
+                0x0000703a                RecognizeCommand
+                0x0000748c                RecognizeMissionCommand
+                0x000078f6                FindCommand
+                0x0000791a                TransmitMessage
+                0x00007962                TransmitDigitalker
+                0x000079aa                InitPLL
+                0x00007a34                SendMessage
+                0x00007e38                FinishSendMessage
+                0x00007e80                FinishCommunication
+                0x00007f50                SendStatusMessage
+                0x000084de                CheckPowerReply
+ .text          0x00008514      0x434 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu1.o
+                0x00008514                itu1_init
+                0x000085a6                INT_IMIA1
+ .text          0x00008948      0x10a C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu0.o
+                0x00008948                itu0_init
+                0x000089c6                INT_IMIA0
+                0x00008a0c                INT_IMIB0
+ .text          0x00008a52      0x174 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\inthandler.o
+                0x00008a52                INT_NMI
+                0x00008a5e                INT_TRAP1
+                0x00008a6a                INT_TRAP2
+                0x00008a76                INT_TRAP3
+                0x00008a82                INT_TRAP4
+                0x00008a8e                INT_IRQ0
+                0x00008a9a                INT_IRQ1
+                0x00008aa6                INT_IRQ2
+                0x00008ab2                INT_IRQ3
+                0x00008abe                INT_IRQ4
+                0x00008aca                INT_IRQ5
+                0x00008ad6                INT_WOVI
+                0x00008ae2                INT_CMI
+                0x00008aee                INT_ADI
+                0x00008afa                INT_OVI0
+                0x00008b06                INT_IMIB1
+                0x00008b12                INT_OVI1
+                0x00008b1e                INT_IMIB2
+                0x00008b2a                INT_OVI2
+                0x00008b36                INT_CMIA0
+                0x00008b42                INT_CMIB0
+                0x00008b4e                INT_CMIA1B1
+                0x00008b5a                INT_TOVI0_1
+                0x00008b66                INT_CMIA2
+                0x00008b72                INT_CMIB2
+                0x00008b7e                INT_CMIA3B3
+                0x00008b8a                INT_TOVI2_3
+                0x00008b96                INT_DEND0A
+                0x00008ba2                INT_DEND0B
+                0x00008bae                INT_DEND1A
+                0x00008bba                INT_DEND1B
+ .text          0x00008bc6      0x2cc C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\init.o
+                0x00008bc6                Init_MyFunction
+                0x00008cf2                Init_Bus
+                0x00008e46                Init_Peripherals
+ .text          0x00008e92      0x7d8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o
+                0x00008e92                IIC2_EEPWAIT
+                0x00009290                IIC2_EEPSTOP
+                0x0000932a                IIC2_EEPREAD
+                0x0000944e                IIC2_EEPWRITE
+                0x0000954e                IIC2_EEPRESET
+                0x00009610                IIC2_EEPINIT
+                0x00009632                IIC2_EEPCHANGE
+ .text          0x0000966a      0x7de C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic1.o
+                0x0000966a                IIC1_EEPWAIT
+                0x00009a6e                IIC1_EEPSTOP
+                0x00009b08                IIC1_EEPREAD
+                0x00009c2c                IIC1_EEPWRITE
+                0x00009d2c                IIC1_EEPRESET
+                0x00009dee                IIC1_EEPINIT
+                0x00009e10                IIC1_EEPCHANGE
+ .text          0x00009e48      0x7de C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic0.o
+                0x00009e48                IIC0_EEPWAIT
+                0x0000a24c                IIC0_EEPSTOP
+                0x0000a2e6                IIC0_EEPREAD
+                0x0000a40a                IIC0_EEPWRITE
+                0x0000a50a                IIC0_EEPRESET
+                0x0000a5cc                IIC0_EEPINIT
+                0x0000a5ee                IIC0_EEPCHANGE
+ .text          0x0000a626        0xc C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\hwinit.o
+                0x0000a626                hw_initialise
+ .text          0x0000a632      0x452 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\global.o
+                0x0000a632                InitStatus
+                0x0000a8da                InitRoutine
+                0x0000a962                CheckFlags
+                0x0000a9f4                ClearFlags
+                0x0000aa3c                SetFlags
+ .text          0x0000aa84      0xc4c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_tx.o
+                0x0000aa84                init_modem
+                0x0000aae4                init_fm
+                0x0000ab68                delay_modem
+                0x0000ab84                send_bit
+                0x0000ac1a                crcbit
+                0x0000acf4                send_byte
+                0x0000ada6                send_packet
+                0x0000ae5c                AX_protocol
+                0x0000b1e0                Ax_Send
+                0x0000b2d8                TX
+                0x0000b4ce                on_off_ms
+                0x0000b55e                on_off_sec
+                0x0000b640                on_off_us
+ .text          0x0000b6d0       0x30 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_ptt.o
+                0x0000b6d0                fmptt_on
+                0x0000b6e8                fmptt_off
+ .text          0x0000b700      0x2e4 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_pllcontrol.o
+                0x0000b700                out_bit_fm
+                0x0000b75e                strobe_fm
+                0x0000b792                out_bits_fm
+                0x0000b7ee                set_reference_divider_fm
+                0x0000b824                set_option_register_fm
+                0x0000b8a2                set_programmable_divider_fm
+                0x0000b90e                pll_init_fm
+                0x0000b980                set_pll_fm
+ .text          0x0000b9e4     0x28a2 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\debug.o
+                0x0000b9e4                DebugMultiplexer
+                0x0000bb52                DebugPut_Status
+                0x0000bffa                DebugEEPROM
+                0x0000c4a8                DebugPut_Rough
+                0x0000c7da                DebugPut_Detail
+                0x0000cb0c                DebugPut_API
+                0x0000ce0a                DebugPut_Initial
+                0x0000cf96                DebugPut_SharedROM
+                0x0000d33c                Debug_SharedROM
+                0x0000d57c                DebugWrite_SharedROM
+                0x0000ddbc                DisplayRoutine
+                0x0000dfe6                SetRoutine
+                0x0000e200                Check_PowerData
+ .text          0x0000e286     0x14f8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+                0x0000e286                GetCommandID
+                0x0000eb16                GetMissionCommandID
+                0x0000ebd6                RegistCommand
+                0x0000efd4                RegistMissionCommand
+                0x0000f146                ExecuteCommand
+ .text          0x0000f77e       0x5e C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\comm_buffer.o
+                0x0000f77e                comm_buffer_init
+ .text          0x0000f7dc      0x6da C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\adconv.o
+                0x0000f7dc                adconv_init
+                0x0000f816                ami_switch
+                0x0000f88e                mpx_switch
+                0x0000f96e                get_sensor
+                0x0000fc46                check_overAmpare
+                0x0000fcfa                insertSpace
+                0x0000fd40                disp_AD
+ .text          0x0000feb6      0x4b0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20120510.o
+ *fill*         0x00010366        0x2 00
+ .text          0x00010368       0x8c c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_divsi3.o)
+                0x0001038a                __modsi3
+                0x00010396                __umodsi3
+                0x0001039c                __divsi3
+                0x000103b2                __udivsi3
+ .text          0x000103f4       0x18 c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_mulsi3.o)
+                0x000103f4                __mulsi3
+ .text          0x0001040c        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(exit.o)
+ .text          0x0001040c        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newfree.o)
+ .text          0x0001040c        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newheap.o)
+ .text          0x0001040c        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newmalloc.o)
+ .text          0x0001040c       0x10 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(_exit.o)
+                0x0001040c                _exit
+ *(.text.*)
+ .text.exit     0x0001041c       0x10 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(exit.o)
+                0x0001041c                exit
+ .text.free     0x0001042c       0xd4 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newfree.o)
+                0x0001042c                free
+ .text._top_of_heap
+                0x00010500        0xe C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newheap.o)
+                0x00010500                _top_of_heap
+ .text._make_new_mem_hole
+                0x0001050e       0x2e C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newmalloc.o)
+                0x0001050e                _make_new_mem_hole
+ .text.malloc   0x0001053c       0xb8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newmalloc.o)
+                0x0001053c                malloc
+                0x000105f4                etext = .
+
+.init
+ *(.init)
+
+.fini
+ *(.fini)
+
+.got
+ *(.got)
+ *(.got.plt)
+
+.rodata         0x000105f4      0xe80
+ *(.rodata)
+ .rodata        0x000105f4       0x72 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+ .rodata        0x00010666       0x31 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci1.o
+ .rodata        0x00010697       0xa0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+ .rodata        0x00010737       0x4a C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o
+ .rodata        0x00010781       0x23 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+ .rodata        0x000107a4       0x34 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+ .rodata        0x000107d8       0x30 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\put_status.o
+ .rodata        0x00010808      0x448 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+ .rodata        0x00010c50      0x136 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+ .rodata        0x00010d86       0xb8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_tx.o
+ *fill*         0x00010e3e        0x2 00
+ .rodata        0x00010e40      0x354 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\debug.o
+ .rodata        0x00011194      0x180 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+ .rodata        0x00011314       0x30 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\adconv.o
+ .rodata        0x00011344      0x130 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20120510.o
+ *(.rodata.*)
+                0x00011474                _erodata = .
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.jcr
+ *(.jcr)
+
+.tors           0x00011474        0x0
+                0x00011474                __CTOR_LIST__ = .
+                0x00011474                ___ctors = .
+ *(.ctors)
+                0x00011474                ___ctors_end = .
+                0x00011474                __CTOR_END__ = .
+                0x00011474                __DTOR_LIST__ = .
+                0x00011474                ___dtors = .
+ *(.dtors)
+                0x00011474                ___dtors_end = .
+                0x00011474                __DTOR_END__ = .
+                0x00011474                _mdata = .
+
+.data           0x00ffbf20        0x0 load address 0x00011474
+                0x00ffbf20                _data = .
+ *(.data)
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\vects.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\start.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci_util.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci1.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci0.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_pll_inv.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\put_status.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu1.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu0.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\inthandler.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\init.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic1.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic0.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\hwinit.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\global.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_tx.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_ptt.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_pllcontrol.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\debug.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\comm_buffer.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\adconv.o
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20120510.o
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_divsi3.o)
+ .data          0x00ffbf20        0x0 c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_mulsi3.o)
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(exit.o)
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newfree.o)
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newheap.o)
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newmalloc.o)
+ .data          0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(_exit.o)
+ *(.data.*)
+                0x00ffbf20                _edata = .
+
+.gcc_exc
+ *(.gcc_exc)
+
+.bss            0x00ffbf20     0x2680 load address 0x00011474
+                0x00ffbf20                _bss = .
+ *(.bss)
+ .bss           0x00ffbf20        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\vects.o
+ .bss           0x00ffbf20        0x2 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+                0x00ffbf20                timer_flag
+ *fill*         0x00ffbf22        0x2 00
+ .bss           0x00ffbf24      0x1b4 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+ .bss           0x00ffc0d8        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\start.o
+ .bss           0x00ffc0d8        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci_util.o
+ .bss           0x00ffc0d8      0x20c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o
+ .bss           0x00ffc2e4      0x20c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci1.o
+ .bss           0x00ffc4f0      0x20c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci0.o
+ .bss           0x00ffc6fc       0x10 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+                0x00ffc6fc                shiftbuff
+                0x00ffc6fe                bit
+                0x00ffc700                fcs_error
+ .bss           0x00ffc70c        0x8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_pll_inv.o
+ .bss           0x00ffc714        0x8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o
+ .bss           0x00ffc71c        0x8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+ .bss           0x00ffc724        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+ .bss           0x00ffc724      0x1a0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\put_status.o
+ .bss           0x00ffc8c4        0x4 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+ .bss           0x00ffc8c8      0xa48 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+ .bss           0x00ffd310        0x8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu1.o
+ .bss           0x00ffd318        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu0.o
+ .bss           0x00ffd318        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\inthandler.o
+ .bss           0x00ffd318        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\init.o
+ .bss           0x00ffd318        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o
+ .bss           0x00ffd318        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic1.o
+ .bss           0x00ffd318        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic0.o
+ .bss           0x00ffd318        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\hwinit.o
+ .bss           0x00ffd318        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\global.o
+ .bss           0x00ffd318        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_tx.o
+ .bss           0x00ffd318        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_ptt.o
+ .bss           0x00ffd318        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_pllcontrol.o
+ .bss           0x00ffd318      0x2e0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\debug.o
+ .bss           0x00ffd5f8        0x6 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+ *fill*         0x00ffd5fe        0x2 00
+ .bss           0x00ffd600        0x8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\comm_buffer.o
+ .bss           0x00ffd608        0x1 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\adconv.o
+ *fill*         0x00ffd609        0x3 00
+ .bss           0x00ffd60c        0x8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20120510.o
+ .bss           0x00ffd614        0x0 c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_divsi3.o)
+ .bss           0x00ffd614        0x0 c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a(_mulsi3.o)
+ .bss           0x00ffd614        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(exit.o)
+ .bss           0x00ffd614        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newfree.o)
+ .bss           0x00ffd614        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newheap.o)
+ .bss           0x00ffd614        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newmalloc.o)
+ .bss           0x00ffd614        0x0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(_exit.o)
+ *(.bss.*)
+ .bss._heap_of_memory
+                0x00ffd614        0x4 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newheap.o)
+                0x00ffd614                _heap_of_memory
+ .bss._last_heap_object
+                0x00ffd618        0x4 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newheap.o)
+                0x00ffd618                _last_heap_object
+ *(COMMON)
+ COMMON         0x00ffd61c        0x2 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+                0x00ffd61c                time
+ *fill*         0x00ffd61e        0x2 00
+ COMMON         0x00ffd620      0x1ac C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+                0x00ffd620                ena_overa
+                0x00ffd623                flag_dispAD
+                0x00ffd626                flag_overa
+                0x00ffd629                flag_dteleme
+                0x00ffd62c                ena_rteleme
+                0x00ffd62f                ena_ateleme
+                0x00ffd632                flag_ad
+                0x00ffd638                my_wdt
+                0x00ffd63c                flag_iteleme
+                0x00ffd63f                ena_iteleme
+                0x00ffd642                ena_mywdt
+                0x00ffd648                itu1_cnt
+                0x00ffd64c                ena_dteleme
+                0x00ffd64f                flag_ateleme
+                0x00ffd652                ena_ad
+                0x00ffd655                flag_oteleme
+                0x00ffd658                flag_rteleme
+                0x00ffd65b                ena_dispAD
+                0x00ffd65e                mpx
+                0x00ffd67e                status
+                0x00ffd6fd                ena_oteleme
+                0x00ffd700                message_global
+ COMMON         0x00ffd7cc       0x11 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+                0x00ffd7cc                i
+                0x00ffd7ce                fcslo
+                0x00ffd7cf                flag_rx
+                0x00ffd7d4                uplink_rx_buff
+                0x00ffd7d8                kbit
+                0x00ffd7da                info_length
+                0x00ffd7dc                fcshi
+ *fill*         0x00ffd7dd        0x3 00
+ COMMON         0x00ffd7e0      0xc1e C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+                0x00ffd7e0                flag_send_fm
+                0x00ffd7e2                DT_time
+                0x00ffd7e4                flag_tx
+                0x00ffd7e7                FM_buffer_length
+                0x00ffd7f4                FmPreamble
+                0x00ffd7f8                stuff
+                0x00ffd7f9                fcsflag_send_fm
+                0x00ffd7fa                FM_sender_num
+                0x00ffd7fb                FM_buffer_num
+                0x00ffd7fc                FM_buffer
+                0x00ffe3fc                DT_mode
+                0x00ffe3fd                FM_mode
+ COMMON         0x00ffe3fe        0xc C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+                0x00ffe3fe                ena_alive
+                0x00ffe401                flag_pwrt
+                0x00ffe404                ena_pwrt
+                0x00ffe407                flag_alive
+ *fill*         0x00ffe40a        0x2 00
+ COMMON         0x00ffe40c       0x22 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+                0x00ffe40c                flag_tof
+                0x00ffe410                sms_time
+                0x00ffe414                flag_cpr
+                0x00ffe418                smr_time
+                0x00ffe41c                flag_ton
+                0x00ffe41d                flag_smr
+                0x00ffe420                ena_misst
+                0x00ffe424                mission_cnt
+                0x00ffe428                flag_sms
+                0x00ffe42b                flag_misst
+ COMMON         0x00ffe42e        0x6 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+                0x00ffe42e                flag_exe
+                0x00ffe431                flag_scirx
+ COMMON         0x00ffe434        0x1 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o
+                0x00ffe434                P2_DDR
+ *fill*         0x00ffe435        0x3 00
+ COMMON         0x00ffe438      0x168 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+                0x00ffe438                command_H
+                0x00ffe4b0                command_M
+                0x00ffe528                command_L
+                0x00ffe5a0                _ebss = .
+                0x00ffe5a0                _end = .
+
+.stack          0x00ffff00        0x0
+                0x00ffff00                _stack = .
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\vects.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\start.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci_util.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci1.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci0.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_pll_inv.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\put_status.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu1.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu0.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\inthandler.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\init.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic1.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic0.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\hwinit.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\global.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_tx.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_ptt.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_pllcontrol.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\debug.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\comm_buffer.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\adconv.o
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20120510.o
+START GROUP
+LOAD c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h\libgcc.a
+LOAD C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a
+END GROUP
+OUTPUT(C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20131030.x elf32-h8300)
+
+.debug_info     0x00000000     0xd585
+ .debug_info    0x00000000       0x64 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\vects.o
+ .debug_info    0x00000064      0x667 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+ .debug_info    0x000006cb      0x795 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+ .debug_info    0x00000e60       0xaf C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\start.o
+ .debug_info    0x00000f0f      0x158 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci_util.o
+ .debug_info    0x00001067      0x6aa C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o
+ .debug_info    0x00001711      0x6fc C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci1.o
+ .debug_info    0x00001e0d      0x6aa C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci0.o
+ .debug_info    0x000024b7      0xddd C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+ .debug_info    0x00003294      0x398 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_pll_inv.o
+ .debug_info    0x0000362c      0x363 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o
+ .debug_info    0x0000398f      0x345 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+ .debug_info    0x00003cd4      0x4cf C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+ .debug_info    0x000041a3      0xa60 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\put_status.o
+ .debug_info    0x00004c03      0xd1b C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+ .debug_info    0x0000591e      0xe4d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+ .debug_info    0x0000676b      0xe6b C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu1.o
+ .debug_info    0x000075d6      0x818 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu0.o
+ .debug_info    0x00007dee      0x2ad C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\inthandler.o
+ .debug_info    0x0000809b      0x9b1 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\init.o
+ .debug_info    0x00008a4c      0x410 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o
+ .debug_info    0x00008e5c      0x410 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic1.o
+ .debug_info    0x0000926c      0x410 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic0.o
+ .debug_info    0x0000967c       0x53 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\hwinit.o
+ .debug_info    0x000096cf      0x76e C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\global.o
+ .debug_info    0x00009e3d      0x9df C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_tx.o
+ .debug_info    0x0000a81c      0x114 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_ptt.o
+ .debug_info    0x0000a930      0x3ba C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_pllcontrol.o
+ .debug_info    0x0000acea      0xe7c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\debug.o
+ .debug_info    0x0000bb66      0x61e C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+ .debug_info    0x0000c184      0x15e C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\comm_buffer.o
+ .debug_info    0x0000c2e2      0x765 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\adconv.o
+ .debug_info    0x0000ca47      0xb3e C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20120510.o
+
+.debug_abbrev   0x00000000     0x297a
+ .debug_abbrev  0x00000000       0x62 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\vects.o
+ .debug_abbrev  0x00000062      0x140 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+ .debug_abbrev  0x000001a2      0x140 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+ .debug_abbrev  0x000002e2       0x14 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\start.o
+ .debug_abbrev  0x000002f6       0xb1 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci_util.o
+ .debug_abbrev  0x000003a7      0x1be C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o
+ .debug_abbrev  0x00000565      0x1be C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci1.o
+ .debug_abbrev  0x00000723      0x1be C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci0.o
+ .debug_abbrev  0x000008e1      0x287 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+ .debug_abbrev  0x00000b68      0x10e C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_pll_inv.o
+ .debug_abbrev  0x00000c76      0x1b3 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o
+ .debug_abbrev  0x00000e29       0xfd C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+ .debug_abbrev  0x00000f26       0xde C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+ .debug_abbrev  0x00001004      0x166 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\put_status.o
+ .debug_abbrev  0x0000116a      0x25d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+ .debug_abbrev  0x000013c7      0x1b6 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+ .debug_abbrev  0x0000157d      0x170 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu1.o
+ .debug_abbrev  0x000016ed      0x13e C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu0.o
+ .debug_abbrev  0x0000182b       0x27 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\inthandler.o
+ .debug_abbrev  0x00001852      0x121 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\init.o
+ .debug_abbrev  0x00001973      0x147 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o
+ .debug_abbrev  0x00001aba      0x147 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic1.o
+ .debug_abbrev  0x00001c01      0x147 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic0.o
+ .debug_abbrev  0x00001d48       0x32 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\hwinit.o
+ .debug_abbrev  0x00001d7a      0x104 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\global.o
+ .debug_abbrev  0x00001e7e      0x22b C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_tx.o
+ .debug_abbrev  0x000020a9       0x7d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_ptt.o
+ .debug_abbrev  0x00002126       0xe4 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_pllcontrol.o
+ .debug_abbrev  0x0000220a      0x1d6 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\debug.o
+ .debug_abbrev  0x000023e0      0x198 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+ .debug_abbrev  0x00002578       0x94 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\comm_buffer.o
+ .debug_abbrev  0x0000260c      0x1de C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\adconv.o
+ .debug_abbrev  0x000027ea      0x190 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20120510.o
+
+.debug_line     0x00000000     0xa5d4
+ .debug_line    0x00000000       0x65 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\vects.o
+ .debug_line    0x00000065      0x20c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+ .debug_line    0x00000271      0x8a7 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+ .debug_line    0x00000b18       0x88 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\start.o
+ .debug_line    0x00000ba0      0x150 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci_util.o
+ .debug_line    0x00000cf0      0x4cc C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o
+ .debug_line    0x000011bc      0x5ae C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci1.o
+ .debug_line    0x0000176a      0x4cc C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci0.o
+ .debug_line    0x00001c36      0x753 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+ .debug_line    0x00002389      0x276 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_pll_inv.o
+ .debug_line    0x000025ff      0x1db C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o
+ .debug_line    0x000027da      0x19a C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+ .debug_line    0x00002974      0x21e C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+ .debug_line    0x00002b92      0x89e C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\put_status.o
+ .debug_line    0x00003430      0xafc C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+ .debug_line    0x00003f2c     0x115c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+ .debug_line    0x00005088      0x354 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu1.o
+ .debug_line    0x000053dc      0x163 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu0.o
+ .debug_line    0x0000553f      0x25a C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\inthandler.o
+ .debug_line    0x00005799      0x2b6 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\init.o
+ .debug_line    0x00005a4f      0x48a C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o
+ .debug_line    0x00005ed9      0x48a C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic1.o
+ .debug_line    0x00006363      0x48a C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic0.o
+ .debug_line    0x000067ed       0x76 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\hwinit.o
+ .debug_line    0x00006863      0x3ad C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\global.o
+ .debug_line    0x00006c10      0xa65 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_tx.o
+ .debug_line    0x00007675       0xdc C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_ptt.o
+ .debug_line    0x00007751      0x2a7 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_pllcontrol.o
+ .debug_line    0x000079f8     0x1753 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\debug.o
+ .debug_line    0x0000914b      0xa01 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+ .debug_line    0x00009b4c      0x118 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\comm_buffer.o
+ .debug_line    0x00009c64      0x496 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\adconv.o
+ .debug_line    0x0000a0fa      0x4da C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20120510.o
+
+.debug_str      0x00000000     0x1eee
+ .debug_str     0x00000000       0x77 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\vects.o
+ .debug_str     0x00000077      0x1b0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+                                0x1f0 (size before relaxing)
+ .debug_str     0x00000227      0x282 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+                                0x2ed (size before relaxing)
+ .debug_str     0x000004a9       0xa0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci_util.o
+                                 0xf9 (size before relaxing)
+ .debug_str     0x00000549      0x17d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o
+                                0x1f5 (size before relaxing)
+ .debug_str     0x000006c6      0x121 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci1.o
+                                0x207 (size before relaxing)
+ .debug_str     0x000007e7      0x114 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci0.o
+                                0x1f5 (size before relaxing)
+ .debug_str     0x000008fb      0x1b9 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+                                0x39c (size before relaxing)
+ .debug_str     0x00000ab4      0x130 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_pll_inv.o
+                                0x20b (size before relaxing)
+ .debug_str     0x00000be4       0x4c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o
+                                0x149 (size before relaxing)
+ .debug_str     0x00000c30       0xc4 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+                                0x1a1 (size before relaxing)
+ .debug_str     0x00000cf4       0xd0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+                                0x23d (size before relaxing)
+ .debug_str     0x00000dc4      0x149 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\put_status.o
+                                0x24f (size before relaxing)
+ .debug_str     0x00000f0d      0x1b6 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+                                0x48d (size before relaxing)
+ .debug_str     0x000010c3      0x2b2 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+                                0x528 (size before relaxing)
+ .debug_str     0x00001375       0x51 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu1.o
+                                0x4b1 (size before relaxing)
+ .debug_str     0x000013c6       0x5b C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu0.o
+                                0x273 (size before relaxing)
+ .debug_str     0x00001421      0x175 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\inthandler.o
+                                0x18c (size before relaxing)
+ .debug_str     0x00001596       0x6f C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\init.o
+                                0x396 (size before relaxing)
+ .debug_str     0x00001605       0xe4 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o
+                                0x148 (size before relaxing)
+ .debug_str     0x000016e9       0x99 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic1.o
+                                0x148 (size before relaxing)
+ .debug_str     0x00001782       0x99 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic0.o
+                                0x148 (size before relaxing)
+ .debug_str     0x0000181b       0x4d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\hwinit.o
+                                 0x9c (size before relaxing)
+ .debug_str     0x00001868       0x7e C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\global.o
+                                0x2d7 (size before relaxing)
+ .debug_str     0x000018e6      0x139 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_tx.o
+                                0x2f7 (size before relaxing)
+ .debug_str     0x00001a1f       0x3f C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_ptt.o
+                                 0xae (size before relaxing)
+ .debug_str     0x00001a5e       0xd2 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_pllcontrol.o
+                                0x1ef (size before relaxing)
+ .debug_str     0x00001b30      0x166 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\debug.o
+                                0x42f (size before relaxing)
+ .debug_str     0x00001c96       0xda C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+                                0x2da (size before relaxing)
+ .debug_str     0x00001d70       0x55 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\comm_buffer.o
+                                0x117 (size before relaxing)
+ .debug_str     0x00001dc5       0xd5 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\adconv.o
+                                0x218 (size before relaxing)
+ .debug_str     0x00001e9a       0x54 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20120510.o
+                                0x3e3 (size before relaxing)
+
+.comment        0x00000000       0x38
+ .comment       0x00000000       0x1c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\vects.o
+                                 0x1d (size before relaxing)
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci_util.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci1.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci0.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_pll_inv.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\put_status.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu1.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu0.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\inthandler.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\init.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic1.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic0.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\hwinit.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\global.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_tx.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_ptt.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_pllcontrol.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\debug.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\comm_buffer.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\adconv.o
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20120510.o
+ .comment       0x0000001c       0x1c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(exit.o)
+                                 0x1d (size before relaxing)
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newfree.o)
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newheap.o)
+ .comment       0x00000000       0x1d C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\lib20120510.a(newmalloc.o)
+
+.debug_frame    0x00000000     0x2710
+ .debug_frame   0x00000000       0x80 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+ .debug_frame   0x00000080      0x170 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+ .debug_frame   0x000001f0      0x114 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci_util.o
+ .debug_frame   0x00000304      0x210 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o
+ .debug_frame   0x00000514      0x234 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci1.o
+ .debug_frame   0x00000748      0x210 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci0.o
+ .debug_frame   0x00000958      0x164 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+ .debug_frame   0x00000abc      0x11c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_pll_inv.o
+ .debug_frame   0x00000bd8       0x38 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o
+ .debug_frame   0x00000c10       0x5c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+ .debug_frame   0x00000c6c       0xec C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+ .debug_frame   0x00000d58      0x14c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\put_status.o
+ .debug_frame   0x00000ea4      0x1dc C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+ .debug_frame   0x00001080      0x26c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+ .debug_frame   0x000012ec       0x6c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu1.o
+ .debug_frame   0x00001358       0x90 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu0.o
+ .debug_frame   0x000013e8      0x470 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\inthandler.o
+ .debug_frame   0x00001858       0x8c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\init.o
+ .debug_frame   0x000018e4      0x17c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o
+ .debug_frame   0x00001a60      0x17c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic1.o
+ .debug_frame   0x00001bdc      0x17c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic0.o
+ .debug_frame   0x00001d58       0x38 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\hwinit.o
+ .debug_frame   0x00001d90       0xc8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\global.o
+ .debug_frame   0x00001e58      0x1e8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_tx.o
+ .debug_frame   0x00002040       0x5c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_ptt.o
+ .debug_frame   0x0000209c      0x14c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_pllcontrol.o
+ .debug_frame   0x000021e8      0x2e0 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\debug.o
+ .debug_frame   0x000024c8       0xc8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+ .debug_frame   0x00002590       0x38 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\comm_buffer.o
+ .debug_frame   0x000025c8      0x110 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\adconv.o
+ .debug_frame   0x000026d8       0x38 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20120510.o
+
+.debug_loc      0x00000000     0x296c
+ .debug_loc     0x00000000       0x84 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+ .debug_loc     0x00000084      0x160 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+ .debug_loc     0x000001e4      0x134 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci_util.o
+ .debug_loc     0x00000318      0x23c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o
+ .debug_loc     0x00000554      0x268 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci1.o
+ .debug_loc     0x000007bc      0x23c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci0.o
+ .debug_loc     0x000009f8      0x18c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+ .debug_loc     0x00000b84      0x134 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_pll_inv.o
+ .debug_loc     0x00000cb8       0x2c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o
+ .debug_loc     0x00000ce4       0x58 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+ .debug_loc     0x00000d3c      0x108 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+ .debug_loc     0x00000e44      0x108 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\put_status.o
+ .debug_loc     0x00000f4c      0x210 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+ .debug_loc     0x0000115c      0x294 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+ .debug_loc     0x000013f0       0x58 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu1.o
+ .debug_loc     0x00001448       0x84 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu0.o
+ .debug_loc     0x000014cc      0x554 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\inthandler.o
+ .debug_loc     0x00001a20       0x84 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\init.o
+ .debug_loc     0x00001aa4      0x1b8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o
+ .debug_loc     0x00001c5c      0x1b8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic1.o
+ .debug_loc     0x00001e14      0x1b8 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic0.o
+ .debug_loc     0x00001fcc       0x2c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\hwinit.o
+ .debug_loc     0x00001ff8       0xdc C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\global.o
+ .debug_loc     0x000020d4      0x23c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_tx.o
+ .debug_loc     0x00002310       0x58 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_ptt.o
+ .debug_loc     0x00002368      0x160 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_pllcontrol.o
+ .debug_loc     0x000024c8      0x23c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\debug.o
+ .debug_loc     0x00002704       0xdc C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+ .debug_loc     0x000027e0       0x2c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\comm_buffer.o
+ .debug_loc     0x0000280c      0x134 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\adconv.o
+ .debug_loc     0x00002940       0x2c C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20120510.o
+
+.debug_aranges  0x00000000      0x400
+ .debug_aranges
+                0x00000000       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+ .debug_aranges
+                0x00000020       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o
+ .debug_aranges
+                0x00000040       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\start.o
+ .debug_aranges
+                0x00000060       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci_util.o
+ .debug_aranges
+                0x00000080       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o
+ .debug_aranges
+                0x000000a0       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci1.o
+ .debug_aranges
+                0x000000c0       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci0.o
+ .debug_aranges
+                0x000000e0       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o
+ .debug_aranges
+                0x00000100       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_pll_inv.o
+ .debug_aranges
+                0x00000120       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o
+ .debug_aranges
+                0x00000140       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o
+ .debug_aranges
+                0x00000160       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o
+ .debug_aranges
+                0x00000180       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\put_status.o
+ .debug_aranges
+                0x000001a0       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o
+ .debug_aranges
+                0x000001c0       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o
+ .debug_aranges
+                0x000001e0       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu1.o
+ .debug_aranges
+                0x00000200       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu0.o
+ .debug_aranges
+                0x00000220       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\inthandler.o
+ .debug_aranges
+                0x00000240       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\init.o
+ .debug_aranges
+                0x00000260       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o
+ .debug_aranges
+                0x00000280       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic1.o
+ .debug_aranges
+                0x000002a0       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic0.o
+ .debug_aranges
+                0x000002c0       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\hwinit.o
+ .debug_aranges
+                0x000002e0       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\global.o
+ .debug_aranges
+                0x00000300       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_tx.o
+ .debug_aranges
+                0x00000320       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_ptt.o
+ .debug_aranges
+                0x00000340       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_pllcontrol.o
+ .debug_aranges
+                0x00000360       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\debug.o
+ .debug_aranges
+                0x00000380       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+ .debug_aranges
+                0x000003a0       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\comm_buffer.o
+ .debug_aranges
+                0x000003c0       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\adconv.o
+ .debug_aranges
+                0x000003e0       0x20 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20120510.o
+
+.debug_ranges   0x00000000       0x30
+ .debug_ranges  0x00000000       0x18 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o
+ .debug_ranges  0x00000018       0x18 C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o
+
+
+==============================================================
+
+Listfile generated by KPIT GNUH8 [ELF]-v12.01 on Wednesday, October 30, 2013, 21:03:37
+
+Build options:
+
+-T "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20131030_Debug_auto.gsi"
+-T "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20131030_input.tmp" 
+-L "c:\program files\renesas\hew_001\tools\kpit\gnuh8-elf\v12.01\h8300-elf\lib\gcc\h8300-elf\4.6-GNUH8_v12.01\h8300h"
+-L "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug"
+-Map "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20131030.map"
+-( -l "gcc" -l "20120510" -)
+-o "C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20131030.x"
+-e _start
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\vects.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\timer.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\teleme.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\start.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci_util.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci2.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci1.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\sci0.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_protcol_inv.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_pll_inv.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx_main.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\rx.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\pwr.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\put_status.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\mission.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\message.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu1.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\itu0.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\inthandler.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\init.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic2.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic1.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\iic0.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\hwinit.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\global.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_tx.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_ptt.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\fm_pllcontrol.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\debug.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\command.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\comm_buffer.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\adconv.o")
+INPUT("C:\Users\Kimura\Desktop\INVADER_Dev\20131030\20120510\Debug\20120510.o")
