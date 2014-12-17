@@ -1,0 +1,347 @@
+code_size: 127
+
+registers:
+  - ERRN
+  - FUNC
+  - RETV
+  - HCUR
+  - HEAP
+  - ARG0
+  - ARG1
+  - ARG2
+  - ARG3
+  - ARG4
+  - ARG5
+  - ARG6
+  - ARG7
+  - ARG8
+  - ARG9
+  - ARGA
+
+instructions:
+  - [ END             ]
+  - [ NOP             ]
+  - [ SET,    R, L    ]
+  - [ SETC,   R, C    ]
+  - [ SETI,   R, I    ]
+  - [ CLR,    R       ]
+  - [ MOV,    R, R    ]
+  - [ XCHG,   R, R    ]
+  - [ CALL            ]
+  - [ JMP,    O       ]
+  - [ JMPIF,  R, O    ]
+  - [ JMPNOT, R, O    ]
+  - [ INC,    R       ]
+  - [ DEC,    R       ]
+  - [ NEG,    R       ]
+  - [ ADD,    R, R    ]
+  - [ SUB,    R, R    ]
+  - [ MUL,    R, R    ]
+  - [ DIV,    R, R, R ] 
+  - [ AND,    R, R    ]
+  - [ OR,     R, R    ]
+  - [ XOR,    R, R    ]
+  - [ NOT,    R       ]
+  - [ SHR,    R, R    ]
+  - [ SHL,    R, R    ]
+  - [ EQ,     R, R, R ] 
+  - [ LT,     R, R, R ]
+  - [ LE,     R, R, R ]
+  - [ GT,     R, R, R ]
+  - [ GE,     R, R, R ]
+  - [ WAIT,   R       ] 
+  - [ TXT,    L, V    ]
+  - [ EXC,    L       ]
+  - [ COMPRESSED      ]
+
+constants:
+  -
+    - CAMERA_RAW_VGA
+    - CAMERA_RAW_QVGA
+    - CAMERA_RAW_QCIF
+    - CAMERA_RGB565_QVGA
+    - CAMERA_RGB565_QQVGA
+    - CAMERA_RGB565_QQCIF
+    - CAMERA_YUV422_QVGA
+    - CAMERA_YUV422_QQVGA
+    - CAMERA_YUV422_QQCIF
+  -
+    - TSTERROR_OK
+    - TSTERROR_FAILED
+    - TSTERROR_NO_SUPPORT
+    - TSTERROR_NO_MEMORY
+    - TSTERROR_BAD_MEMORY
+    - TSTERROR_USED_MEMORY
+    - TSTERROR_INVALID_PARAM
+    - TSTERROR_INVALID_STATE
+    - TSTERROR_INVALID_FORMAT
+    - TSTERROR_INVALID_STORAGE
+    - TSTERROR_INVALID_IMPLEMENT
+    - TSTERROR_ABNORMAL_SHUTDOWN
+  -
+    - CURRENT_BATTERY
+    - CURRENT_SOLAR
+    - CURRENT_SOLAR_PX
+    - CURRENT_SOLAR_MX
+    - CURRENT_SOLAR_PY1
+    - CURRENT_SOLAR_MY1
+    - CURRENT_SOLAR_PY2
+    - CURRENT_SOLAR_MY2
+    - CURRENT_SOLAR_PZ
+    - CURRENT_SOLAR_MZ
+    - CURRENT_POWERCPU
+    - CURRENT_MAINCPU
+    - CURRENT_MISSIONCPU
+    - CURRENT_ANTENNA
+    - CURRENT_BATTERYHEATER
+    - CURRENT_TX
+    - CURRENT_CW
+    - CURRENT_RX
+  - 
+    - TEMPERATURE_BATTERY1
+    - TEMPERATURE_BATTERY2
+    - TEMPERATURE_BATTERY3
+    - TEMPERATURE_SOLAR_PX
+    - TEMPERATURE_SOLAR_MX
+    - TEMPERATURE_SOLAR_PY1
+    - TEMPERATURE_SOLAR_MY1
+    - TEMPERATURE_SOLAR_PY2
+    - TEMPERATURE_SOLAR_MY2
+    - TEMPERATURE_SOLAR_PZ1
+    - TEMPERATURE_SOLAR_MZ1
+    - TEMPERATURE_SOLAR_PZ2
+    - TEMPERATURE_SOLAR_MZ2
+    - TEMPERATURE_POWERCPU
+    - TEMPERATURE_MAINCPU
+    - TEMPERATURE_MISSIONCPU
+    - TEMPERATURE_CWTX
+    - TEMPERATURE_RX
+  -
+    - GYRO_X
+    - GYRO_Y
+    - GYRO_Z
+  -
+    - MAGNET_X
+    - MAGNET_Y
+    - MAGNET_Z
+  -
+    - TEXT_X
+    - TEXT_Y
+    - TEXT_Z
+    - TEXT_DEBUG
+  -
+    FREQUENCY_END: -1
+    FREQUENCY_REST: 0
+  -
+    NOTE_END: -1
+    NOTE_REST: 0
+    NOTE_B0:  31
+    NOTE_C1:  33
+    NOTE_CS1: 35
+    NOTE_D1:  37
+    NOTE_DS1: 39
+    NOTE_E1:  41
+    NOTE_F1:  44
+    NOTE_FS1: 46
+    NOTE_G1:  49
+    NOTE_GS1: 52
+    NOTE_A1:  55
+    NOTE_AS1: 58
+    NOTE_B1:  62
+    NOTE_C2:  65
+    NOTE_CS2: 69
+    NOTE_D2:  73
+    NOTE_DS2: 78
+    NOTE_E2:  82
+    NOTE_F2:  87
+    NOTE_FS2: 93
+    NOTE_G2:  98
+    NOTE_GS2: 104
+    NOTE_A2:  110
+    NOTE_AS2: 117
+    NOTE_B2:  123
+    NOTE_C3:  131
+    NOTE_CS3: 139
+    NOTE_D3:  147
+    NOTE_DS3: 156
+    NOTE_E3:  165
+    NOTE_F3:  175
+    NOTE_FS3: 185
+    NOTE_G3:  196
+    NOTE_GS3: 208
+    NOTE_A3:  220
+    NOTE_AS3: 233
+    NOTE_B3:  247
+    NOTE_C4:  262
+    NOTE_CS4: 277
+    NOTE_D4:  294
+    NOTE_DS4: 311
+    NOTE_E4:  330
+    NOTE_F4:  349
+    NOTE_FS4: 370
+    NOTE_G4:  392
+    NOTE_GS4: 415
+    NOTE_A4:  440
+    NOTE_AS4: 466
+    NOTE_B4:  494
+    NOTE_C5:  523
+    NOTE_CS5: 554
+    NOTE_D5:  587
+    NOTE_DS5: 622
+    NOTE_E5:  659
+    NOTE_F5:  698
+    NOTE_FS5: 740
+    NOTE_G5:  784
+    NOTE_GS5: 831
+    NOTE_A5:  880
+    NOTE_AS5: 932
+    NOTE_B5:  988
+    NOTE_C6:  1047
+    NOTE_CS6: 1109
+    NOTE_D6:  1175
+    NOTE_DS6: 1245
+    NOTE_E6:  1319
+    NOTE_F6:  1397
+    NOTE_FS6: 1480
+    NOTE_G6:  1568
+    NOTE_GS6: 1661
+    NOTE_A6:  1760
+    NOTE_AS6: 1865
+    NOTE_B6:  1976
+    NOTE_C7:  2093
+    NOTE_CS7: 2217
+    NOTE_D7:  2349
+    NOTE_DS7: 2489
+    NOTE_E7:  2637
+    NOTE_F7:  2794
+    NOTE_FS7: 2960
+    NOTE_G7:  3136
+    NOTE_GS7: 3322
+    NOTE_A7:  3520
+    NOTE_AS7: 3729
+    NOTE_B7:  3951
+    NOTE_C8:  4186
+    NOTE_CS8: 4435
+    NOTE_D8:  4699
+    NOTE_DS8: 4978
+  - 
+    DURATION_01: 1
+    DURATION_02: 2
+    DURATION_04: 4
+    DURATION_08: 8
+    DURATION_16: 16
+    DURATION_32: 32
+  -
+    - QUALIFIER_NONE
+    - QUALIFIER_DOT
+    - QUALIFIER_DOTDOT
+    - QUALIFIER_TRIPLE
+    - QUALIFIER_QUINTUPLE
+    - QUALIFIER_SEXTUPLE
+    - QUALIFIER_SEPTUPLE
+    - QUALIFIER_NONUPLE
+  -
+    PIN_FRAM_CS:          10
+    PIN_FLASHROM_CS:      11
+    PIN_LED_X:            5
+    PIN_LED_Y:            2
+    PIN_TONE_WAVE:        3
+    PIN_DIGITALKER_PLAY:  26
+    PIN_DIGITALKER_SLEEP: 27
+    PIN_CAMERA_POWER:     29
+    PIN_CAMERA_VSYNC:     49
+    PIN_CAMERA_HREF:      48
+    PIN_CAMERA_WEN:       47
+    PIN_CAMERA_RRST:      46
+    PIN_CAMERA_OE:        45
+    PIN_CAMERA_RCLK:      44
+    PIN_SCCB_SIOC:        43
+    PIN_SCCB_SIOD:        42
+  -
+    - STORAGE_NONE
+    - STORAGE_SHAREDMEMORY
+    - STORAGE_FRAM
+    - STORAGE_FLASHROM
+
+functions:
+  - getMemorySpec
+  - getMemoryInfo
+  - getMemoryLog
+  - saveMemoryLog
+  - getSelfTestLog
+  - eraseSelfTestLog
+  - getSizeEEPROM
+  - getSizeSharedMemory
+  - getSizeFRAM
+  - getSizeFlashROM
+  - getPageSizeEEPROM
+  - getPageSizeSharedMemory
+  - getPageSizeFRAM
+  - getPageSizeFlashROM
+  - getSectorSizeEEPROM
+  - getSectorSizeSharedMemory
+  - getSectorSizeFRAM
+  - getSectorSizeFlashROM
+  - getCameraFormat
+  - getBootTime
+  - getBootCount
+  - getBootMode
+  - getParamNote
+  - getParamMorse
+  - getParamDigitalker
+  - getParamCamera
+  - getTelemetryTime
+  - getTelemetryVoltage
+  - getTelemetryCurrent
+  - getTelemetryTemperature
+  - getTelemetryGyro
+  - getTelemetryMagnet
+  - setFlashROMEraseMode
+  - getFlashROMEraseMode
+  - setText
+  - getText
+  - setLED
+  - getLED
+  - setNoteBPM
+  - getNoteBPM
+  - setMorseWPM
+  - getMorseWPM
+  - setSpeakAsyncMode
+  - getSpeakAsyncMode
+  - isValid
+  - isValidSharedMemory
+  - isValidFRAM
+  - isValidFlashROM
+  - isValidLED
+  - isValidTone
+  - isValidDigitalker
+  - isValidCamera
+  - isBusyDigitalker
+  - hasTelemetryUpdate
+  - hasAbnormalShutdown
+  - shutdown
+  - writeEEPROM
+  - readEEPROM
+  - formatEEPROM
+  - writeSharedMemory
+  - readSharedMemory
+  - formatSharedMemory
+  - writeFRAM
+  - readFRAM
+  - formatFRAM
+  - writeFlashROM
+  - readFlashROM
+  - formatFlashROM
+  - playFrequency
+  - playFrequency2
+  - playNote
+  - playNote2
+  - playMorse
+  - speakPhrase
+  - waitPhrase
+  - stopPhrase
+  - snapshotCamera
+  - freezeFastLZ
+  - meltFastLZ
+  - enableAudioBus
+  - disableAudioBus
