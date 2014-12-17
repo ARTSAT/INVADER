@@ -18,6 +18,6 @@ A library to handle ARTSAT1:INVADER as the 3D object in Three.js
 </script>
 ```
 
-<img src="https://raw.githubusercontent.com/ARTSAT/INVADERxThree/master/simple_viewer.png" />
+<img src="https://raw.githubusercontent.com/ARTSAT/INVADER/master/ground_station/utility/software/INVADERxThree/simple_viewer.png" />
 
 Demo: http://mokk.net/invaderxthree/examples/spinning.html
