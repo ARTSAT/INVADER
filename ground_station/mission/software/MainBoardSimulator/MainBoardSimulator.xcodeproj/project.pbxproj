@@ -3,18 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
+		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		C333029E1A41C175006223C1 /* TGSDeviceInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C333FC481A41C173006223C1 /* TGSDeviceInterface.cpp */; };
+		C333029F1A41C175006223C1 /* TGSDeviceLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C333FC4A1A41C173006223C1 /* TGSDeviceLoader.cpp */; };
+		C33302A01A41C175006223C1 /* TGSDeviceManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C333FC4C1A41C173006223C1 /* TGSDeviceManager.cpp */; };
+		C33302A31A41C175006223C1 /* TGSSerial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C333FC521A41C173006223C1 /* TGSSerial.cpp */; };
+		C33302AC1A41C175006223C1 /* tinyxml2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C333FC781A41C173006223C1 /* tinyxml2.cpp */; };
+		C33305641A41C175006223C1 /* TGSError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C33302951A41C175006223C1 /* TGSError.cpp */; };
+		C33305651A41C175006223C1 /* TGSType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C33302971A41C175006223C1 /* TGSType.cpp */; };
 		C35E8B30178DE61300122E95 /* MBSMainBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C35E8B2E178DE61300122E95 /* MBSMainBoard.cpp */; };
-		C3E7776C1834D5660048472D /* TGSDeviceInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3E776FB1834D5660048472D /* TGSDeviceInterface.cpp */; };
-		C3E7776D1834D5660048472D /* TGSDeviceLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3E776FD1834D5660048472D /* TGSDeviceLoader.cpp */; };
-		C3E7776E1834D5660048472D /* TGSDeviceManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3E776FF1834D5660048472D /* TGSDeviceManager.cpp */; };
-		C3E777731834D5660048472D /* TGSSerial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3E777091834D5660048472D /* TGSSerial.cpp */; };
-		C3E7777A1834D5660048472D /* tinyxml2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3E777261834D5660048472D /* tinyxml2.cpp */; };
-		C3E7778F1834D5660048472D /* TGSError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3E777641834D5660048472D /* TGSError.cpp */; };
 		C3F5CACB178F2E810041AB7F /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CAC4178F2E810041AB7F /* tinyxml.cpp */; };
 		C3F5CACC178F2E810041AB7F /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CAC6178F2E810041AB7F /* tinyxmlerror.cpp */; };
 		C3F5CACD178F2E810041AB7F /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CAC7178F2E810041AB7F /* tinyxmlparser.cpp */; };
@@ -72,21 +73,22 @@
 
 /* Begin PBXFileReference section */
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
+		C33302951A41C175006223C1 /* TGSError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TGSError.cpp; sourceTree = "<group>"; };
+		C33302961A41C175006223C1 /* TGSError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSError.h; sourceTree = "<group>"; };
+		C33302971A41C175006223C1 /* TGSType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TGSType.cpp; sourceTree = "<group>"; };
+		C33302981A41C175006223C1 /* TGSType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSType.h; sourceTree = "<group>"; };
+		C333FC481A41C173006223C1 /* TGSDeviceInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TGSDeviceInterface.cpp; sourceTree = "<group>"; };
+		C333FC491A41C173006223C1 /* TGSDeviceInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSDeviceInterface.h; sourceTree = "<group>"; };
+		C333FC4A1A41C173006223C1 /* TGSDeviceLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TGSDeviceLoader.cpp; sourceTree = "<group>"; };
+		C333FC4B1A41C173006223C1 /* TGSDeviceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSDeviceLoader.h; sourceTree = "<group>"; };
+		C333FC4C1A41C173006223C1 /* TGSDeviceManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TGSDeviceManager.cpp; sourceTree = "<group>"; };
+		C333FC4D1A41C173006223C1 /* TGSDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSDeviceManager.h; sourceTree = "<group>"; };
+		C333FC521A41C173006223C1 /* TGSSerial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TGSSerial.cpp; sourceTree = "<group>"; };
+		C333FC531A41C173006223C1 /* TGSSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSSerial.h; sourceTree = "<group>"; };
+		C333FC781A41C173006223C1 /* tinyxml2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml2.cpp; sourceTree = "<group>"; };
+		C333FC791A41C173006223C1 /* tinyxml2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml2.h; sourceTree = "<group>"; };
 		C35E8B2E178DE61300122E95 /* MBSMainBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MBSMainBoard.cpp; sourceTree = "<group>"; };
 		C35E8B2F178DE61300122E95 /* MBSMainBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSMainBoard.h; sourceTree = "<group>"; };
-		C3E776FB1834D5660048472D /* TGSDeviceInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TGSDeviceInterface.cpp; sourceTree = "<group>"; };
-		C3E776FC1834D5660048472D /* TGSDeviceInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSDeviceInterface.h; sourceTree = "<group>"; };
-		C3E776FD1834D5660048472D /* TGSDeviceLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TGSDeviceLoader.cpp; sourceTree = "<group>"; };
-		C3E776FE1834D5660048472D /* TGSDeviceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSDeviceLoader.h; sourceTree = "<group>"; };
-		C3E776FF1834D5660048472D /* TGSDeviceManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TGSDeviceManager.cpp; sourceTree = "<group>"; };
-		C3E777001834D5660048472D /* TGSDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSDeviceManager.h; sourceTree = "<group>"; };
-		C3E777091834D5660048472D /* TGSSerial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TGSSerial.cpp; sourceTree = "<group>"; };
-		C3E7770A1834D5660048472D /* TGSSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSSerial.h; sourceTree = "<group>"; };
-		C3E777261834D5660048472D /* tinyxml2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml2.cpp; sourceTree = "<group>"; };
-		C3E777271834D5660048472D /* tinyxml2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml2.h; sourceTree = "<group>"; };
-		C3E777641834D5660048472D /* TGSError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TGSError.cpp; sourceTree = "<group>"; };
-		C3E777651834D5660048472D /* TGSError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSError.h; sourceTree = "<group>"; };
-		C3E777681834D5660048472D /* TGSType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSType.h; sourceTree = "<group>"; };
 		C3E77A101834D6B60048472D /* ofxUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUI.h; sourceTree = "<group>"; };
 		C3E77A111834D6B60048472D /* ofxUI2DGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUI2DGraph.h; sourceTree = "<group>"; };
 		C3E77A121834D6B60048472D /* ofxUI2DPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxUI2DPad.h; sourceTree = "<group>"; };
@@ -196,7 +198,7 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
-				C3E776F81834D5660048472D /* TGS */,
+				C333FC451A41C173006223C1 /* TGS */,
 				C3E777AF1834D6AF0048472D /* ofxUI */,
 				C3F5CAC2178F2E810041AB7F /* ofxXmlSettings */,
 			);
@@ -233,47 +235,48 @@
 			name = "3rd party frameworks";
 			sourceTree = "<group>";
 		};
-		C3E776F81834D5660048472D /* TGS */ = {
+		C333FC451A41C173006223C1 /* TGS */ = {
 			isa = PBXGroup;
 			children = (
-				C3E776F91834D5660048472D /* src */,
+				C333FC461A41C173006223C1 /* src */,
 			);
 			name = TGS;
-			path = ../../common/libs/TGS;
+			path = ../../../../ground_station/common/libs/TGS;
 			sourceTree = "<group>";
 		};
-		C3E776F91834D5660048472D /* src */ = {
+		C333FC461A41C173006223C1 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				C3E776FA1834D5660048472D /* device */,
-				C3E777641834D5660048472D /* TGSError.cpp */,
-				C3E777651834D5660048472D /* TGSError.h */,
-				C3E777681834D5660048472D /* TGSType.h */,
+				C333FC471A41C173006223C1 /* device */,
+				C33302951A41C175006223C1 /* TGSError.cpp */,
+				C33302961A41C175006223C1 /* TGSError.h */,
+				C33302971A41C175006223C1 /* TGSType.cpp */,
+				C33302981A41C175006223C1 /* TGSType.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
 		};
-		C3E776FA1834D5660048472D /* device */ = {
+		C333FC471A41C173006223C1 /* device */ = {
 			isa = PBXGroup;
 			children = (
-				C3E776FB1834D5660048472D /* TGSDeviceInterface.cpp */,
-				C3E776FC1834D5660048472D /* TGSDeviceInterface.h */,
-				C3E776FD1834D5660048472D /* TGSDeviceLoader.cpp */,
-				C3E776FE1834D5660048472D /* TGSDeviceLoader.h */,
-				C3E776FF1834D5660048472D /* TGSDeviceManager.cpp */,
-				C3E777001834D5660048472D /* TGSDeviceManager.h */,
-				C3E777091834D5660048472D /* TGSSerial.cpp */,
-				C3E7770A1834D5660048472D /* TGSSerial.h */,
-				C3E777151834D5660048472D /* tinyxml2 */,
+				C333FC481A41C173006223C1 /* TGSDeviceInterface.cpp */,
+				C333FC491A41C173006223C1 /* TGSDeviceInterface.h */,
+				C333FC4A1A41C173006223C1 /* TGSDeviceLoader.cpp */,
+				C333FC4B1A41C173006223C1 /* TGSDeviceLoader.h */,
+				C333FC4C1A41C173006223C1 /* TGSDeviceManager.cpp */,
+				C333FC4D1A41C173006223C1 /* TGSDeviceManager.h */,
+				C333FC521A41C173006223C1 /* TGSSerial.cpp */,
+				C333FC531A41C173006223C1 /* TGSSerial.h */,
+				C333FC5E1A41C173006223C1 /* tinyxml2 */,
 			);
 			path = device;
 			sourceTree = "<group>";
 		};
-		C3E777151834D5660048472D /* tinyxml2 */ = {
+		C333FC5E1A41C173006223C1 /* tinyxml2 */ = {
 			isa = PBXGroup;
 			children = (
-				C3E777261834D5660048472D /* tinyxml2.cpp */,
-				C3E777271834D5660048472D /* tinyxml2.h */,
+				C333FC781A41C173006223C1 /* tinyxml2.cpp */,
+				C333FC791A41C173006223C1 /* tinyxml2.h */,
 			);
 			path = tinyxml2;
 			sourceTree = "<group>";
@@ -449,8 +452,11 @@
 /* Begin PBXProject section */
 		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
 			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "MainBoardSimulator" */;
-			compatibilityVersion = "Xcode 2.4";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -510,15 +516,16 @@
 				E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */,
 				C35E8B30178DE61300122E95 /* MBSMainBoard.cpp in Sources */,
 				C3F5CACB178F2E810041AB7F /* tinyxml.cpp in Sources */,
+				C33302A01A41C175006223C1 /* TGSDeviceManager.cpp in Sources */,
 				C3F5CACC178F2E810041AB7F /* tinyxmlerror.cpp in Sources */,
 				C3F5CACD178F2E810041AB7F /* tinyxmlparser.cpp in Sources */,
+				C33305651A41C175006223C1 /* TGSType.cpp in Sources */,
+				C333029E1A41C175006223C1 /* TGSDeviceInterface.cpp in Sources */,
+				C33302AC1A41C175006223C1 /* tinyxml2.cpp in Sources */,
 				C3F5CACE178F2E810041AB7F /* ofxXmlSettings.cpp in Sources */,
-				C3E7776C1834D5660048472D /* TGSDeviceInterface.cpp in Sources */,
-				C3E7776D1834D5660048472D /* TGSDeviceLoader.cpp in Sources */,
-				C3E7776E1834D5660048472D /* TGSDeviceManager.cpp in Sources */,
-				C3E777731834D5660048472D /* TGSSerial.cpp in Sources */,
-				C3E7777A1834D5660048472D /* tinyxml2.cpp in Sources */,
-				C3E7778F1834D5660048472D /* TGSError.cpp in Sources */,
+				C33302A31A41C175006223C1 /* TGSSerial.cpp in Sources */,
+				C333029F1A41C175006223C1 /* TGSDeviceLoader.cpp in Sources */,
+				C33305641A41C175006223C1 /* TGSError.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,7 +544,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = YES;
@@ -557,12 +565,14 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-lpthread",
 					"-mtune=native",
 				);
-				SDKROOT = "";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -570,7 +580,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
 				COPY_PHASE_STRIP = YES;
 				DEAD_CODE_STRIPPING = YES;
@@ -591,18 +602,20 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-lpthread",
 					"-mtune=native",
 				);
-				SDKROOT = "";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 		E4B69B600A3A1757003C02F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -690,6 +703,7 @@
 		E4B69B610A3A1757003C02F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
