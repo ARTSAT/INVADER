@@ -1,25 +1,7 @@
-MorikawaApp
-===========
+Hardware / Software design of ARTSAT1:INVADER
+========
+This repository is for hardware / software design of ARTSAT1:INVADER.  
 
-The mission applications for INVADER.<br/>
-
-currently planned mission:
-
-### main mission
-* HelloSpace (1)
-* SpeechText (2)
-* CodeText (3)
-* PlayMelody (4)
-* InvaderBot (5)
-* InvaderMusic (6)
-* InvaderCam (7)
-* InvaderVM (8)
-* TelemetryDump (9)
-
-### mission manager
-* SelfTest (0)
-* EraseSelfTestLog (128)
-* FormatEEPROM (129)
-* FormatSharedMemory (130)
-* FormatFRAM (131)
-* FormatFlashROM (132)
+o satellite/body : contains INVADER's body design and CAD data.  
+o satellite/main : contains main OBC's CAD data and source codes.  
+o satellite/mission : contains mission board's CAD data and source codes.  
