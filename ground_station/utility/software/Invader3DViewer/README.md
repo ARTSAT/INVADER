@@ -13,7 +13,7 @@ http://mokk.net/invader3d/
 
 ## Screen shot
 
-<img src="https://raw.githubusercontent.com/motokimura/Invader3DViewer/master/screen_capture.png" />
+<img src="https://raw.githubusercontent.com/motokimura/INVADER/master/ground_station/utility/software/Invader3DViewer/screen_capture.png" />
 
 ## Requirement
 
